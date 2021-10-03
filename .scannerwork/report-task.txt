@@ -1,0 +1,7 @@
+organization=oihanesi2
+projectKey=SonarItsasoOihane
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.23304
+dashboardUrl=https://sonarcloud.io/dashboard?id=SonarItsasoOihane
+ceTaskId=AXv_WQg1i8PvPOU9jo-B
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AXv_WQg1i8PvPOU9jo-B

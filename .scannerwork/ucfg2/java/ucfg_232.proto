@@ -1,0 +1,92 @@
+
+(domain.Event#equals(Ljava/lang/Object;)Ze
+[C:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/domain/Event.javay y("startingBlock*ﬂ
+2g
+[C:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/domain/Event.javaÇ
+ Ç("q
+g
+[C:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/domain/Event.javaÇ Ç(
+""*Ñ
+3g
+[C:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/domain/Event.javaÄ Ä(§
+°
+g
+[C:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/domain/Event.javaÄ Ä(
+otherdomain.Event"__id*
+
+objjava.lang.ObjectÆ
+´
+g
+[C:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/domain/Event.javaÅ Å(
+%2java.lang.Integer"__id*!*
+domain.Event"
+eventNumberµ
+≤
+g
+[C:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/domain/Event.javaÅ Å(&
+%3java.lang.Integer"__id*(*&
+
+otherdomain.Event"
+eventNumber*
+2
+1*œ
+startingBlocke
+[C:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/domain/Event.javay y("Ø
+¨
+e
+[C:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/domain/Event.javax x(
+
+%4"
+__annotate*
+java.lang.Override*
+
+objjava.lang.Objectô
+ñ
+e
+[C:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/domain/Event.javay y(!
+objjava.lang.Object"__annotation*
+
+%4*	
+5
+6
+8*€
+4e
+[C:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/domain/Event.java
+ ("o
+e
+[C:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/domain/Event.java (
+""*õ
+5e
+[C:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/domain/Event.java~ ~(Õ 
+e
+[C:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/domain/Event.java~ ~(
+%0java.lang.Class",java.lang.Object#getClass()Ljava/lang/Class;*
+domain.Event2
+getClass()÷”
+e
+[C:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/domain/Event.java~ ~("
+%1java.lang.Class",java.lang.Object#getClass()Ljava/lang/Class;*
+
+objjava.lang.Object2
+getClass()*
+3
+4*€
+6e
+[C:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/domain/Event.java}
+ }("o
+e
+[C:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/domain/Event.java} }(
+""*€
+8e
+[C:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/domain/Event.java{
+ {("o
+e
+[C:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/domain/Event.java{ {(
+""*ﬂ
+1g
+[C:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/domain/Event.javaÉ	 É("q
+g
+[C:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/domain/Event.javaÉ É(
+"":
+objjava.lang.ObjectB
+domain.Event

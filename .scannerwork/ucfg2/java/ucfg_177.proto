@@ -1,0 +1,17 @@
+
+´dataAccess.DataAccess#storeRegisteredClient(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)Zp
+dC:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/dataAccess/DataAccess.javaÉ É(%"1*Ò
+1p
+dC:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/dataAccess/DataAccess.javaê ê("z
+p
+dC:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/dataAccess/DataAccess.javaë ë(
+"":
+namejava.lang.String:
+surnamejava.lang.String:
+	birthDatejava.util.Date:
+DNIjava.lang.String:
+emailjava.lang.String:
+passwordjava.lang.String:"
+currentAccountjava.lang.String:
+""B
+dataAccess.DataAccess

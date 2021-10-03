@@ -1,0 +1,90 @@
+
+@gui.MainGUI#getRdbtnNewRadioButton_2()Ljavax/swing/JRadioButton;f
+ZC:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/gui/MainGUI.javaâ â(."3*‰
+2f
+ZC:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/gui/MainGUI.javaä, ä(8¥¢
+f
+ZC:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/gui/MainGUI.javaä ä(+
+%1javax.swing.JRadioButton"javax.swing.JRadioButtonÙ
+Ö
+f
+ZC:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/gui/MainGUI.javaä ä(9
+%2"4javax.swing.JRadioButton#<init>(Ljava/lang/String;)V* 
+
+%1javax.swing.JRadioButton*
+
+Castellano½
+º
+f
+ZC:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/gui/MainGUI.javaä ä(9(
+gui.MainGUI"
+rdbtnNewRadioButton_2"__id* 
+
+%1javax.swing.JRadioButton½
+º
+f
+ZC:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/gui/MainGUI.javaå å(
+%3javax.swing.JRadioButton"__id***(
+gui.MainGUI"
+rdbtnNewRadioButton_2™–
+f
+ZC:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/gui/MainGUI.javaå/ å(=
+%4Lgui/MainGUI$6432;"Lgui/MainGUI$6432;©
+¦
+f
+ZC:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/gui/MainGUI.javaå+ ë(
+%5"java.lang.Object#<init>()V*
+
+%4Lgui/MainGUI$6432;¹¶
+f
+ZC:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/gui/MainGUI.javaå ë(
+
+%6void"Njavax.swing.AbstractButton#addActionListener(Ljava/awt/event/ActionListener;)V* 
+
+%3javax.swing.JRadioButton*
+
+%4Lgui/MainGUI$6432;22addActionListener(Ljava/awt/event/ActionListener;)²
+¯
+f
+ZC:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/gui/MainGUI.javaì ì(
+%7javax.swing.ButtonGroup"__id* *
+gui.MainGUI"
+buttonGroup½
+º
+f
+ZC:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/gui/MainGUI.javaì ì((
+%8javax.swing.JRadioButton"__id***(
+gui.MainGUI"
+rdbtnNewRadioButton_2™–
+f
+ZC:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/gui/MainGUI.javaì ì()
+
+%9void":javax.swing.ButtonGroup#add(Ljavax/swing/AbstractButton;)V*
+
+%7javax.swing.ButtonGroup* 
+
+%8javax.swing.JRadioButton2!add(Ljavax/swing/AbstractButton;)*
+1*³
+3f
+ZC:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/gui/MainGUI.javaã ã(½
+º
+f
+ZC:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/gui/MainGUI.javaã ã(
+%0javax.swing.JRadioButton"__id***(
+gui.MainGUI"
+rdbtnNewRadioButton_2*
+2
+1*º
+1f
+ZC:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/gui/MainGUI.javaî	 î(¾
+»
+f
+ZC:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/gui/MainGUI.javaî	 î(
+%10javax.swing.JRadioButton"__id***(
+gui.MainGUI"
+rdbtnNewRadioButton_2"‹
+f
+ZC:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/gui/MainGUI.javaî î(!
+
+%10javax.swing.JRadioButtonB
+gui.MainGUI

@@ -1,0 +1,46 @@
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-03-02 17:35:02 #1 store] 
+Database 'C:\Users\proce\Desktop\EHU\2. Urtea\2. Cuatri\SI--SE\Mikel\Proiektua\WORKSPACE\Bets21\src\main\resources\bets.temp' is opened by 17208@DESKTOP-RHU8OVS
+
+[2021-03-02 17:35:02 #2 type] 
+Type domain.Person is not enhanced.
+
+[2021-03-02 17:35:02 #3 type] 
+Type domain.Admin is not enhanced.
+
+[2021-03-02 17:35:02 #4 type] 
+Type domain.Worker is not enhanced.
+
+[2021-03-02 17:35:02 #5 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-03-02 17:35:02 #6 type] 
+Type domain.Question is not enhanced.
+
+[2021-03-02 17:35:02 #7 type] 
+Type domain.Event is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-03-02 18:22:01 #1 store] 
+Database 'C:\Users\proce\Desktop\EHU\2. Urtea\2. Cuatri\SI--SE\Mikel\Proiektua\WORKSPACE\Bets21\src\main\resources\bets.temp' is opened by 6772@DESKTOP-RHU8OVS
+
+[2021-03-02 18:22:01 #2 type] 
+Type domain.Person is not enhanced.
+
+[2021-03-02 18:22:01 #3 type] 
+Type domain.Admin is not enhanced.
+
+[2021-03-02 18:22:01 #4 type] 
+Type domain.Worker is not enhanced.
+
+[2021-03-02 18:22:01 #5 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-03-02 18:22:01 #6 type] 
+Type domain.Question is not enhanced.
+
+[2021-03-02 18:22:01 #7 type] 
+Type domain.Event is not enhanced.
+

@@ -1,0 +1,140 @@
+
+0gui.MainGUI#getLblNewLabel()Ljavax/swing/JLabel;f
+ZC:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/gui/MainGUI.javaæ æ("3*ë
+2f
+ZC:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/gui/MainGUI.java¿# ¿(1ä
+á
+f
+ZC:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/gui/MainGUI.java¿# ¿(H
+%1java.util.ResourceBundle"Pjava.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;*"
+java.util.ResourceBundle*
+	Etiquetas†ù
+f
+ZC:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/gui/MainGUI.java¿# ¿(b
+%2java.lang.String"Hjava.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;* 
+
+%1java.util.ResourceBundle*
+SelectOption2getString(Ljava/lang/String;)ôñ
+f
+ZC:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/gui/MainGUI.java¿ ¿("
+%3javax.swing.JLabel"javax.swing.JLabel◊
+‘
+f
+ZC:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/gui/MainGUI.java¿ ¿(c
+%4".javax.swing.JLabel#<init>(Ljava/lang/String;)V*
+
+%3javax.swing.JLabel*
+
+%2java.lang.String¥
+±
+f
+ZC:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/gui/MainGUI.java¿ ¿(c%
+gui.MainGUI"
+jLabelSelectOption"__id*
+
+%3javax.swing.JLabel¥
+±
+f
+ZC:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/gui/MainGUI.java¡ ¡(
+%5javax.swing.JLabel"__id*'*%
+gui.MainGUI"
+jLabelSelectOption‚ﬂ
+f
+ZC:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/gui/MainGUI.java¡ ¡(0
+
+%6void"#java.awt.Component#setBounds(IIII)V*
+
+%5javax.swing.JLabel*2y*2*2€*2?2setBounds(IIII)¥
+±
+f
+ZC:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/gui/MainGUI.java¬ ¬(
+%7javax.swing.JLabel"__id*'*%
+gui.MainGUI"
+jLabelSelectOptionÑ
+Å
+f
+ZC:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/gui/MainGUI.java¬1 ¬(:	
+%8int"__id*
+""èå
+f
+ZC:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/gui/MainGUI.java¬" ¬(&
+%9java.awt.Font"java.awt.Font’
+“
+f
+ZC:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/gui/MainGUI.java¬ ¬(?
+%10"+java.awt.Font#<init>(Ljava/lang/String;II)V*
+
+%9java.awt.Font*
+
+Tahoma*
+	
+%8int*2˜Ù
+f
+ZC:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/gui/MainGUI.java¬ ¬(@
+%11void"0javax.swing.JComponent#setFont(Ljava/awt/Font;)V*
+
+%7javax.swing.JLabel*
+
+%9java.awt.Font2setFont(Ljava/awt/Font;)µ
+≤
+f
+ZC:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/gui/MainGUI.java√ √(
+%12javax.swing.JLabel"__id*'*%
+gui.MainGUI"
+jLabelSelectOptionê
+ç
+f
+ZC:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/gui/MainGUI.java√$ √(/
+%13java.awt.Color"__id*
+""àÖ
+f
+ZC:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/gui/MainGUI.java√ √(0
+%14void"7javax.swing.JComponent#setForeground(Ljava/awt/Color;)V*
+
+%12javax.swing.JLabel*
+
+%13java.awt.Color2setForeground(Ljava/awt/Color;)µ
+≤
+f
+ZC:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/gui/MainGUI.javaƒ ƒ(
+%15javax.swing.JLabel"__id*'*%
+gui.MainGUI"
+jLabelSelectOptionÖ
+Ç
+f
+ZC:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/gui/MainGUI.javaƒ- ƒ(B
+
+%16int"__id*
+""ÌÍ
+f
+ZC:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/gui/MainGUI.javaƒ ƒ(C
+%17void"-javax.swing.JLabel#setHorizontalAlignment(I)V*
+
+%15javax.swing.JLabel*
+
+
+%16int2setHorizontalAlignment(I)*
+1*™
+3f
+ZC:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/gui/MainGUI.javaø ø(¥
+±
+f
+ZC:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/gui/MainGUI.javaø ø(
+%0javax.swing.JLabel"__id*'*%
+gui.MainGUI"
+jLabelSelectOption*
+2
+1*´
+1f
+ZC:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/gui/MainGUI.java∆	 ∆(µ
+≤
+f
+ZC:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/gui/MainGUI.java∆	 ∆(
+%18javax.swing.JLabel"__id*'*%
+gui.MainGUI"
+jLabelSelectOption"Ö
+f
+ZC:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/gui/MainGUI.java∆ ∆(
+
+%18javax.swing.JLabelB
+gui.MainGUI

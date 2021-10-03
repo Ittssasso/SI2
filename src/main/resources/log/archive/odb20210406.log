@@ -1,0 +1,1300 @@
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-04-06 16:26:50 #1 store] 
+Database 'C:\Users\suade\Documents\Universidad\2Segundo\2\SI\workspace\bUltimaActualizacion\src\main\resources\bets.temp' is opened by 2944@LAPTOP-CP3BSS6D
+
+[2021-04-06 16:26:50 #2 type.registry] 
+New type domain.Person
+
+[2021-04-06 16:26:50 #3 type.registry] 
+New type domain.Admin
+
+[2021-04-06 16:26:50 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-04-06 16:26:50 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-04-06 16:26:51 #6 type.registry] 
+New type domain.Worker
+
+[2021-04-06 16:26:51 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-04-06 16:26:51 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-04-06 16:26:51 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-04-06 16:26:51 #10 type.registry] 
+New type domain.Bet
+
+[2021-04-06 16:26:51 #11 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-04-06 16:26:51 #12 type] 
+Type domain.Bet is not enhanced.
+
+[2021-04-06 16:26:51 #13 type.registry] 
+New type domain.Prediction
+
+[2021-04-06 16:26:51 #14 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-04-06 16:26:51 #15 type.registry] 
+New type domain.Question
+
+[2021-04-06 16:26:51 #16 type] 
+Type domain.Question is not enhanced.
+
+[2021-04-06 16:26:51 #17 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-04-06 16:26:51 #18 type.registry] 
+New type domain.Event
+
+[2021-04-06 16:26:51 #19 type] 
+Type domain.Event is not enhanced.
+
+[2021-04-06 16:26:51 #20 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-04-06 16:26:51 #21 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-04-06 16:27:15 #1 store] 
+Database 'C:\Users\suade\Documents\Universidad\2Segundo\2\SI\workspace\bUltimaActualizacion\src\main\resources\bets.temp' is opened by 17108@LAPTOP-CP3BSS6D
+
+[2021-04-06 16:27:15 #2 type.registry] 
+New type domain.Person
+
+[2021-04-06 16:27:15 #3 type.registry] 
+New type domain.Admin
+
+[2021-04-06 16:27:15 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-04-06 16:27:15 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-04-06 16:27:15 #6 type.registry] 
+New type domain.Worker
+
+[2021-04-06 16:27:15 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-04-06 16:27:15 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-04-06 16:27:15 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-04-06 16:27:15 #10 type.registry] 
+New type domain.Bet
+
+[2021-04-06 16:27:15 #11 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-04-06 16:27:15 #12 type] 
+Type domain.Bet is not enhanced.
+
+[2021-04-06 16:27:15 #13 type.registry] 
+New type domain.Prediction
+
+[2021-04-06 16:27:15 #14 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-04-06 16:27:15 #15 type.registry] 
+New type domain.Question
+
+[2021-04-06 16:27:15 #16 type] 
+Type domain.Question is not enhanced.
+
+[2021-04-06 16:27:15 #17 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-04-06 16:27:15 #18 type.registry] 
+New type domain.Event
+
+[2021-04-06 16:27:15 #19 type] 
+Type domain.Event is not enhanced.
+
+[2021-04-06 16:27:15 #20 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-04-06 16:27:15 #21 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-04-06 16:36:17 #1 store] 
+Database 'C:\Users\suade\Documents\Universidad\2Segundo\2\SI\workspace\bUltimaActualizacion\src\main\resources\bets.temp' is opened by 3952@LAPTOP-CP3BSS6D
+
+[2021-04-06 16:36:17 #2 type.registry] 
+New type domain.Person
+
+[2021-04-06 16:36:17 #3 type.registry] 
+New type domain.Admin
+
+[2021-04-06 16:36:17 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-04-06 16:36:17 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-04-06 16:36:17 #6 type.registry] 
+New type domain.Worker
+
+[2021-04-06 16:36:17 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-04-06 16:36:17 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-04-06 16:36:17 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-04-06 16:36:17 #10 type.registry] 
+New type domain.Bet
+
+[2021-04-06 16:36:17 #11 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-04-06 16:36:17 #12 type] 
+Type domain.Bet is not enhanced.
+
+[2021-04-06 16:36:17 #13 type.registry] 
+New type domain.Prediction
+
+[2021-04-06 16:36:17 #14 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-04-06 16:36:17 #15 type.registry] 
+New type domain.Question
+
+[2021-04-06 16:36:17 #16 type] 
+Type domain.Question is not enhanced.
+
+[2021-04-06 16:36:17 #17 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-04-06 16:36:17 #18 type.registry] 
+New type domain.Event
+
+[2021-04-06 16:36:17 #19 type] 
+Type domain.Event is not enhanced.
+
+[2021-04-06 16:36:17 #20 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-04-06 16:36:17 #21 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-04-06 16:43:29 #1 store] 
+Database 'C:\Users\suade\Documents\Universidad\2Segundo\2\SI\workspace\bUltimaActualizacion\src\main\resources\bets.temp' is opened by 10984@LAPTOP-CP3BSS6D
+
+[2021-04-06 16:43:29 #2 type.registry] 
+New type domain.Person
+
+[2021-04-06 16:43:29 #3 type.registry] 
+New type domain.Admin
+
+[2021-04-06 16:43:29 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-04-06 16:43:29 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-04-06 16:43:29 #6 type.registry] 
+New type domain.Worker
+
+[2021-04-06 16:43:29 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-04-06 16:43:29 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-04-06 16:43:29 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-04-06 16:43:29 #10 type.registry] 
+New type domain.Bet
+
+[2021-04-06 16:43:29 #11 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-04-06 16:43:29 #12 type] 
+Type domain.Bet is not enhanced.
+
+[2021-04-06 16:43:29 #13 type.registry] 
+New type domain.Prediction
+
+[2021-04-06 16:43:29 #14 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-04-06 16:43:29 #15 type.registry] 
+New type domain.Question
+
+[2021-04-06 16:43:29 #16 type] 
+Type domain.Question is not enhanced.
+
+[2021-04-06 16:43:29 #17 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-04-06 16:43:29 #18 type.registry] 
+New type domain.Event
+
+[2021-04-06 16:43:29 #19 type] 
+Type domain.Event is not enhanced.
+
+[2021-04-06 16:43:29 #20 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-04-06 16:43:29 #21 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-04-06 16:49:18 #1 store] 
+Database 'C:\Users\suade\Documents\Universidad\2Segundo\2\SI\workspace\bUltimaActualizacion\src\main\resources\bets.temp' is opened by 17868@LAPTOP-CP3BSS6D
+
+[2021-04-06 16:49:19 #2 type.registry] 
+New type domain.Person
+
+[2021-04-06 16:49:19 #3 type.registry] 
+New type domain.Admin
+
+[2021-04-06 16:49:19 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-04-06 16:49:19 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-04-06 16:49:19 #6 type.registry] 
+New type domain.Worker
+
+[2021-04-06 16:49:19 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-04-06 16:49:19 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-04-06 16:49:19 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-04-06 16:49:19 #10 type.registry] 
+New type domain.Bet
+
+[2021-04-06 16:49:19 #11 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-04-06 16:49:19 #12 type] 
+Type domain.Bet is not enhanced.
+
+[2021-04-06 16:49:19 #13 type.registry] 
+New type domain.Prediction
+
+[2021-04-06 16:49:19 #14 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-04-06 16:49:19 #15 type.registry] 
+New type domain.Question
+
+[2021-04-06 16:49:19 #16 type] 
+Type domain.Question is not enhanced.
+
+[2021-04-06 16:49:19 #17 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-04-06 16:49:19 #18 type.registry] 
+New type domain.Event
+
+[2021-04-06 16:49:19 #19 type] 
+Type domain.Event is not enhanced.
+
+[2021-04-06 16:49:19 #20 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-04-06 16:49:19 #21 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-04-06 16:59:28 #1 store] 
+Database 'C:\Users\suade\Documents\Universidad\2Segundo\2\SI\workspace\bUltimaActualizacion\src\main\resources\bets.temp' is opened by 2400@LAPTOP-CP3BSS6D
+
+[2021-04-06 16:59:29 #2 type.registry] 
+New type domain.Person
+
+[2021-04-06 16:59:29 #3 type.registry] 
+New type domain.Admin
+
+[2021-04-06 16:59:29 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-04-06 16:59:29 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-04-06 16:59:29 #6 type.registry] 
+New type domain.Worker
+
+[2021-04-06 16:59:29 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-04-06 16:59:29 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-04-06 16:59:29 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-04-06 16:59:29 #10 type.registry] 
+New type domain.Bet
+
+[2021-04-06 16:59:29 #11 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-04-06 16:59:29 #12 type] 
+Type domain.Bet is not enhanced.
+
+[2021-04-06 16:59:29 #13 type.registry] 
+New type domain.Prediction
+
+[2021-04-06 16:59:29 #14 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-04-06 16:59:29 #15 type.registry] 
+New type domain.Question
+
+[2021-04-06 16:59:29 #16 type] 
+Type domain.Question is not enhanced.
+
+[2021-04-06 16:59:29 #17 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-04-06 16:59:29 #18 type.registry] 
+New type domain.Event
+
+[2021-04-06 16:59:29 #19 type] 
+Type domain.Event is not enhanced.
+
+[2021-04-06 16:59:29 #20 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-04-06 16:59:29 #21 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-04-06 17:20:36 #1 store] 
+Database 'C:\Users\suade\Documents\Universidad\2Segundo\2\SI\workspace\bUltimaActualizacion\src\main\resources\bets.temp' is opened by 17612@LAPTOP-CP3BSS6D
+
+[2021-04-06 17:20:36 #2 type.registry] 
+New type domain.Person
+
+[2021-04-06 17:20:36 #3 type.registry] 
+New type domain.Admin
+
+[2021-04-06 17:20:36 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-04-06 17:20:36 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-04-06 17:20:36 #6 type.registry] 
+New type domain.Worker
+
+[2021-04-06 17:20:36 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-04-06 17:20:36 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-04-06 17:20:36 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-04-06 17:20:36 #10 type.registry] 
+New type domain.Bet
+
+[2021-04-06 17:20:37 #11 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-04-06 17:20:37 #12 type] 
+Type domain.Bet is not enhanced.
+
+[2021-04-06 17:20:37 #13 type.registry] 
+New type domain.Prediction
+
+[2021-04-06 17:20:37 #14 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-04-06 17:20:37 #15 type.registry] 
+New type domain.Question
+
+[2021-04-06 17:20:37 #16 type] 
+Type domain.Question is not enhanced.
+
+[2021-04-06 17:20:37 #17 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-04-06 17:20:37 #18 type.registry] 
+New type domain.Event
+
+[2021-04-06 17:20:37 #19 type] 
+Type domain.Event is not enhanced.
+
+[2021-04-06 17:20:37 #20 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-04-06 17:20:37 #21 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-04-06 17:22:42 #1 store] 
+Database 'C:\Users\suade\Documents\Universidad\2Segundo\2\SI\workspace\bUltimaActualizacion\src\main\resources\bets.temp' is opened by 5984@LAPTOP-CP3BSS6D
+
+[2021-04-06 17:22:42 #2 type.registry] 
+New type domain.Person
+
+[2021-04-06 17:22:42 #3 type.registry] 
+New type domain.Admin
+
+[2021-04-06 17:22:42 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-04-06 17:22:42 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-04-06 17:22:42 #6 type.registry] 
+New type domain.Worker
+
+[2021-04-06 17:22:42 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-04-06 17:22:42 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-04-06 17:22:42 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-04-06 17:22:42 #10 type.registry] 
+New type domain.Bet
+
+[2021-04-06 17:22:42 #11 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-04-06 17:22:42 #12 type] 
+Type domain.Bet is not enhanced.
+
+[2021-04-06 17:22:42 #13 type.registry] 
+New type domain.Prediction
+
+[2021-04-06 17:22:42 #14 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-04-06 17:22:42 #15 type.registry] 
+New type domain.Question
+
+[2021-04-06 17:22:42 #16 type] 
+Type domain.Question is not enhanced.
+
+[2021-04-06 17:22:42 #17 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-04-06 17:22:42 #18 type.registry] 
+New type domain.Event
+
+[2021-04-06 17:22:42 #19 type] 
+Type domain.Event is not enhanced.
+
+[2021-04-06 17:22:42 #20 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-04-06 17:22:42 #21 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-04-06 17:26:35 #1 store] 
+Database 'C:\Users\suade\Documents\Universidad\2Segundo\2\SI\workspace\bUltimaActualizacion\src\main\resources\bets.temp' is opened by 9648@LAPTOP-CP3BSS6D
+
+[2021-04-06 17:26:35 #2 type.registry] 
+New type domain.Person
+
+[2021-04-06 17:26:35 #3 type.registry] 
+New type domain.Admin
+
+[2021-04-06 17:26:35 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-04-06 17:26:35 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-04-06 17:26:35 #6 type.registry] 
+New type domain.Worker
+
+[2021-04-06 17:26:35 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-04-06 17:26:35 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-04-06 17:26:35 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-04-06 17:26:35 #10 type.registry] 
+New type domain.Bet
+
+[2021-04-06 17:26:36 #11 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-04-06 17:26:36 #12 type] 
+Type domain.Bet is not enhanced.
+
+[2021-04-06 17:26:36 #13 type.registry] 
+New type domain.Prediction
+
+[2021-04-06 17:26:36 #14 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-04-06 17:26:36 #15 type.registry] 
+New type domain.Question
+
+[2021-04-06 17:26:36 #16 type] 
+Type domain.Question is not enhanced.
+
+[2021-04-06 17:26:36 #17 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-04-06 17:26:36 #18 type.registry] 
+New type domain.Event
+
+[2021-04-06 17:26:36 #19 type] 
+Type domain.Event is not enhanced.
+
+[2021-04-06 17:26:36 #20 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-04-06 17:26:36 #21 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-04-06 17:28:12 #1 store] 
+Database 'C:\Users\suade\Documents\Universidad\2Segundo\2\SI\workspace\bUltimaActualizacion\src\main\resources\bets.temp' is opened by 14860@LAPTOP-CP3BSS6D
+
+[2021-04-06 17:28:12 #2 type.registry] 
+New type domain.Person
+
+[2021-04-06 17:28:12 #3 type.registry] 
+New type domain.Admin
+
+[2021-04-06 17:28:12 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-04-06 17:28:12 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-04-06 17:28:12 #6 type.registry] 
+New type domain.Worker
+
+[2021-04-06 17:28:12 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-04-06 17:28:12 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-04-06 17:28:12 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-04-06 17:28:12 #10 type.registry] 
+New type domain.Bet
+
+[2021-04-06 17:28:12 #11 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-04-06 17:28:12 #12 type] 
+Type domain.Bet is not enhanced.
+
+[2021-04-06 17:28:12 #13 type.registry] 
+New type domain.Prediction
+
+[2021-04-06 17:28:12 #14 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-04-06 17:28:12 #15 type.registry] 
+New type domain.Question
+
+[2021-04-06 17:28:12 #16 type] 
+Type domain.Question is not enhanced.
+
+[2021-04-06 17:28:12 #17 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-04-06 17:28:12 #18 type.registry] 
+New type domain.Event
+
+[2021-04-06 17:28:12 #19 type] 
+Type domain.Event is not enhanced.
+
+[2021-04-06 17:28:12 #20 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-04-06 17:28:12 #21 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-04-06 17:29:17 #1 store] 
+Database 'C:\Users\suade\Documents\Universidad\2Segundo\2\SI\workspace\bUltimaActualizacion\src\main\resources\bets.temp' is opened by 13236@LAPTOP-CP3BSS6D
+
+[2021-04-06 17:29:17 #2 type.registry] 
+New type domain.Person
+
+[2021-04-06 17:29:17 #3 type.registry] 
+New type domain.Admin
+
+[2021-04-06 17:29:17 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-04-06 17:29:17 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-04-06 17:29:17 #6 type.registry] 
+New type domain.Worker
+
+[2021-04-06 17:29:17 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-04-06 17:29:17 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-04-06 17:29:17 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-04-06 17:29:17 #10 type.registry] 
+New type domain.Bet
+
+[2021-04-06 17:29:18 #11 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-04-06 17:29:18 #12 type] 
+Type domain.Bet is not enhanced.
+
+[2021-04-06 17:29:18 #13 type.registry] 
+New type domain.Prediction
+
+[2021-04-06 17:29:18 #14 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-04-06 17:29:18 #15 type.registry] 
+New type domain.Question
+
+[2021-04-06 17:29:18 #16 type] 
+Type domain.Question is not enhanced.
+
+[2021-04-06 17:29:18 #17 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-04-06 17:29:18 #18 type.registry] 
+New type domain.Event
+
+[2021-04-06 17:29:18 #19 type] 
+Type domain.Event is not enhanced.
+
+[2021-04-06 17:29:18 #20 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-04-06 17:29:18 #21 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-04-06 17:31:51 #1 store] 
+Database 'C:\Users\suade\Documents\Universidad\2Segundo\2\SI\workspace\bUltimaActualizacion\src\main\resources\bets.temp' is opened by 9636@LAPTOP-CP3BSS6D
+
+[2021-04-06 17:31:52 #2 type.registry] 
+New type domain.Person
+
+[2021-04-06 17:31:52 #3 type.registry] 
+New type domain.Admin
+
+[2021-04-06 17:31:52 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-04-06 17:31:52 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-04-06 17:31:52 #6 type.registry] 
+New type domain.Worker
+
+[2021-04-06 17:31:52 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-04-06 17:31:52 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-04-06 17:31:52 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-04-06 17:31:52 #10 type.registry] 
+New type domain.Bet
+
+[2021-04-06 17:31:52 #11 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-04-06 17:31:52 #12 type] 
+Type domain.Bet is not enhanced.
+
+[2021-04-06 17:31:52 #13 type.registry] 
+New type domain.Prediction
+
+[2021-04-06 17:31:52 #14 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-04-06 17:31:52 #15 type.registry] 
+New type domain.Question
+
+[2021-04-06 17:31:52 #16 type] 
+Type domain.Question is not enhanced.
+
+[2021-04-06 17:31:52 #17 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-04-06 17:31:52 #18 type.registry] 
+New type domain.Event
+
+[2021-04-06 17:31:52 #19 type] 
+Type domain.Event is not enhanced.
+
+[2021-04-06 17:31:52 #20 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-04-06 17:31:52 #21 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-04-06 17:33:14 #1 store] 
+Database 'C:\Users\suade\Documents\Universidad\2Segundo\2\SI\workspace\bUltimaActualizacion\src\main\resources\bets.temp' is opened by 5404@LAPTOP-CP3BSS6D
+
+[2021-04-06 17:33:14 #2 type.registry] 
+New type domain.Person
+
+[2021-04-06 17:33:14 #3 type.registry] 
+New type domain.Admin
+
+[2021-04-06 17:33:14 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-04-06 17:33:14 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-04-06 17:33:14 #6 type.registry] 
+New type domain.Worker
+
+[2021-04-06 17:33:14 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-04-06 17:33:14 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-04-06 17:33:14 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-04-06 17:33:14 #10 type.registry] 
+New type domain.Bet
+
+[2021-04-06 17:33:14 #11 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-04-06 17:33:14 #12 type] 
+Type domain.Bet is not enhanced.
+
+[2021-04-06 17:33:14 #13 type.registry] 
+New type domain.Prediction
+
+[2021-04-06 17:33:14 #14 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-04-06 17:33:14 #15 type.registry] 
+New type domain.Question
+
+[2021-04-06 17:33:14 #16 type] 
+Type domain.Question is not enhanced.
+
+[2021-04-06 17:33:14 #17 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-04-06 17:33:14 #18 type.registry] 
+New type domain.Event
+
+[2021-04-06 17:33:14 #19 type] 
+Type domain.Event is not enhanced.
+
+[2021-04-06 17:33:14 #20 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-04-06 17:33:14 #21 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-04-06 17:33:35 #1 store] 
+Database 'C:\Users\suade\Documents\Universidad\2Segundo\2\SI\workspace\bUltimaActualizacion\src\main\resources\bets.temp' is opened by 15320@LAPTOP-CP3BSS6D
+
+[2021-04-06 17:33:35 #2 type.registry] 
+New type domain.Person
+
+[2021-04-06 17:33:35 #3 type.registry] 
+New type domain.Admin
+
+[2021-04-06 17:33:35 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-04-06 17:33:35 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-04-06 17:33:35 #6 type.registry] 
+New type domain.Worker
+
+[2021-04-06 17:33:35 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-04-06 17:33:35 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-04-06 17:33:35 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-04-06 17:33:35 #10 type.registry] 
+New type domain.Bet
+
+[2021-04-06 17:33:35 #11 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-04-06 17:33:35 #12 type] 
+Type domain.Bet is not enhanced.
+
+[2021-04-06 17:33:35 #13 type.registry] 
+New type domain.Prediction
+
+[2021-04-06 17:33:35 #14 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-04-06 17:33:35 #15 type.registry] 
+New type domain.Question
+
+[2021-04-06 17:33:35 #16 type] 
+Type domain.Question is not enhanced.
+
+[2021-04-06 17:33:35 #17 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-04-06 17:33:35 #18 type.registry] 
+New type domain.Event
+
+[2021-04-06 17:33:35 #19 type] 
+Type domain.Event is not enhanced.
+
+[2021-04-06 17:33:35 #20 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-04-06 17:33:35 #21 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-04-06 17:35:43 #1 store] 
+Database 'C:\Users\suade\Documents\Universidad\2Segundo\2\SI\workspace\bUltimaActualizacion\src\main\resources\bets.temp' is opened by 17024@LAPTOP-CP3BSS6D
+
+[2021-04-06 17:35:43 #2 type.registry] 
+New type domain.Person
+
+[2021-04-06 17:35:43 #3 type.registry] 
+New type domain.Admin
+
+[2021-04-06 17:35:43 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-04-06 17:35:43 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-04-06 17:35:43 #6 type.registry] 
+New type domain.Worker
+
+[2021-04-06 17:35:43 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-04-06 17:35:43 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-04-06 17:35:43 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-04-06 17:35:43 #10 type.registry] 
+New type domain.Bet
+
+[2021-04-06 17:35:43 #11 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-04-06 17:35:43 #12 type] 
+Type domain.Bet is not enhanced.
+
+[2021-04-06 17:35:43 #13 type.registry] 
+New type domain.Prediction
+
+[2021-04-06 17:35:43 #14 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-04-06 17:35:43 #15 type.registry] 
+New type domain.Question
+
+[2021-04-06 17:35:43 #16 type] 
+Type domain.Question is not enhanced.
+
+[2021-04-06 17:35:43 #17 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-04-06 17:35:43 #18 type.registry] 
+New type domain.Event
+
+[2021-04-06 17:35:43 #19 type] 
+Type domain.Event is not enhanced.
+
+[2021-04-06 17:35:43 #20 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-04-06 17:35:43 #21 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-04-06 17:38:20 #1 store] 
+Database 'C:\Users\suade\Documents\Universidad\2Segundo\2\SI\workspace\bUltimaActualizacion\src\main\resources\bets.temp' is opened by 3852@LAPTOP-CP3BSS6D
+
+[2021-04-06 17:38:20 #2 type.registry] 
+New type domain.Person
+
+[2021-04-06 17:38:20 #3 type.registry] 
+New type domain.Admin
+
+[2021-04-06 17:38:20 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-04-06 17:38:20 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-04-06 17:38:20 #6 type.registry] 
+New type domain.Worker
+
+[2021-04-06 17:38:20 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-04-06 17:38:20 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-04-06 17:38:20 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-04-06 17:38:20 #10 type.registry] 
+New type domain.Bet
+
+[2021-04-06 17:38:20 #11 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-04-06 17:38:20 #12 type] 
+Type domain.Bet is not enhanced.
+
+[2021-04-06 17:38:20 #13 type.registry] 
+New type domain.Prediction
+
+[2021-04-06 17:38:20 #14 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-04-06 17:38:20 #15 type.registry] 
+New type domain.Question
+
+[2021-04-06 17:38:20 #16 type] 
+Type domain.Question is not enhanced.
+
+[2021-04-06 17:38:20 #17 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-04-06 17:38:20 #18 type.registry] 
+New type domain.Event
+
+[2021-04-06 17:38:20 #19 type] 
+Type domain.Event is not enhanced.
+
+[2021-04-06 17:38:20 #20 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-04-06 17:38:20 #21 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-04-06 19:57:38 #1 store] 
+Database 'C:\Users\suade\Documents\Universidad\2Segundo\2\SI\workspace\bUltimaActualizacion\src\main\resources\bets.temp' is opened by 7900@LAPTOP-CP3BSS6D
+
+[2021-04-06 19:57:38 #2 type.registry] 
+New type domain.Person
+
+[2021-04-06 19:57:38 #3 type.registry] 
+New type domain.Admin
+
+[2021-04-06 19:57:38 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-04-06 19:57:38 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-04-06 19:57:38 #6 type.registry] 
+New type domain.Worker
+
+[2021-04-06 19:57:38 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-04-06 19:57:39 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-04-06 19:57:39 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-04-06 19:57:39 #10 type.registry] 
+New type domain.Bet
+
+[2021-04-06 19:57:39 #11 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-04-06 19:57:39 #12 type] 
+Type domain.Bet is not enhanced.
+
+[2021-04-06 19:57:39 #13 type.registry] 
+New type domain.Prediction
+
+[2021-04-06 19:57:39 #14 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-04-06 19:57:39 #15 type.registry] 
+New type domain.Question
+
+[2021-04-06 19:57:39 #16 type] 
+Type domain.Question is not enhanced.
+
+[2021-04-06 19:57:39 #17 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-04-06 19:57:39 #18 type.registry] 
+New type domain.Event
+
+[2021-04-06 19:57:39 #19 type] 
+Type domain.Event is not enhanced.
+
+[2021-04-06 19:57:39 #20 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-04-06 19:57:39 #21 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-04-06 20:27:31 #1 store] 
+Database 'C:\Users\suade\Documents\Universidad\2Segundo\2\SI\workspace\bUltimaActualizacion\src\main\resources\bets.temp' is opened by 4304@LAPTOP-CP3BSS6D
+
+[2021-04-06 20:27:31 #2 type.registry] 
+New type domain.Person
+
+[2021-04-06 20:27:31 #3 type.registry] 
+New type domain.Admin
+
+[2021-04-06 20:27:31 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-04-06 20:27:31 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-04-06 20:27:31 #6 type.registry] 
+New type domain.Worker
+
+[2021-04-06 20:27:31 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-04-06 20:27:31 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-04-06 20:27:31 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-04-06 20:27:31 #10 type.registry] 
+New type domain.Bet
+
+[2021-04-06 20:27:31 #11 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-04-06 20:27:31 #12 type] 
+Type domain.Bet is not enhanced.
+
+[2021-04-06 20:27:31 #13 type.registry] 
+New type domain.Prediction
+
+[2021-04-06 20:27:31 #14 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-04-06 20:27:31 #15 type.registry] 
+New type domain.Question
+
+[2021-04-06 20:27:31 #16 type] 
+Type domain.Question is not enhanced.
+
+[2021-04-06 20:27:31 #17 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-04-06 20:27:31 #18 type.registry] 
+New type domain.Event
+
+[2021-04-06 20:27:31 #19 type] 
+Type domain.Event is not enhanced.
+
+[2021-04-06 20:27:31 #20 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-04-06 20:27:31 #21 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-04-06 22:31:19 #1 store] 
+Database 'C:\Users\suade\Documents\Universidad\2Segundo\2\SI\workspace\bUltimaActualizacion\src\main\resources\bets.temp' is opened by 4572@LAPTOP-CP3BSS6D
+
+[2021-04-06 22:31:19 #2 type.registry] 
+New type domain.Person
+
+[2021-04-06 22:31:19 #3 type.registry] 
+New type domain.Admin
+
+[2021-04-06 22:31:19 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-04-06 22:31:19 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-04-06 22:31:19 #6 type.registry] 
+New type domain.Worker
+
+[2021-04-06 22:31:19 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-04-06 22:31:19 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-04-06 22:31:19 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-04-06 22:31:19 #10 type.registry] 
+New type domain.Bet
+
+[2021-04-06 22:31:19 #11 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-04-06 22:31:19 #12 type] 
+Type domain.Bet is not enhanced.
+
+[2021-04-06 22:31:19 #13 type.registry] 
+New type domain.Prediction
+
+[2021-04-06 22:31:19 #14 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-04-06 22:31:19 #15 type.registry] 
+New type domain.Question
+
+[2021-04-06 22:31:19 #16 type] 
+Type domain.Question is not enhanced.
+
+[2021-04-06 22:31:19 #17 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-04-06 22:31:19 #18 type.registry] 
+New type domain.Event
+
+[2021-04-06 22:31:19 #19 type] 
+Type domain.Event is not enhanced.
+
+[2021-04-06 22:31:19 #20 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-04-06 22:31:19 #21 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-04-06 22:42:22 #1 store] 
+Database 'C:\Users\suade\Documents\Universidad\2Segundo\2\SI\workspace\bUltimaActualizacion\src\main\resources\bets.temp' is opened by 10064@LAPTOP-CP3BSS6D
+
+[2021-04-06 22:42:22 #2 type.registry] 
+New type domain.Person
+
+[2021-04-06 22:42:22 #3 type.registry] 
+New type domain.Admin
+
+[2021-04-06 22:42:22 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-04-06 22:42:22 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-04-06 22:42:22 #6 type.registry] 
+New type domain.Worker
+
+[2021-04-06 22:42:22 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-04-06 22:42:22 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-04-06 22:42:22 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-04-06 22:42:22 #10 type.registry] 
+New type domain.Bet
+
+[2021-04-06 22:42:22 #11 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-04-06 22:42:22 #12 type] 
+Type domain.Bet is not enhanced.
+
+[2021-04-06 22:42:22 #13 type.registry] 
+New type domain.Prediction
+
+[2021-04-06 22:42:22 #14 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-04-06 22:42:22 #15 type.registry] 
+New type domain.Question
+
+[2021-04-06 22:42:22 #16 type] 
+Type domain.Question is not enhanced.
+
+[2021-04-06 22:42:22 #17 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-04-06 22:42:22 #18 type.registry] 
+New type domain.Event
+
+[2021-04-06 22:42:22 #19 type] 
+Type domain.Event is not enhanced.
+
+[2021-04-06 22:42:22 #20 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-04-06 22:42:22 #21 type.registry] 
+New type java.util.Vector<java.lang.Object>
+

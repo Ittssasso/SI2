@@ -1,0 +1,148 @@
+
+1gui.MainGUI#getJContentPane()Ljavax/swing/JPanel;d
+ZC:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/gui/MainGUI.javau u("3*ï!
+2d
+ZC:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/gui/MainGUI.javaw w(—”
+d
+ZC:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/gui/MainGUI.javaw w(
+%1javax.swing.JPanel"javax.swing.JPanel©
+¦
+d
+ZC:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/gui/MainGUI.javaw w(
+%2"javax.swing.JPanel#<init>()V*
+
+%1javax.swing.JPanel¬
+©
+d
+ZC:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/gui/MainGUI.javaw w(
+gui.MainGUI"
+jContentPane"__id*
+
+%1javax.swing.JPanel¬
+©
+d
+ZC:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/gui/MainGUI.javax x(
+%3javax.swing.JPanel"__id*!*
+gui.MainGUI"
+jContentPane÷ô
+d
+ZC:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/gui/MainGUI.javax x(
+
+%4void"7java.awt.Container#setLayout(Ljava/awt/LayoutManager;)V*
+
+%3javax.swing.JPanel*
+""2#setLayout(Ljava/awt/LayoutManager;)¬
+©
+d
+ZC:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/gui/MainGUI.javay y(
+%5javax.swing.JPanel"__id*!*
+gui.MainGUI"
+jContentPaneÆ
+Ã
+d
+ZC:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/gui/MainGUI.javay y($
+%6javax.swing.JLabel"0gui.MainGUI#getLblNewLabel()Ljavax/swing/JLabel;*
+gui.MainGUI˜•
+d
+ZC:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/gui/MainGUI.javay y(%
+%7java.awt.Component"@java.awt.Container#add(Ljava/awt/Component;)Ljava/awt/Component;*
+
+%5javax.swing.JPanel*
+
+%6javax.swing.JLabel2add(Ljava/awt/Component;)¬
+©
+d
+ZC:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/gui/MainGUI.javaz z(
+%8javax.swing.JPanel"__id*!*
+gui.MainGUI"
+jContentPaneÃ
+À
+d
+ZC:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/gui/MainGUI.javaz z(
+%9javax.swing.JButton",gui.MainGUI#getBoton3()Ljavax/swing/JButton;*
+gui.MainGUIš—
+d
+ZC:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/gui/MainGUI.javaz z( 
+%10java.awt.Component"@java.awt.Container#add(Ljava/awt/Component;)Ljava/awt/Component;*
+
+%8javax.swing.JPanel*
+
+%9javax.swing.JButton2add(Ljava/awt/Component;)­
+ª
+d
+ZC:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/gui/MainGUI.java{ {(
+%11javax.swing.JPanel"__id*!*
+gui.MainGUI"
+jContentPaneÄ
+Á
+d
+ZC:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/gui/MainGUI.java{ {(
+%12javax.swing.JButton",gui.MainGUI#getBoton2()Ljavax/swing/JButton;*
+gui.MainGUIœ™
+d
+ZC:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/gui/MainGUI.java{ {( 
+%13java.awt.Component"@java.awt.Container#add(Ljava/awt/Component;)Ljava/awt/Component;*
+
+%11javax.swing.JPanel*
+
+%12javax.swing.JButton2add(Ljava/awt/Component;)­
+ª
+d
+ZC:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/gui/MainGUI.java| |(
+%14javax.swing.JPanel"__id*!*
+gui.MainGUI"
+jContentPaneÁ
+¾
+d
+ZC:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/gui/MainGUI.java| |(
+%15javax.swing.JPanel"*gui.MainGUI#getPanel()Ljavax/swing/JPanel;*
+gui.MainGUI›˜
+d
+ZC:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/gui/MainGUI.java| |(
+%16java.awt.Component"@java.awt.Container#add(Ljava/awt/Component;)Ljava/awt/Component;*
+
+%14javax.swing.JPanel*
+
+%15javax.swing.JPanel2add(Ljava/awt/Component;)­
+ª
+d
+ZC:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/gui/MainGUI.java} }(
+%17javax.swing.JPanel"__id*!*
+gui.MainGUI"
+jContentPaneÄ
+Á
+d
+ZC:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/gui/MainGUI.java} }(
+%18javax.swing.JButton",gui.MainGUI#getBoton4()Ljavax/swing/JButton;*
+gui.MainGUIœ™
+d
+ZC:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/gui/MainGUI.java} }( 
+%19java.awt.Component"@java.awt.Container#add(Ljava/awt/Component;)Ljava/awt/Component;*
+
+%17javax.swing.JPanel*
+
+%18javax.swing.JButton2add(Ljava/awt/Component;)*
+1* 
+3d
+ZC:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/gui/MainGUI.javav v(¬
+©
+d
+ZC:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/gui/MainGUI.javav v(
+%0javax.swing.JPanel"__id*!*
+gui.MainGUI"
+jContentPane*
+2
+1*Ÿ
+1d
+ZC:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/gui/MainGUI.java	 (­
+ª
+d
+ZC:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/gui/MainGUI.java	 (
+%20javax.swing.JPanel"__id*!*
+gui.MainGUI"
+jContentPane"ƒ
+d
+ZC:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/gui/MainGUI.java (
+
+%20javax.swing.JPanelB
+gui.MainGUI

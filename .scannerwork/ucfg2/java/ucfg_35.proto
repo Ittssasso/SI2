@@ -1,0 +1,51 @@
+
+1gui.RegisterGUI#emailIsValid(Ljava/lang/String;)Zj
+^C:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/gui/RegisterGUI.java„ „(#"3*å
+2j
+^C:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/gui/RegisterGUI.java‰ ‰("t
+j
+^C:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/gui/RegisterGUI.java‰ ‰(
+""*¡
+3j
+^C:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/gui/RegisterGUI.java† †(SÐ
+Í
+j
+^C:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/gui/RegisterGUI.java† †(T
+
+emailRegexjava.lang.String"__id*97
+5^\\w+([\\.-]?\\w+)*@\\w+([\\.-]?\\w+)*(\\.\\w{2,3})+$›
+˜
+j
+^C:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/gui/RegisterGUI.java‡ ‡(1
+%0java.util.regex.Pattern"Ljava.util.regex.Pattern#compile(Ljava/lang/String;)Ljava/util/regex/Pattern;*"
+java.util.regex.Pattern* 
+
+
+emailRegexjava.lang.String¶
+³
+j
+^C:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/gui/RegisterGUI.java‡ ‡(2
+patjava.util.regex.Pattern"__id*
+
+%0java.util.regex.Pattern*
+2
+1*ý
+1j
+^C:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/gui/RegisterGUI.javaŠ Š(ÄÁ
+j
+^C:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/gui/RegisterGUI.javaŠ Š(!
+%1java.util.regex.Matcher"Rjava.util.regex.Pattern#matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;* 
+
+patjava.util.regex.Pattern*
+
+emailjava.lang.String2!matcher(Ljava/lang/CharSequence;)ÎË
+j
+^C:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/gui/RegisterGUI.javaŠ Š(+
+%2boolean""java.util.regex.Matcher#matches()Z*
+
+%1java.util.regex.Matcher2	matches()"t
+j
+^C:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/gui/RegisterGUI.javaŠ Š(,
+"":
+emailjava.lang.StringB"
+gui.RegisterGUI

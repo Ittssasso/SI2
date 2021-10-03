@@ -1,0 +1,66 @@
+
+-domain.Movements#toString()Ljava/lang/String;i
+_C:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/domain/Movements.java^ ^("1*Æ
+1i
+_C:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/domain/Movements.java_	 _("³
+°
+i
+_C:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/domain/Movements.java_% _(0
+%0java.lang.String"__id*%*#
+domain.Movements"
+descriptionÇ
+Ä
+i
+_C:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/domain/Movements.java_	 _(0
+%1java.lang.String"__concat*
+Movements [description=*
+
+%0java.lang.String¸
+µ
+i
+_C:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/domain/Movements.java_	 _(=
+%2java.lang.String"__concat*
+
+%1java.lang.String*
+
+, money=²
+¯
+i
+_C:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/domain/Movements.java_	 _(E
+%3java.lang.String"__concat*
+
+%2java.lang.String*
+""·
+´
+i
+_C:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/domain/Movements.java_	 _(Q
+%4java.lang.String"__concat*
+
+%3java.lang.String*	
+, date=ª
+§
+i
+_C:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/domain/Movements.java_T _(X
+%5java.util.Date"__id**
+domain.Movements"
+dateÂ
+¿
+i
+_C:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/domain/Movements.java_	 _(X
+%6java.lang.String"__concat*
+
+%4java.lang.String*
+
+%5java.util.Date±
+®
+i
+_C:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/domain/Movements.java_	 _(^
+%7java.lang.String"__concat*
+
+%6java.lang.String*
+]"…
+i
+_C:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/domain/Movements.java_ _(_
+
+%7java.lang.StringB
+domain.Movements

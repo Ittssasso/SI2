@@ -1,0 +1,6364 @@
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-05-11 10:45:36 #1 store] 
+Database 'C:\Users\suade\git\3iterationREAL\3iteration\src\main\resources\bets.temp' is opened by 15964@LAPTOP-CP3BSS6D
+
+[2021-05-11 10:45:36 #2 type.registry] 
+New type domain.Person
+
+[2021-05-11 10:45:36 #3 type.registry] 
+New type domain.Admin
+
+[2021-05-11 10:45:36 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-05-11 10:45:36 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-05-11 10:45:36 #6 type.registry] 
+New type domain.Worker
+
+[2021-05-11 10:45:36 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-05-11 10:45:36 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-05-11 10:45:36 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-05-11 10:45:36 #10 type.registry] 
+New type domain.ReplicatedProperties
+
+[2021-05-11 10:45:36 #11 type.registry] 
+New type java.util.HashMap<domain.RegisteredClient,domain.ReplicatedProperties>
+
+[2021-05-11 10:45:36 #12 type.registry] 
+New type domain.Movements
+
+[2021-05-11 10:45:36 #13 type.registry] 
+New type java.util.Vector<domain.Movements>
+
+[2021-05-11 10:45:36 #14 type.registry] 
+New type domain.Bet
+
+[2021-05-11 10:45:36 #15 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-05-11 10:45:36 #16 type] 
+Type domain.ReplicatedProperties is not enhanced.
+
+[2021-05-11 10:45:36 #17 type] 
+Type domain.Movements is not enhanced.
+
+[2021-05-11 10:45:36 #18 type] 
+Type domain.Bet is not enhanced.
+
+[2021-05-11 10:45:36 #19 type.registry] 
+New type domain.Prediction
+
+[2021-05-11 10:45:36 #20 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-05-11 10:45:36 #21 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-05-11 10:45:36 #22 type.registry] 
+New type domain.Question
+
+[2021-05-11 10:45:36 #23 type] 
+Type domain.Question is not enhanced.
+
+[2021-05-11 10:45:36 #24 type.registry] 
+New type domain.Event
+
+[2021-05-11 10:45:36 #25 type] 
+Type domain.Event is not enhanced.
+
+[2021-05-11 10:45:36 #26 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-05-11 10:45:36 #27 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2021-05-11 10:45:36 #28 type.registry] 
+New type java.util.HashMap<java.lang.Object,java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-05-11 13:34:18 #1 store] 
+Database 'C:\Users\suade\git\3iterationREAL\3iteration\src\main\resources\bets.temp' is opened by 2964@LAPTOP-CP3BSS6D
+
+[2021-05-11 13:34:18 #2 type.registry] 
+New type domain.Person
+
+[2021-05-11 13:34:18 #3 type.registry] 
+New type domain.Admin
+
+[2021-05-11 13:34:18 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-05-11 13:34:18 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-05-11 13:34:18 #6 type.registry] 
+New type domain.Worker
+
+[2021-05-11 13:34:18 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-05-11 13:34:18 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-05-11 13:34:18 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-05-11 13:34:18 #10 type.registry] 
+New type domain.ReplicatedProperties
+
+[2021-05-11 13:34:18 #11 type.registry] 
+New type java.util.HashMap<domain.RegisteredClient,domain.ReplicatedProperties>
+
+[2021-05-11 13:34:18 #12 type.registry] 
+New type domain.Movements
+
+[2021-05-11 13:34:18 #13 type.registry] 
+New type java.util.Vector<domain.Movements>
+
+[2021-05-11 13:34:18 #14 type.registry] 
+New type domain.Bet
+
+[2021-05-11 13:34:18 #15 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-05-11 13:34:18 #16 type] 
+Type domain.ReplicatedProperties is not enhanced.
+
+[2021-05-11 13:34:18 #17 type] 
+Type domain.Movements is not enhanced.
+
+[2021-05-11 13:34:18 #18 type] 
+Type domain.Bet is not enhanced.
+
+[2021-05-11 13:34:18 #19 type.registry] 
+New type domain.Prediction
+
+[2021-05-11 13:34:18 #20 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-05-11 13:34:18 #21 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-05-11 13:34:18 #22 type.registry] 
+New type domain.Question
+
+[2021-05-11 13:34:18 #23 type] 
+Type domain.Question is not enhanced.
+
+[2021-05-11 13:34:18 #24 type.registry] 
+New type domain.Event
+
+[2021-05-11 13:34:18 #25 type] 
+Type domain.Event is not enhanced.
+
+[2021-05-11 13:34:18 #26 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-05-11 13:34:18 #27 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2021-05-11 13:34:18 #28 type.registry] 
+New type java.util.HashMap<java.lang.Object,java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-05-11 13:36:44 #1 store] 
+Database 'C:\Users\suade\git\3iterationREAL\3iteration\src\main\resources\bets.temp' is opened by 21184@LAPTOP-CP3BSS6D
+
+[2021-05-11 13:36:44 #2 type.registry] 
+New type domain.Person
+
+[2021-05-11 13:36:44 #3 type.registry] 
+New type domain.Admin
+
+[2021-05-11 13:36:44 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-05-11 13:36:44 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-05-11 13:36:44 #6 type.registry] 
+New type domain.Worker
+
+[2021-05-11 13:36:44 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-05-11 13:36:44 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-05-11 13:36:44 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-05-11 13:36:44 #10 type.registry] 
+New type domain.ReplicatedProperties
+
+[2021-05-11 13:36:44 #11 type.registry] 
+New type java.util.HashMap<domain.RegisteredClient,domain.ReplicatedProperties>
+
+[2021-05-11 13:36:44 #12 type.registry] 
+New type domain.Movements
+
+[2021-05-11 13:36:44 #13 type.registry] 
+New type java.util.Vector<domain.Movements>
+
+[2021-05-11 13:36:44 #14 type.registry] 
+New type domain.Bet
+
+[2021-05-11 13:36:44 #15 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-05-11 13:36:44 #16 type] 
+Type domain.ReplicatedProperties is not enhanced.
+
+[2021-05-11 13:36:44 #17 type] 
+Type domain.Movements is not enhanced.
+
+[2021-05-11 13:36:44 #18 type] 
+Type domain.Bet is not enhanced.
+
+[2021-05-11 13:36:44 #19 type.registry] 
+New type domain.Prediction
+
+[2021-05-11 13:36:44 #20 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-05-11 13:36:44 #21 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-05-11 13:36:44 #22 type.registry] 
+New type domain.Question
+
+[2021-05-11 13:36:44 #23 type] 
+Type domain.Question is not enhanced.
+
+[2021-05-11 13:36:44 #24 type.registry] 
+New type domain.Event
+
+[2021-05-11 13:36:44 #25 type] 
+Type domain.Event is not enhanced.
+
+[2021-05-11 13:36:44 #26 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-05-11 13:36:44 #27 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2021-05-11 13:36:44 #28 type.registry] 
+New type java.util.HashMap<java.lang.Object,java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-05-11 13:38:04 #1 store] 
+Database 'C:\Users\suade\git\3iterationREAL\3iteration\src\main\resources\bets.temp' is opened by 10520@LAPTOP-CP3BSS6D
+
+[2021-05-11 13:38:04 #2 type.registry] 
+New type domain.Person
+
+[2021-05-11 13:38:04 #3 type.registry] 
+New type domain.Admin
+
+[2021-05-11 13:38:04 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-05-11 13:38:04 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-05-11 13:38:04 #6 type.registry] 
+New type domain.Worker
+
+[2021-05-11 13:38:04 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-05-11 13:38:04 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-05-11 13:38:04 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-05-11 13:38:04 #10 type.registry] 
+New type domain.ReplicatedProperties
+
+[2021-05-11 13:38:04 #11 type.registry] 
+New type java.util.HashMap<domain.RegisteredClient,domain.ReplicatedProperties>
+
+[2021-05-11 13:38:04 #12 type.registry] 
+New type domain.Movements
+
+[2021-05-11 13:38:04 #13 type.registry] 
+New type java.util.Vector<domain.Movements>
+
+[2021-05-11 13:38:04 #14 type.registry] 
+New type domain.Bet
+
+[2021-05-11 13:38:04 #15 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-05-11 13:38:04 #16 type] 
+Type domain.ReplicatedProperties is not enhanced.
+
+[2021-05-11 13:38:04 #17 type] 
+Type domain.Movements is not enhanced.
+
+[2021-05-11 13:38:04 #18 type] 
+Type domain.Bet is not enhanced.
+
+[2021-05-11 13:38:04 #19 type.registry] 
+New type domain.Prediction
+
+[2021-05-11 13:38:04 #20 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-05-11 13:38:04 #21 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-05-11 13:38:04 #22 type.registry] 
+New type domain.Question
+
+[2021-05-11 13:38:04 #23 type] 
+Type domain.Question is not enhanced.
+
+[2021-05-11 13:38:04 #24 type.registry] 
+New type domain.Event
+
+[2021-05-11 13:38:04 #25 type] 
+Type domain.Event is not enhanced.
+
+[2021-05-11 13:38:04 #26 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-05-11 13:38:04 #27 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2021-05-11 13:38:04 #28 type.registry] 
+New type java.util.HashMap<java.lang.Object,java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-05-11 13:42:21 #1 store] 
+Database 'C:\Users\suade\git\3iterationREAL\3iteration\src\main\resources\bets.temp' is opened by 15456@LAPTOP-CP3BSS6D
+
+[2021-05-11 13:42:22 #2 type.registry] 
+New type domain.Person
+
+[2021-05-11 13:42:22 #3 type.registry] 
+New type domain.Admin
+
+[2021-05-11 13:42:22 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-05-11 13:42:22 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-05-11 13:42:22 #6 type.registry] 
+New type domain.Worker
+
+[2021-05-11 13:42:22 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-05-11 13:42:22 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-05-11 13:42:22 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-05-11 13:42:22 #10 type.registry] 
+New type domain.ReplicatedProperties
+
+[2021-05-11 13:42:22 #11 type.registry] 
+New type java.util.HashMap<domain.RegisteredClient,domain.ReplicatedProperties>
+
+[2021-05-11 13:42:22 #12 type.registry] 
+New type domain.Movements
+
+[2021-05-11 13:42:22 #13 type.registry] 
+New type java.util.Vector<domain.Movements>
+
+[2021-05-11 13:42:22 #14 type.registry] 
+New type domain.Bet
+
+[2021-05-11 13:42:22 #15 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-05-11 13:42:22 #16 type] 
+Type domain.ReplicatedProperties is not enhanced.
+
+[2021-05-11 13:42:22 #17 type] 
+Type domain.Movements is not enhanced.
+
+[2021-05-11 13:42:22 #18 type] 
+Type domain.Bet is not enhanced.
+
+[2021-05-11 13:42:22 #19 type.registry] 
+New type domain.Prediction
+
+[2021-05-11 13:42:22 #20 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-05-11 13:42:22 #21 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-05-11 13:42:22 #22 type.registry] 
+New type domain.Question
+
+[2021-05-11 13:42:22 #23 type] 
+Type domain.Question is not enhanced.
+
+[2021-05-11 13:42:22 #24 type.registry] 
+New type domain.Event
+
+[2021-05-11 13:42:22 #25 type] 
+Type domain.Event is not enhanced.
+
+[2021-05-11 13:42:22 #26 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-05-11 13:42:22 #27 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2021-05-11 13:42:22 #28 type.registry] 
+New type java.util.HashMap<java.lang.Object,java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-05-11 13:44:33 #1 store] 
+Database 'C:\Users\suade\git\3iterationREAL\3iteration\src\main\resources\bets.temp' is opened by 10320@LAPTOP-CP3BSS6D
+
+[2021-05-11 13:44:34 #2 type.registry] 
+New type domain.Person
+
+[2021-05-11 13:44:34 #3 type.registry] 
+New type domain.Admin
+
+[2021-05-11 13:44:34 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-05-11 13:44:34 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-05-11 13:44:34 #6 type.registry] 
+New type domain.Worker
+
+[2021-05-11 13:44:34 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-05-11 13:44:34 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-05-11 13:44:34 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-05-11 13:44:34 #10 type.registry] 
+New type domain.ReplicatedProperties
+
+[2021-05-11 13:44:34 #11 type.registry] 
+New type java.util.HashMap<domain.RegisteredClient,domain.ReplicatedProperties>
+
+[2021-05-11 13:44:34 #12 type.registry] 
+New type domain.Movements
+
+[2021-05-11 13:44:34 #13 type.registry] 
+New type java.util.Vector<domain.Movements>
+
+[2021-05-11 13:44:34 #14 type.registry] 
+New type domain.Bet
+
+[2021-05-11 13:44:34 #15 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-05-11 13:44:34 #16 type] 
+Type domain.ReplicatedProperties is not enhanced.
+
+[2021-05-11 13:44:34 #17 type] 
+Type domain.Movements is not enhanced.
+
+[2021-05-11 13:44:34 #18 type] 
+Type domain.Bet is not enhanced.
+
+[2021-05-11 13:44:34 #19 type.registry] 
+New type domain.Prediction
+
+[2021-05-11 13:44:34 #20 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-05-11 13:44:34 #21 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-05-11 13:44:34 #22 type.registry] 
+New type domain.Question
+
+[2021-05-11 13:44:34 #23 type] 
+Type domain.Question is not enhanced.
+
+[2021-05-11 13:44:34 #24 type.registry] 
+New type domain.Event
+
+[2021-05-11 13:44:34 #25 type] 
+Type domain.Event is not enhanced.
+
+[2021-05-11 13:44:34 #26 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-05-11 13:44:34 #27 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2021-05-11 13:44:34 #28 type.registry] 
+New type java.util.HashMap<java.lang.Object,java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-05-11 13:49:13 #1 store] 
+Database 'C:\Users\suade\git\3iterationREAL\3iteration\src\main\resources\bets.temp' is opened by 20688@LAPTOP-CP3BSS6D
+
+[2021-05-11 13:49:13 #2 type.registry] 
+New type domain.Person
+
+[2021-05-11 13:49:13 #3 type.registry] 
+New type domain.Admin
+
+[2021-05-11 13:49:13 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-05-11 13:49:13 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-05-11 13:49:13 #6 type.registry] 
+New type domain.Worker
+
+[2021-05-11 13:49:13 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-05-11 13:49:13 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-05-11 13:49:13 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-05-11 13:49:13 #10 type.registry] 
+New type domain.ReplicatedProperties
+
+[2021-05-11 13:49:13 #11 type.registry] 
+New type java.util.HashMap<domain.RegisteredClient,domain.ReplicatedProperties>
+
+[2021-05-11 13:49:13 #12 type.registry] 
+New type domain.Movements
+
+[2021-05-11 13:49:13 #13 type.registry] 
+New type java.util.Vector<domain.Movements>
+
+[2021-05-11 13:49:13 #14 type.registry] 
+New type domain.Bet
+
+[2021-05-11 13:49:13 #15 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-05-11 13:49:13 #16 type] 
+Type domain.ReplicatedProperties is not enhanced.
+
+[2021-05-11 13:49:13 #17 type] 
+Type domain.Movements is not enhanced.
+
+[2021-05-11 13:49:13 #18 type] 
+Type domain.Bet is not enhanced.
+
+[2021-05-11 13:49:13 #19 type.registry] 
+New type domain.Prediction
+
+[2021-05-11 13:49:13 #20 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-05-11 13:49:13 #21 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-05-11 13:49:13 #22 type.registry] 
+New type domain.Question
+
+[2021-05-11 13:49:13 #23 type] 
+Type domain.Question is not enhanced.
+
+[2021-05-11 13:49:13 #24 type.registry] 
+New type domain.Event
+
+[2021-05-11 13:49:13 #25 type] 
+Type domain.Event is not enhanced.
+
+[2021-05-11 13:49:13 #26 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-05-11 13:49:13 #27 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2021-05-11 13:49:13 #28 type.registry] 
+New type java.util.HashMap<java.lang.Object,java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-05-11 13:50:14 #1 store] 
+Database 'C:\Users\suade\git\3iterationREAL\3iteration\src\main\resources\bets.temp' is opened by 5444@LAPTOP-CP3BSS6D
+
+[2021-05-11 13:50:14 #2 type.registry] 
+New type domain.Person
+
+[2021-05-11 13:50:14 #3 type.registry] 
+New type domain.Admin
+
+[2021-05-11 13:50:14 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-05-11 13:50:14 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-05-11 13:50:14 #6 type.registry] 
+New type domain.Worker
+
+[2021-05-11 13:50:14 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-05-11 13:50:14 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-05-11 13:50:14 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-05-11 13:50:14 #10 type.registry] 
+New type domain.ReplicatedProperties
+
+[2021-05-11 13:50:14 #11 type.registry] 
+New type java.util.HashMap<domain.RegisteredClient,domain.ReplicatedProperties>
+
+[2021-05-11 13:50:14 #12 type.registry] 
+New type domain.Movements
+
+[2021-05-11 13:50:14 #13 type.registry] 
+New type java.util.Vector<domain.Movements>
+
+[2021-05-11 13:50:14 #14 type.registry] 
+New type domain.Bet
+
+[2021-05-11 13:50:14 #15 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-05-11 13:50:14 #16 type] 
+Type domain.ReplicatedProperties is not enhanced.
+
+[2021-05-11 13:50:14 #17 type] 
+Type domain.Movements is not enhanced.
+
+[2021-05-11 13:50:14 #18 type] 
+Type domain.Bet is not enhanced.
+
+[2021-05-11 13:50:14 #19 type.registry] 
+New type domain.Prediction
+
+[2021-05-11 13:50:14 #20 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-05-11 13:50:14 #21 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-05-11 13:50:14 #22 type.registry] 
+New type domain.Question
+
+[2021-05-11 13:50:14 #23 type] 
+Type domain.Question is not enhanced.
+
+[2021-05-11 13:50:14 #24 type.registry] 
+New type domain.Event
+
+[2021-05-11 13:50:14 #25 type] 
+Type domain.Event is not enhanced.
+
+[2021-05-11 13:50:14 #26 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-05-11 13:50:14 #27 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2021-05-11 13:50:14 #28 type.registry] 
+New type java.util.HashMap<java.lang.Object,java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-05-11 13:54:19 #1 store] 
+Database 'C:\Users\suade\git\3iterationREAL\3iteration\src\main\resources\bets.temp' is opened by 4384@LAPTOP-CP3BSS6D
+
+[2021-05-11 13:54:19 #2 type.registry] 
+New type domain.Person
+
+[2021-05-11 13:54:19 #3 type.registry] 
+New type domain.Admin
+
+[2021-05-11 13:54:19 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-05-11 13:54:19 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-05-11 13:54:19 #6 type.registry] 
+New type domain.Worker
+
+[2021-05-11 13:54:19 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-05-11 13:54:19 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-05-11 13:54:19 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-05-11 13:54:19 #10 type.registry] 
+New type domain.ReplicatedProperties
+
+[2021-05-11 13:54:19 #11 type.registry] 
+New type java.util.HashMap<domain.RegisteredClient,domain.ReplicatedProperties>
+
+[2021-05-11 13:54:19 #12 type.registry] 
+New type domain.Movements
+
+[2021-05-11 13:54:19 #13 type.registry] 
+New type java.util.Vector<domain.Movements>
+
+[2021-05-11 13:54:19 #14 type.registry] 
+New type domain.Bet
+
+[2021-05-11 13:54:19 #15 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-05-11 13:54:19 #16 type] 
+Type domain.ReplicatedProperties is not enhanced.
+
+[2021-05-11 13:54:19 #17 type] 
+Type domain.Movements is not enhanced.
+
+[2021-05-11 13:54:19 #18 type] 
+Type domain.Bet is not enhanced.
+
+[2021-05-11 13:54:19 #19 type.registry] 
+New type domain.Prediction
+
+[2021-05-11 13:54:19 #20 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-05-11 13:54:19 #21 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-05-11 13:54:19 #22 type.registry] 
+New type domain.Question
+
+[2021-05-11 13:54:19 #23 type] 
+Type domain.Question is not enhanced.
+
+[2021-05-11 13:54:19 #24 type.registry] 
+New type domain.Event
+
+[2021-05-11 13:54:19 #25 type] 
+Type domain.Event is not enhanced.
+
+[2021-05-11 13:54:19 #26 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-05-11 13:54:19 #27 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2021-05-11 13:54:19 #28 type.registry] 
+New type java.util.HashMap<java.lang.Object,java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-05-11 14:03:59 #1 store] 
+Database 'C:\Users\suade\git\3iterationREAL\3iteration\src\main\resources\bets.temp' is opened by 17812@LAPTOP-CP3BSS6D
+
+[2021-05-11 14:03:59 #2 type.registry] 
+New type domain.Person
+
+[2021-05-11 14:03:59 #3 type.registry] 
+New type domain.Admin
+
+[2021-05-11 14:03:59 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-05-11 14:03:59 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-05-11 14:03:59 #6 type.registry] 
+New type domain.Worker
+
+[2021-05-11 14:03:59 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-05-11 14:03:59 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-05-11 14:03:59 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-05-11 14:03:59 #10 type.registry] 
+New type domain.ReplicatedProperties
+
+[2021-05-11 14:03:59 #11 type.registry] 
+New type java.util.HashMap<domain.RegisteredClient,domain.ReplicatedProperties>
+
+[2021-05-11 14:03:59 #12 type.registry] 
+New type domain.Movements
+
+[2021-05-11 14:03:59 #13 type.registry] 
+New type java.util.Vector<domain.Movements>
+
+[2021-05-11 14:03:59 #14 type.registry] 
+New type domain.Bet
+
+[2021-05-11 14:03:59 #15 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-05-11 14:03:59 #16 type] 
+Type domain.ReplicatedProperties is not enhanced.
+
+[2021-05-11 14:03:59 #17 type] 
+Type domain.Movements is not enhanced.
+
+[2021-05-11 14:03:59 #18 type] 
+Type domain.Bet is not enhanced.
+
+[2021-05-11 14:03:59 #19 type.registry] 
+New type domain.Prediction
+
+[2021-05-11 14:03:59 #20 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-05-11 14:03:59 #21 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-05-11 14:03:59 #22 type.registry] 
+New type domain.Question
+
+[2021-05-11 14:03:59 #23 type] 
+Type domain.Question is not enhanced.
+
+[2021-05-11 14:03:59 #24 type.registry] 
+New type domain.Event
+
+[2021-05-11 14:03:59 #25 type] 
+Type domain.Event is not enhanced.
+
+[2021-05-11 14:03:59 #26 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-05-11 14:03:59 #27 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2021-05-11 14:03:59 #28 type.registry] 
+New type java.util.HashMap<java.lang.Object,java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-05-11 14:06:13 #1 store] 
+Database 'C:\Users\suade\git\3iterationREAL\3iteration\src\main\resources\bets.temp' is opened by 5812@LAPTOP-CP3BSS6D
+
+[2021-05-11 14:06:13 #2 type.registry] 
+New type domain.Person
+
+[2021-05-11 14:06:13 #3 type.registry] 
+New type domain.Admin
+
+[2021-05-11 14:06:13 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-05-11 14:06:13 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-05-11 14:06:13 #6 type.registry] 
+New type domain.Worker
+
+[2021-05-11 14:06:13 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-05-11 14:06:13 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-05-11 14:06:13 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-05-11 14:06:13 #10 type.registry] 
+New type domain.ReplicatedProperties
+
+[2021-05-11 14:06:13 #11 type.registry] 
+New type java.util.HashMap<domain.RegisteredClient,domain.ReplicatedProperties>
+
+[2021-05-11 14:06:13 #12 type.registry] 
+New type domain.Movements
+
+[2021-05-11 14:06:13 #13 type.registry] 
+New type java.util.Vector<domain.Movements>
+
+[2021-05-11 14:06:13 #14 type.registry] 
+New type domain.Bet
+
+[2021-05-11 14:06:13 #15 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-05-11 14:06:13 #16 type] 
+Type domain.ReplicatedProperties is not enhanced.
+
+[2021-05-11 14:06:13 #17 type] 
+Type domain.Movements is not enhanced.
+
+[2021-05-11 14:06:13 #18 type] 
+Type domain.Bet is not enhanced.
+
+[2021-05-11 14:06:13 #19 type.registry] 
+New type domain.Prediction
+
+[2021-05-11 14:06:13 #20 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-05-11 14:06:13 #21 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-05-11 14:06:13 #22 type.registry] 
+New type domain.Question
+
+[2021-05-11 14:06:13 #23 type] 
+Type domain.Question is not enhanced.
+
+[2021-05-11 14:06:13 #24 type.registry] 
+New type domain.Event
+
+[2021-05-11 14:06:13 #25 type] 
+Type domain.Event is not enhanced.
+
+[2021-05-11 14:06:13 #26 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-05-11 14:06:13 #27 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2021-05-11 14:06:13 #28 type.registry] 
+New type java.util.HashMap<java.lang.Object,java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-05-11 14:07:56 #1 store] 
+Database 'C:\Users\suade\git\3iterationREAL\3iteration\src\main\resources\bets.temp' is opened by 3036@LAPTOP-CP3BSS6D
+
+[2021-05-11 14:07:56 #2 type.registry] 
+New type domain.Person
+
+[2021-05-11 14:07:56 #3 type.registry] 
+New type domain.Admin
+
+[2021-05-11 14:07:56 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-05-11 14:07:56 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-05-11 14:07:56 #6 type.registry] 
+New type domain.Worker
+
+[2021-05-11 14:07:56 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-05-11 14:07:56 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-05-11 14:07:56 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-05-11 14:07:56 #10 type.registry] 
+New type domain.ReplicatedProperties
+
+[2021-05-11 14:07:56 #11 type.registry] 
+New type java.util.HashMap<domain.RegisteredClient,domain.ReplicatedProperties>
+
+[2021-05-11 14:07:56 #12 type.registry] 
+New type domain.Movements
+
+[2021-05-11 14:07:56 #13 type.registry] 
+New type java.util.Vector<domain.Movements>
+
+[2021-05-11 14:07:56 #14 type.registry] 
+New type domain.Bet
+
+[2021-05-11 14:07:56 #15 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-05-11 14:07:56 #16 type] 
+Type domain.ReplicatedProperties is not enhanced.
+
+[2021-05-11 14:07:56 #17 type] 
+Type domain.Movements is not enhanced.
+
+[2021-05-11 14:07:56 #18 type] 
+Type domain.Bet is not enhanced.
+
+[2021-05-11 14:07:56 #19 type.registry] 
+New type domain.Prediction
+
+[2021-05-11 14:07:56 #20 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-05-11 14:07:56 #21 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-05-11 14:07:56 #22 type.registry] 
+New type domain.Question
+
+[2021-05-11 14:07:56 #23 type] 
+Type domain.Question is not enhanced.
+
+[2021-05-11 14:07:56 #24 type.registry] 
+New type domain.Event
+
+[2021-05-11 14:07:56 #25 type] 
+Type domain.Event is not enhanced.
+
+[2021-05-11 14:07:56 #26 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-05-11 14:07:56 #27 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2021-05-11 14:07:56 #28 type.registry] 
+New type java.util.HashMap<java.lang.Object,java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-05-11 14:10:26 #1 store] 
+Database 'C:\Users\suade\git\3iterationREAL\3iteration\src\main\resources\bets.temp' is opened by 16604@LAPTOP-CP3BSS6D
+
+[2021-05-11 14:10:26 #2 type.registry] 
+New type domain.Person
+
+[2021-05-11 14:10:26 #3 type.registry] 
+New type domain.Admin
+
+[2021-05-11 14:10:26 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-05-11 14:10:26 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-05-11 14:10:26 #6 type.registry] 
+New type domain.Worker
+
+[2021-05-11 14:10:26 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-05-11 14:10:26 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-05-11 14:10:26 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-05-11 14:10:26 #10 type.registry] 
+New type domain.ReplicatedProperties
+
+[2021-05-11 14:10:26 #11 type.registry] 
+New type java.util.HashMap<domain.RegisteredClient,domain.ReplicatedProperties>
+
+[2021-05-11 14:10:26 #12 type.registry] 
+New type domain.Movements
+
+[2021-05-11 14:10:26 #13 type.registry] 
+New type java.util.Vector<domain.Movements>
+
+[2021-05-11 14:10:26 #14 type.registry] 
+New type domain.Bet
+
+[2021-05-11 14:10:26 #15 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-05-11 14:10:26 #16 type] 
+Type domain.ReplicatedProperties is not enhanced.
+
+[2021-05-11 14:10:26 #17 type] 
+Type domain.Movements is not enhanced.
+
+[2021-05-11 14:10:26 #18 type] 
+Type domain.Bet is not enhanced.
+
+[2021-05-11 14:10:26 #19 type.registry] 
+New type domain.Prediction
+
+[2021-05-11 14:10:26 #20 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-05-11 14:10:26 #21 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-05-11 14:10:27 #22 type.registry] 
+New type domain.Question
+
+[2021-05-11 14:10:27 #23 type] 
+Type domain.Question is not enhanced.
+
+[2021-05-11 14:10:27 #24 type.registry] 
+New type domain.Event
+
+[2021-05-11 14:10:27 #25 type] 
+Type domain.Event is not enhanced.
+
+[2021-05-11 14:10:27 #26 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-05-11 14:10:27 #27 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2021-05-11 14:10:27 #28 type.registry] 
+New type java.util.HashMap<java.lang.Object,java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-05-11 14:48:24 #1 store] 
+Database 'C:\Users\suade\git\3iterationREAL\3iteration\src\main\resources\bets.temp' is opened by 4636@LAPTOP-CP3BSS6D
+
+[2021-05-11 14:48:24 #2 type.registry] 
+New type domain.Person
+
+[2021-05-11 14:48:24 #3 type.registry] 
+New type domain.Admin
+
+[2021-05-11 14:48:24 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-05-11 14:48:24 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-05-11 14:48:24 #6 type.registry] 
+New type domain.Worker
+
+[2021-05-11 14:48:24 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-05-11 14:48:24 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-05-11 14:48:24 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-05-11 14:48:24 #10 type.registry] 
+New type domain.ReplicatedProperties
+
+[2021-05-11 14:48:24 #11 type.registry] 
+New type java.util.HashMap<domain.RegisteredClient,domain.ReplicatedProperties>
+
+[2021-05-11 14:48:24 #12 type.registry] 
+New type domain.Movements
+
+[2021-05-11 14:48:24 #13 type.registry] 
+New type java.util.Vector<domain.Movements>
+
+[2021-05-11 14:48:25 #14 type.registry] 
+New type domain.Bet
+
+[2021-05-11 14:48:25 #15 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-05-11 14:48:25 #16 type] 
+Type domain.ReplicatedProperties is not enhanced.
+
+[2021-05-11 14:48:25 #17 type] 
+Type domain.Movements is not enhanced.
+
+[2021-05-11 14:48:25 #18 type] 
+Type domain.Bet is not enhanced.
+
+[2021-05-11 14:48:25 #19 type.registry] 
+New type domain.Prediction
+
+[2021-05-11 14:48:25 #20 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-05-11 14:48:25 #21 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-05-11 14:48:25 #22 type.registry] 
+New type domain.Question
+
+[2021-05-11 14:48:25 #23 type] 
+Type domain.Question is not enhanced.
+
+[2021-05-11 14:48:25 #24 type.registry] 
+New type domain.Event
+
+[2021-05-11 14:48:25 #25 type] 
+Type domain.Event is not enhanced.
+
+[2021-05-11 14:48:25 #26 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-05-11 14:48:25 #27 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2021-05-11 14:48:25 #28 type.registry] 
+New type java.util.HashMap<java.lang.Object,java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-05-11 14:51:47 #1 store] 
+Database 'C:\Users\suade\git\3iterationREAL\3iteration\src\main\resources\bets.temp' is opened by 13352@LAPTOP-CP3BSS6D
+
+[2021-05-11 14:51:47 #2 type.registry] 
+New type domain.Person
+
+[2021-05-11 14:51:47 #3 type.registry] 
+New type domain.Admin
+
+[2021-05-11 14:51:47 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-05-11 14:51:47 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-05-11 14:51:47 #6 type.registry] 
+New type domain.Worker
+
+[2021-05-11 14:51:47 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-05-11 14:51:47 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-05-11 14:51:47 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-05-11 14:51:47 #10 type.registry] 
+New type domain.ReplicatedProperties
+
+[2021-05-11 14:51:47 #11 type.registry] 
+New type java.util.HashMap<domain.RegisteredClient,domain.ReplicatedProperties>
+
+[2021-05-11 14:51:47 #12 type.registry] 
+New type domain.Movements
+
+[2021-05-11 14:51:47 #13 type.registry] 
+New type java.util.Vector<domain.Movements>
+
+[2021-05-11 14:51:47 #14 type.registry] 
+New type domain.Bet
+
+[2021-05-11 14:51:47 #15 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-05-11 14:51:47 #16 type] 
+Type domain.ReplicatedProperties is not enhanced.
+
+[2021-05-11 14:51:47 #17 type] 
+Type domain.Movements is not enhanced.
+
+[2021-05-11 14:51:47 #18 type] 
+Type domain.Bet is not enhanced.
+
+[2021-05-11 14:51:47 #19 type.registry] 
+New type domain.Prediction
+
+[2021-05-11 14:51:47 #20 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-05-11 14:51:47 #21 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-05-11 14:51:47 #22 type.registry] 
+New type domain.Question
+
+[2021-05-11 14:51:47 #23 type] 
+Type domain.Question is not enhanced.
+
+[2021-05-11 14:51:47 #24 type.registry] 
+New type domain.Event
+
+[2021-05-11 14:51:47 #25 type] 
+Type domain.Event is not enhanced.
+
+[2021-05-11 14:51:47 #26 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-05-11 14:51:47 #27 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2021-05-11 14:51:47 #28 type.registry] 
+New type java.util.HashMap<java.lang.Object,java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-05-11 14:53:41 #1 store] 
+Database 'C:\Users\suade\git\3iterationREAL\3iteration\src\main\resources\bets.temp' is opened by 10140@LAPTOP-CP3BSS6D
+
+[2021-05-11 14:53:42 #2 type.registry] 
+New type domain.Person
+
+[2021-05-11 14:53:42 #3 type.registry] 
+New type domain.Admin
+
+[2021-05-11 14:53:42 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-05-11 14:53:42 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-05-11 14:53:42 #6 type.registry] 
+New type domain.Worker
+
+[2021-05-11 14:53:42 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-05-11 14:53:42 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-05-11 14:53:42 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-05-11 14:53:42 #10 type.registry] 
+New type domain.ReplicatedProperties
+
+[2021-05-11 14:53:42 #11 type.registry] 
+New type java.util.HashMap<domain.RegisteredClient,domain.ReplicatedProperties>
+
+[2021-05-11 14:53:42 #12 type.registry] 
+New type domain.Movements
+
+[2021-05-11 14:53:42 #13 type.registry] 
+New type java.util.Vector<domain.Movements>
+
+[2021-05-11 14:53:42 #14 type.registry] 
+New type domain.Bet
+
+[2021-05-11 14:53:42 #15 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-05-11 14:53:42 #16 type] 
+Type domain.ReplicatedProperties is not enhanced.
+
+[2021-05-11 14:53:42 #17 type] 
+Type domain.Movements is not enhanced.
+
+[2021-05-11 14:53:42 #18 type] 
+Type domain.Bet is not enhanced.
+
+[2021-05-11 14:53:42 #19 type.registry] 
+New type domain.Prediction
+
+[2021-05-11 14:53:42 #20 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-05-11 14:53:42 #21 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-05-11 14:53:42 #22 type.registry] 
+New type domain.Question
+
+[2021-05-11 14:53:42 #23 type] 
+Type domain.Question is not enhanced.
+
+[2021-05-11 14:53:42 #24 type.registry] 
+New type domain.Event
+
+[2021-05-11 14:53:42 #25 type] 
+Type domain.Event is not enhanced.
+
+[2021-05-11 14:53:42 #26 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-05-11 14:53:42 #27 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2021-05-11 14:53:42 #28 type.registry] 
+New type java.util.HashMap<java.lang.Object,java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-05-11 15:02:27 #1 store] 
+Database 'C:\Users\suade\git\3iterationREAL\3iteration\src\main\resources\bets.temp' is opened by 7764@LAPTOP-CP3BSS6D
+
+[2021-05-11 15:02:28 #2 type.registry] 
+New type domain.Person
+
+[2021-05-11 15:02:28 #3 type.registry] 
+New type domain.Admin
+
+[2021-05-11 15:02:28 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-05-11 15:02:28 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-05-11 15:02:28 #6 type.registry] 
+New type domain.Worker
+
+[2021-05-11 15:02:28 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-05-11 15:02:28 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-05-11 15:02:28 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-05-11 15:02:28 #10 type.registry] 
+New type domain.ReplicatedProperties
+
+[2021-05-11 15:02:28 #11 type.registry] 
+New type java.util.HashMap<domain.RegisteredClient,domain.ReplicatedProperties>
+
+[2021-05-11 15:02:28 #12 type.registry] 
+New type domain.Movements
+
+[2021-05-11 15:02:28 #13 type.registry] 
+New type java.util.Vector<domain.Movements>
+
+[2021-05-11 15:02:28 #14 type.registry] 
+New type domain.Bet
+
+[2021-05-11 15:02:28 #15 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-05-11 15:02:28 #16 type] 
+Type domain.ReplicatedProperties is not enhanced.
+
+[2021-05-11 15:02:28 #17 type] 
+Type domain.Movements is not enhanced.
+
+[2021-05-11 15:02:28 #18 type] 
+Type domain.Bet is not enhanced.
+
+[2021-05-11 15:02:28 #19 type.registry] 
+New type domain.Prediction
+
+[2021-05-11 15:02:28 #20 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-05-11 15:02:28 #21 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-05-11 15:02:28 #22 type.registry] 
+New type domain.Question
+
+[2021-05-11 15:02:28 #23 type] 
+Type domain.Question is not enhanced.
+
+[2021-05-11 15:02:28 #24 type.registry] 
+New type domain.Event
+
+[2021-05-11 15:02:28 #25 type] 
+Type domain.Event is not enhanced.
+
+[2021-05-11 15:02:28 #26 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-05-11 15:02:28 #27 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2021-05-11 15:02:28 #28 type.registry] 
+New type java.util.HashMap<java.lang.Object,java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-05-11 15:13:00 #1 store] 
+Database 'C:\Users\suade\git\3iterationREAL\3iteration\src\main\resources\bets.temp' is opened by 10052@LAPTOP-CP3BSS6D
+
+[2021-05-11 15:13:01 #2 type.registry] 
+New type domain.Person
+
+[2021-05-11 15:13:01 #3 type.registry] 
+New type domain.Admin
+
+[2021-05-11 15:13:01 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-05-11 15:13:01 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-05-11 15:13:01 #6 type.registry] 
+New type domain.Worker
+
+[2021-05-11 15:13:01 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-05-11 15:13:01 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-05-11 15:13:01 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-05-11 15:13:01 #10 type.registry] 
+New type domain.ReplicatedProperties
+
+[2021-05-11 15:13:01 #11 type.registry] 
+New type java.util.HashMap<domain.RegisteredClient,domain.ReplicatedProperties>
+
+[2021-05-11 15:13:01 #12 type.registry] 
+New type domain.Movements
+
+[2021-05-11 15:13:01 #13 type.registry] 
+New type java.util.Vector<domain.Movements>
+
+[2021-05-11 15:13:01 #14 type.registry] 
+New type domain.Bet
+
+[2021-05-11 15:13:01 #15 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-05-11 15:13:01 #16 type] 
+Type domain.ReplicatedProperties is not enhanced.
+
+[2021-05-11 15:13:01 #17 type] 
+Type domain.Movements is not enhanced.
+
+[2021-05-11 15:13:01 #18 type] 
+Type domain.Bet is not enhanced.
+
+[2021-05-11 15:13:01 #19 type.registry] 
+New type domain.Prediction
+
+[2021-05-11 15:13:01 #20 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-05-11 15:13:01 #21 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-05-11 15:13:01 #22 type.registry] 
+New type domain.Question
+
+[2021-05-11 15:13:01 #23 type] 
+Type domain.Question is not enhanced.
+
+[2021-05-11 15:13:01 #24 type.registry] 
+New type domain.Event
+
+[2021-05-11 15:13:01 #25 type] 
+Type domain.Event is not enhanced.
+
+[2021-05-11 15:13:01 #26 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-05-11 15:13:01 #27 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2021-05-11 15:13:01 #28 type.registry] 
+New type java.util.HashMap<java.lang.Object,java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-05-11 15:15:44 #1 store] 
+Database 'C:\Users\suade\git\3iterationREAL\3iteration\src\main\resources\bets.temp' is opened by 7680@LAPTOP-CP3BSS6D
+
+[2021-05-11 15:15:44 #2 type.registry] 
+New type domain.Person
+
+[2021-05-11 15:15:44 #3 type.registry] 
+New type domain.Admin
+
+[2021-05-11 15:15:44 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-05-11 15:15:44 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-05-11 15:15:44 #6 type.registry] 
+New type domain.Worker
+
+[2021-05-11 15:15:44 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-05-11 15:15:44 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-05-11 15:15:44 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-05-11 15:15:44 #10 type.registry] 
+New type domain.ReplicatedProperties
+
+[2021-05-11 15:15:44 #11 type.registry] 
+New type java.util.HashMap<domain.RegisteredClient,domain.ReplicatedProperties>
+
+[2021-05-11 15:15:44 #12 type.registry] 
+New type domain.Movements
+
+[2021-05-11 15:15:44 #13 type.registry] 
+New type java.util.Vector<domain.Movements>
+
+[2021-05-11 15:15:44 #14 type.registry] 
+New type domain.Bet
+
+[2021-05-11 15:15:44 #15 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-05-11 15:15:44 #16 type] 
+Type domain.ReplicatedProperties is not enhanced.
+
+[2021-05-11 15:15:44 #17 type] 
+Type domain.Movements is not enhanced.
+
+[2021-05-11 15:15:44 #18 type] 
+Type domain.Bet is not enhanced.
+
+[2021-05-11 15:15:44 #19 type.registry] 
+New type domain.Prediction
+
+[2021-05-11 15:15:44 #20 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-05-11 15:15:44 #21 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-05-11 15:15:44 #22 type.registry] 
+New type domain.Question
+
+[2021-05-11 15:15:44 #23 type] 
+Type domain.Question is not enhanced.
+
+[2021-05-11 15:15:44 #24 type.registry] 
+New type domain.Event
+
+[2021-05-11 15:15:44 #25 type] 
+Type domain.Event is not enhanced.
+
+[2021-05-11 15:15:44 #26 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-05-11 15:15:44 #27 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2021-05-11 15:15:44 #28 type.registry] 
+New type java.util.HashMap<java.lang.Object,java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-05-11 15:16:23 #1 store] 
+Database 'C:\Users\suade\git\3iterationREAL\3iteration\src\main\resources\bets.temp' is opened by 8028@LAPTOP-CP3BSS6D
+
+[2021-05-11 15:16:23 #2 type.registry] 
+New type domain.Person
+
+[2021-05-11 15:16:23 #3 type.registry] 
+New type domain.Admin
+
+[2021-05-11 15:16:23 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-05-11 15:16:23 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-05-11 15:16:23 #6 type.registry] 
+New type domain.Worker
+
+[2021-05-11 15:16:23 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-05-11 15:16:23 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-05-11 15:16:23 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-05-11 15:16:23 #10 type.registry] 
+New type domain.ReplicatedProperties
+
+[2021-05-11 15:16:23 #11 type.registry] 
+New type java.util.HashMap<domain.RegisteredClient,domain.ReplicatedProperties>
+
+[2021-05-11 15:16:23 #12 type.registry] 
+New type domain.Movements
+
+[2021-05-11 15:16:23 #13 type.registry] 
+New type java.util.Vector<domain.Movements>
+
+[2021-05-11 15:16:23 #14 type.registry] 
+New type domain.Bet
+
+[2021-05-11 15:16:23 #15 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-05-11 15:16:23 #16 type] 
+Type domain.ReplicatedProperties is not enhanced.
+
+[2021-05-11 15:16:23 #17 type] 
+Type domain.Movements is not enhanced.
+
+[2021-05-11 15:16:23 #18 type] 
+Type domain.Bet is not enhanced.
+
+[2021-05-11 15:16:23 #19 type.registry] 
+New type domain.Prediction
+
+[2021-05-11 15:16:23 #20 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-05-11 15:16:23 #21 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-05-11 15:16:23 #22 type.registry] 
+New type domain.Question
+
+[2021-05-11 15:16:23 #23 type] 
+Type domain.Question is not enhanced.
+
+[2021-05-11 15:16:23 #24 type.registry] 
+New type domain.Event
+
+[2021-05-11 15:16:23 #25 type] 
+Type domain.Event is not enhanced.
+
+[2021-05-11 15:16:23 #26 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-05-11 15:16:23 #27 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2021-05-11 15:16:23 #28 type.registry] 
+New type java.util.HashMap<java.lang.Object,java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-05-11 15:19:42 #1 store] 
+Database 'C:\Users\suade\git\3iterationREAL\3iteration\src\main\resources\bets.temp' is opened by 4244@LAPTOP-CP3BSS6D
+
+[2021-05-11 15:19:42 #2 type.registry] 
+New type domain.Person
+
+[2021-05-11 15:19:42 #3 type.registry] 
+New type domain.Admin
+
+[2021-05-11 15:19:42 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-05-11 15:19:42 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-05-11 15:19:42 #6 type.registry] 
+New type domain.Worker
+
+[2021-05-11 15:19:42 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-05-11 15:19:42 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-05-11 15:19:42 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-05-11 15:19:42 #10 type.registry] 
+New type domain.ReplicatedProperties
+
+[2021-05-11 15:19:42 #11 type.registry] 
+New type java.util.HashMap<domain.RegisteredClient,domain.ReplicatedProperties>
+
+[2021-05-11 15:19:42 #12 type.registry] 
+New type domain.Movements
+
+[2021-05-11 15:19:42 #13 type.registry] 
+New type java.util.Vector<domain.Movements>
+
+[2021-05-11 15:19:42 #14 type.registry] 
+New type domain.Bet
+
+[2021-05-11 15:19:42 #15 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-05-11 15:19:42 #16 type] 
+Type domain.ReplicatedProperties is not enhanced.
+
+[2021-05-11 15:19:42 #17 type] 
+Type domain.Movements is not enhanced.
+
+[2021-05-11 15:19:42 #18 type] 
+Type domain.Bet is not enhanced.
+
+[2021-05-11 15:19:42 #19 type.registry] 
+New type domain.Prediction
+
+[2021-05-11 15:19:42 #20 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-05-11 15:19:42 #21 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-05-11 15:19:42 #22 type.registry] 
+New type domain.Question
+
+[2021-05-11 15:19:42 #23 type] 
+Type domain.Question is not enhanced.
+
+[2021-05-11 15:19:42 #24 type.registry] 
+New type domain.Event
+
+[2021-05-11 15:19:42 #25 type] 
+Type domain.Event is not enhanced.
+
+[2021-05-11 15:19:42 #26 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-05-11 15:19:42 #27 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2021-05-11 15:19:42 #28 type.registry] 
+New type java.util.HashMap<java.lang.Object,java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-05-11 15:22:58 #1 store] 
+Database 'C:\Users\suade\git\3iterationREAL\3iteration\src\main\resources\bets.temp' is opened by 12308@LAPTOP-CP3BSS6D
+
+[2021-05-11 15:22:58 #2 type.registry] 
+New type domain.Person
+
+[2021-05-11 15:22:58 #3 type.registry] 
+New type domain.Admin
+
+[2021-05-11 15:22:58 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-05-11 15:22:58 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-05-11 15:22:58 #6 type.registry] 
+New type domain.Worker
+
+[2021-05-11 15:22:58 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-05-11 15:22:58 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-05-11 15:22:58 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-05-11 15:22:58 #10 type.registry] 
+New type domain.ReplicatedProperties
+
+[2021-05-11 15:22:58 #11 type.registry] 
+New type java.util.HashMap<domain.RegisteredClient,domain.ReplicatedProperties>
+
+[2021-05-11 15:22:58 #12 type.registry] 
+New type domain.Movements
+
+[2021-05-11 15:22:58 #13 type.registry] 
+New type java.util.Vector<domain.Movements>
+
+[2021-05-11 15:22:58 #14 type.registry] 
+New type domain.Bet
+
+[2021-05-11 15:22:58 #15 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-05-11 15:22:58 #16 type] 
+Type domain.ReplicatedProperties is not enhanced.
+
+[2021-05-11 15:22:58 #17 type] 
+Type domain.Movements is not enhanced.
+
+[2021-05-11 15:22:58 #18 type] 
+Type domain.Bet is not enhanced.
+
+[2021-05-11 15:22:58 #19 type.registry] 
+New type domain.Prediction
+
+[2021-05-11 15:22:58 #20 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-05-11 15:22:58 #21 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-05-11 15:22:58 #22 type.registry] 
+New type domain.Question
+
+[2021-05-11 15:22:58 #23 type] 
+Type domain.Question is not enhanced.
+
+[2021-05-11 15:22:58 #24 type.registry] 
+New type domain.Event
+
+[2021-05-11 15:22:58 #25 type] 
+Type domain.Event is not enhanced.
+
+[2021-05-11 15:22:58 #26 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-05-11 15:22:58 #27 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2021-05-11 15:22:58 #28 type.registry] 
+New type java.util.HashMap<java.lang.Object,java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-05-11 15:30:12 #1 store] 
+Database 'C:\Users\suade\git\3iterationREAL\3iteration\src\main\resources\bets.temp' is opened by 2336@LAPTOP-CP3BSS6D
+
+[2021-05-11 15:30:12 #2 type.registry] 
+New type domain.Person
+
+[2021-05-11 15:30:12 #3 type.registry] 
+New type domain.Admin
+
+[2021-05-11 15:30:12 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-05-11 15:30:12 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-05-11 15:30:12 #6 type.registry] 
+New type domain.Worker
+
+[2021-05-11 15:30:12 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-05-11 15:30:12 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-05-11 15:30:12 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-05-11 15:30:12 #10 type.registry] 
+New type domain.ReplicatedProperties
+
+[2021-05-11 15:30:12 #11 type.registry] 
+New type java.util.HashMap<domain.RegisteredClient,domain.ReplicatedProperties>
+
+[2021-05-11 15:30:12 #12 type.registry] 
+New type domain.Movements
+
+[2021-05-11 15:30:12 #13 type.registry] 
+New type java.util.Vector<domain.Movements>
+
+[2021-05-11 15:30:12 #14 type.registry] 
+New type domain.Bet
+
+[2021-05-11 15:30:12 #15 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-05-11 15:30:12 #16 type] 
+Type domain.ReplicatedProperties is not enhanced.
+
+[2021-05-11 15:30:12 #17 type] 
+Type domain.Movements is not enhanced.
+
+[2021-05-11 15:30:12 #18 type] 
+Type domain.Bet is not enhanced.
+
+[2021-05-11 15:30:12 #19 type.registry] 
+New type domain.Prediction
+
+[2021-05-11 15:30:12 #20 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-05-11 15:30:12 #21 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-05-11 15:30:12 #22 type.registry] 
+New type domain.Question
+
+[2021-05-11 15:30:12 #23 type] 
+Type domain.Question is not enhanced.
+
+[2021-05-11 15:30:12 #24 type.registry] 
+New type domain.Event
+
+[2021-05-11 15:30:12 #25 type] 
+Type domain.Event is not enhanced.
+
+[2021-05-11 15:30:12 #26 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-05-11 15:30:12 #27 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2021-05-11 15:30:12 #28 type.registry] 
+New type java.util.HashMap<java.lang.Object,java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-05-11 16:17:16 #1 store] 
+Database 'C:\Users\suade\git\3iterationREAL\3iteration\src\main\resources\bets.temp' is opened by 16648@LAPTOP-CP3BSS6D
+
+[2021-05-11 16:17:16 #2 type.registry] 
+New type domain.Person
+
+[2021-05-11 16:17:16 #3 type.registry] 
+New type domain.Admin
+
+[2021-05-11 16:17:16 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-05-11 16:17:16 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-05-11 16:17:16 #6 type.registry] 
+New type domain.Worker
+
+[2021-05-11 16:17:16 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-05-11 16:17:16 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-05-11 16:17:16 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-05-11 16:17:16 #10 type.registry] 
+New type domain.ReplicatedProperties
+
+[2021-05-11 16:17:16 #11 type.registry] 
+New type java.util.HashMap<domain.RegisteredClient,domain.ReplicatedProperties>
+
+[2021-05-11 16:17:16 #12 type.registry] 
+New type domain.Movements
+
+[2021-05-11 16:17:16 #13 type.registry] 
+New type java.util.Vector<domain.Movements>
+
+[2021-05-11 16:17:16 #14 type.registry] 
+New type domain.Bet
+
+[2021-05-11 16:17:16 #15 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-05-11 16:17:16 #16 type] 
+Type domain.ReplicatedProperties is not enhanced.
+
+[2021-05-11 16:17:16 #17 type] 
+Type domain.Movements is not enhanced.
+
+[2021-05-11 16:17:16 #18 type] 
+Type domain.Bet is not enhanced.
+
+[2021-05-11 16:17:16 #19 type.registry] 
+New type domain.Prediction
+
+[2021-05-11 16:17:16 #20 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-05-11 16:17:16 #21 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-05-11 16:17:16 #22 type.registry] 
+New type domain.Question
+
+[2021-05-11 16:17:16 #23 type] 
+Type domain.Question is not enhanced.
+
+[2021-05-11 16:17:16 #24 type.registry] 
+New type domain.Event
+
+[2021-05-11 16:17:16 #25 type] 
+Type domain.Event is not enhanced.
+
+[2021-05-11 16:17:16 #26 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-05-11 16:17:16 #27 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2021-05-11 16:17:16 #28 type.registry] 
+New type java.util.HashMap<java.lang.Object,java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-05-11 16:30:29 #1 store] 
+Database 'C:\Users\suade\git\3iterationREAL\3iteration\src\main\resources\bets.temp' is opened by 17204@LAPTOP-CP3BSS6D
+
+[2021-05-11 16:30:29 #2 type.registry] 
+New type domain.Person
+
+[2021-05-11 16:30:29 #3 type.registry] 
+New type domain.Admin
+
+[2021-05-11 16:30:29 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-05-11 16:30:29 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-05-11 16:30:29 #6 type.registry] 
+New type domain.Worker
+
+[2021-05-11 16:30:29 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-05-11 16:30:29 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-05-11 16:30:29 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-05-11 16:30:29 #10 type.registry] 
+New type domain.ReplicatedProperties
+
+[2021-05-11 16:30:29 #11 type.registry] 
+New type java.util.HashMap<domain.RegisteredClient,domain.ReplicatedProperties>
+
+[2021-05-11 16:30:29 #12 type.registry] 
+New type domain.Movements
+
+[2021-05-11 16:30:29 #13 type.registry] 
+New type java.util.Vector<domain.Movements>
+
+[2021-05-11 16:30:29 #14 type.registry] 
+New type domain.Bet
+
+[2021-05-11 16:30:29 #15 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-05-11 16:30:29 #16 type] 
+Type domain.ReplicatedProperties is not enhanced.
+
+[2021-05-11 16:30:29 #17 type] 
+Type domain.Movements is not enhanced.
+
+[2021-05-11 16:30:29 #18 type] 
+Type domain.Bet is not enhanced.
+
+[2021-05-11 16:30:29 #19 type.registry] 
+New type domain.Prediction
+
+[2021-05-11 16:30:29 #20 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-05-11 16:30:29 #21 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-05-11 16:30:29 #22 type.registry] 
+New type domain.Question
+
+[2021-05-11 16:30:29 #23 type] 
+Type domain.Question is not enhanced.
+
+[2021-05-11 16:30:29 #24 type.registry] 
+New type domain.Event
+
+[2021-05-11 16:30:29 #25 type] 
+Type domain.Event is not enhanced.
+
+[2021-05-11 16:30:29 #26 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-05-11 16:30:29 #27 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2021-05-11 16:30:29 #28 type.registry] 
+New type java.util.HashMap<java.lang.Object,java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-05-11 16:40:24 #1 store] 
+Database 'C:\Users\suade\git\3iterationREAL\3iteration\src\main\resources\bets.temp' is opened by 11660@LAPTOP-CP3BSS6D
+
+[2021-05-11 16:40:25 #2 type.registry] 
+New type domain.Person
+
+[2021-05-11 16:40:25 #3 type.registry] 
+New type domain.Admin
+
+[2021-05-11 16:40:25 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-05-11 16:40:25 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-05-11 16:40:25 #6 type.registry] 
+New type domain.Worker
+
+[2021-05-11 16:40:25 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-05-11 16:40:25 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-05-11 16:40:25 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-05-11 16:40:25 #10 type.registry] 
+New type domain.ReplicatedProperties
+
+[2021-05-11 16:40:25 #11 type.registry] 
+New type java.util.HashMap<domain.RegisteredClient,domain.ReplicatedProperties>
+
+[2021-05-11 16:40:25 #12 type.registry] 
+New type domain.Movements
+
+[2021-05-11 16:40:25 #13 type.registry] 
+New type java.util.Vector<domain.Movements>
+
+[2021-05-11 16:40:25 #14 type.registry] 
+New type domain.Bet
+
+[2021-05-11 16:40:25 #15 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-05-11 16:40:25 #16 type] 
+Type domain.ReplicatedProperties is not enhanced.
+
+[2021-05-11 16:40:25 #17 type] 
+Type domain.Movements is not enhanced.
+
+[2021-05-11 16:40:25 #18 type] 
+Type domain.Bet is not enhanced.
+
+[2021-05-11 16:40:25 #19 type.registry] 
+New type domain.Prediction
+
+[2021-05-11 16:40:25 #20 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-05-11 16:40:25 #21 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-05-11 16:40:25 #22 type.registry] 
+New type domain.Question
+
+[2021-05-11 16:40:25 #23 type] 
+Type domain.Question is not enhanced.
+
+[2021-05-11 16:40:25 #24 type.registry] 
+New type domain.Event
+
+[2021-05-11 16:40:25 #25 type] 
+Type domain.Event is not enhanced.
+
+[2021-05-11 16:40:25 #26 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-05-11 16:40:25 #27 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2021-05-11 16:40:25 #28 type.registry] 
+New type java.util.HashMap<java.lang.Object,java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-05-11 16:42:08 #1 store] 
+Database 'C:\Users\suade\git\3iterationREAL\3iteration\src\main\resources\bets.temp' is opened by 19700@LAPTOP-CP3BSS6D
+
+[2021-05-11 16:42:08 #2 type.registry] 
+New type domain.Person
+
+[2021-05-11 16:42:08 #3 type.registry] 
+New type domain.Admin
+
+[2021-05-11 16:42:08 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-05-11 16:42:08 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-05-11 16:42:08 #6 type.registry] 
+New type domain.Worker
+
+[2021-05-11 16:42:08 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-05-11 16:42:08 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-05-11 16:42:08 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-05-11 16:42:08 #10 type.registry] 
+New type domain.ReplicatedProperties
+
+[2021-05-11 16:42:08 #11 type.registry] 
+New type java.util.HashMap<domain.RegisteredClient,domain.ReplicatedProperties>
+
+[2021-05-11 16:42:08 #12 type.registry] 
+New type domain.Movements
+
+[2021-05-11 16:42:08 #13 type.registry] 
+New type java.util.Vector<domain.Movements>
+
+[2021-05-11 16:42:08 #14 type.registry] 
+New type domain.Bet
+
+[2021-05-11 16:42:08 #15 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-05-11 16:42:08 #16 type] 
+Type domain.ReplicatedProperties is not enhanced.
+
+[2021-05-11 16:42:08 #17 type] 
+Type domain.Movements is not enhanced.
+
+[2021-05-11 16:42:08 #18 type] 
+Type domain.Bet is not enhanced.
+
+[2021-05-11 16:42:08 #19 type.registry] 
+New type domain.Prediction
+
+[2021-05-11 16:42:08 #20 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-05-11 16:42:08 #21 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-05-11 16:42:08 #22 type.registry] 
+New type domain.Question
+
+[2021-05-11 16:42:08 #23 type] 
+Type domain.Question is not enhanced.
+
+[2021-05-11 16:42:08 #24 type.registry] 
+New type domain.Event
+
+[2021-05-11 16:42:08 #25 type] 
+Type domain.Event is not enhanced.
+
+[2021-05-11 16:42:08 #26 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-05-11 16:42:08 #27 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2021-05-11 16:42:08 #28 type.registry] 
+New type java.util.HashMap<java.lang.Object,java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-05-11 16:47:27 #1 store] 
+Database 'C:\Users\suade\git\3iterationREAL\3iteration\src\main\resources\bets.temp' is opened by 17568@LAPTOP-CP3BSS6D
+
+[2021-05-11 16:47:28 #2 type.registry] 
+New type domain.Person
+
+[2021-05-11 16:47:28 #3 type.registry] 
+New type domain.Admin
+
+[2021-05-11 16:47:28 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-05-11 16:47:28 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-05-11 16:47:28 #6 type.registry] 
+New type domain.Worker
+
+[2021-05-11 16:47:28 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-05-11 16:47:28 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-05-11 16:47:28 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-05-11 16:47:28 #10 type.registry] 
+New type domain.ReplicatedProperties
+
+[2021-05-11 16:47:28 #11 type.registry] 
+New type java.util.HashMap<domain.RegisteredClient,domain.ReplicatedProperties>
+
+[2021-05-11 16:47:28 #12 type.registry] 
+New type domain.Movements
+
+[2021-05-11 16:47:28 #13 type.registry] 
+New type java.util.Vector<domain.Movements>
+
+[2021-05-11 16:47:28 #14 type.registry] 
+New type domain.Bet
+
+[2021-05-11 16:47:28 #15 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-05-11 16:47:28 #16 type] 
+Type domain.ReplicatedProperties is not enhanced.
+
+[2021-05-11 16:47:28 #17 type] 
+Type domain.Movements is not enhanced.
+
+[2021-05-11 16:47:28 #18 type] 
+Type domain.Bet is not enhanced.
+
+[2021-05-11 16:47:28 #19 type.registry] 
+New type domain.Prediction
+
+[2021-05-11 16:47:28 #20 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-05-11 16:47:28 #21 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-05-11 16:47:28 #22 type.registry] 
+New type domain.Question
+
+[2021-05-11 16:47:28 #23 type] 
+Type domain.Question is not enhanced.
+
+[2021-05-11 16:47:28 #24 type.registry] 
+New type domain.Event
+
+[2021-05-11 16:47:28 #25 type] 
+Type domain.Event is not enhanced.
+
+[2021-05-11 16:47:28 #26 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-05-11 16:47:28 #27 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2021-05-11 16:47:28 #28 type.registry] 
+New type java.util.HashMap<java.lang.Object,java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-05-11 16:51:18 #1 store] 
+Database 'C:\Users\suade\git\3iterationREAL\3iteration\src\main\resources\bets.temp' is opened by 4424@LAPTOP-CP3BSS6D
+
+[2021-05-11 16:51:19 #2 type.registry] 
+New type domain.Person
+
+[2021-05-11 16:51:19 #3 type.registry] 
+New type domain.Admin
+
+[2021-05-11 16:51:19 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-05-11 16:51:19 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-05-11 16:51:19 #6 type.registry] 
+New type domain.Worker
+
+[2021-05-11 16:51:19 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-05-11 16:51:19 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-05-11 16:51:19 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-05-11 16:51:19 #10 type.registry] 
+New type domain.ReplicatedProperties
+
+[2021-05-11 16:51:19 #11 type.registry] 
+New type java.util.HashMap<domain.RegisteredClient,domain.ReplicatedProperties>
+
+[2021-05-11 16:51:19 #12 type.registry] 
+New type domain.Movements
+
+[2021-05-11 16:51:19 #13 type.registry] 
+New type java.util.Vector<domain.Movements>
+
+[2021-05-11 16:51:19 #14 type.registry] 
+New type domain.Bet
+
+[2021-05-11 16:51:19 #15 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-05-11 16:51:19 #16 type] 
+Type domain.ReplicatedProperties is not enhanced.
+
+[2021-05-11 16:51:19 #17 type] 
+Type domain.Movements is not enhanced.
+
+[2021-05-11 16:51:19 #18 type] 
+Type domain.Bet is not enhanced.
+
+[2021-05-11 16:51:19 #19 type.registry] 
+New type domain.Prediction
+
+[2021-05-11 16:51:19 #20 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-05-11 16:51:19 #21 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-05-11 16:51:19 #22 type.registry] 
+New type domain.Question
+
+[2021-05-11 16:51:19 #23 type] 
+Type domain.Question is not enhanced.
+
+[2021-05-11 16:51:19 #24 type.registry] 
+New type domain.Event
+
+[2021-05-11 16:51:19 #25 type] 
+Type domain.Event is not enhanced.
+
+[2021-05-11 16:51:19 #26 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-05-11 16:51:19 #27 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2021-05-11 16:51:19 #28 type.registry] 
+New type java.util.HashMap<java.lang.Object,java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-05-11 16:57:15 #1 store] 
+Database 'C:\Users\suade\git\3iterationREAL\3iteration\src\main\resources\bets.temp' is opened by 9540@LAPTOP-CP3BSS6D
+
+[2021-05-11 16:57:16 #2 type.registry] 
+New type domain.Person
+
+[2021-05-11 16:57:16 #3 type.registry] 
+New type domain.Admin
+
+[2021-05-11 16:57:16 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-05-11 16:57:16 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-05-11 16:57:16 #6 type.registry] 
+New type domain.Worker
+
+[2021-05-11 16:57:16 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-05-11 16:57:16 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-05-11 16:57:16 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-05-11 16:57:16 #10 type.registry] 
+New type domain.ReplicatedProperties
+
+[2021-05-11 16:57:16 #11 type.registry] 
+New type java.util.HashMap<domain.RegisteredClient,domain.ReplicatedProperties>
+
+[2021-05-11 16:57:16 #12 type.registry] 
+New type domain.Movements
+
+[2021-05-11 16:57:16 #13 type.registry] 
+New type java.util.Vector<domain.Movements>
+
+[2021-05-11 16:57:16 #14 type.registry] 
+New type domain.Bet
+
+[2021-05-11 16:57:16 #15 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-05-11 16:57:16 #16 type] 
+Type domain.ReplicatedProperties is not enhanced.
+
+[2021-05-11 16:57:16 #17 type] 
+Type domain.Movements is not enhanced.
+
+[2021-05-11 16:57:16 #18 type] 
+Type domain.Bet is not enhanced.
+
+[2021-05-11 16:57:16 #19 type.registry] 
+New type domain.Prediction
+
+[2021-05-11 16:57:16 #20 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-05-11 16:57:16 #21 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-05-11 16:57:16 #22 type.registry] 
+New type domain.Question
+
+[2021-05-11 16:57:16 #23 type] 
+Type domain.Question is not enhanced.
+
+[2021-05-11 16:57:16 #24 type.registry] 
+New type domain.Event
+
+[2021-05-11 16:57:16 #25 type] 
+Type domain.Event is not enhanced.
+
+[2021-05-11 16:57:16 #26 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-05-11 16:57:16 #27 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2021-05-11 16:57:16 #28 type.registry] 
+New type java.util.HashMap<java.lang.Object,java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-05-11 16:57:59 #1 store] 
+Database 'C:\Users\suade\git\3iterationREAL\3iteration\src\main\resources\bets.temp' is opened by 15296@LAPTOP-CP3BSS6D
+
+[2021-05-11 16:57:59 #2 type.registry] 
+New type domain.Person
+
+[2021-05-11 16:57:59 #3 type.registry] 
+New type domain.Admin
+
+[2021-05-11 16:57:59 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-05-11 16:57:59 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-05-11 16:57:59 #6 type.registry] 
+New type domain.Worker
+
+[2021-05-11 16:57:59 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-05-11 16:57:59 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-05-11 16:57:59 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-05-11 16:57:59 #10 type.registry] 
+New type domain.ReplicatedProperties
+
+[2021-05-11 16:57:59 #11 type.registry] 
+New type java.util.HashMap<domain.RegisteredClient,domain.ReplicatedProperties>
+
+[2021-05-11 16:57:59 #12 type.registry] 
+New type domain.Movements
+
+[2021-05-11 16:57:59 #13 type.registry] 
+New type java.util.Vector<domain.Movements>
+
+[2021-05-11 16:57:59 #14 type.registry] 
+New type domain.Bet
+
+[2021-05-11 16:57:59 #15 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-05-11 16:57:59 #16 type] 
+Type domain.ReplicatedProperties is not enhanced.
+
+[2021-05-11 16:57:59 #17 type] 
+Type domain.Movements is not enhanced.
+
+[2021-05-11 16:57:59 #18 type] 
+Type domain.Bet is not enhanced.
+
+[2021-05-11 16:57:59 #19 type.registry] 
+New type domain.Prediction
+
+[2021-05-11 16:57:59 #20 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-05-11 16:57:59 #21 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-05-11 16:57:59 #22 type.registry] 
+New type domain.Question
+
+[2021-05-11 16:57:59 #23 type] 
+Type domain.Question is not enhanced.
+
+[2021-05-11 16:57:59 #24 type.registry] 
+New type domain.Event
+
+[2021-05-11 16:57:59 #25 type] 
+Type domain.Event is not enhanced.
+
+[2021-05-11 16:57:59 #26 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-05-11 16:57:59 #27 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2021-05-11 16:57:59 #28 type.registry] 
+New type java.util.HashMap<java.lang.Object,java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-05-11 16:58:33 #1 store] 
+Database 'C:\Users\suade\git\3iterationREAL\3iteration\src\main\resources\bets.temp' is opened by 11200@LAPTOP-CP3BSS6D
+
+[2021-05-11 16:58:33 #2 type.registry] 
+New type domain.Person
+
+[2021-05-11 16:58:33 #3 type.registry] 
+New type domain.Admin
+
+[2021-05-11 16:58:33 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-05-11 16:58:33 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-05-11 16:58:33 #6 type.registry] 
+New type domain.Worker
+
+[2021-05-11 16:58:33 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-05-11 16:58:33 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-05-11 16:58:33 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-05-11 16:58:33 #10 type.registry] 
+New type domain.ReplicatedProperties
+
+[2021-05-11 16:58:33 #11 type.registry] 
+New type java.util.HashMap<domain.RegisteredClient,domain.ReplicatedProperties>
+
+[2021-05-11 16:58:33 #12 type.registry] 
+New type domain.Movements
+
+[2021-05-11 16:58:33 #13 type.registry] 
+New type java.util.Vector<domain.Movements>
+
+[2021-05-11 16:58:33 #14 type.registry] 
+New type domain.Bet
+
+[2021-05-11 16:58:33 #15 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-05-11 16:58:33 #16 type] 
+Type domain.ReplicatedProperties is not enhanced.
+
+[2021-05-11 16:58:33 #17 type] 
+Type domain.Movements is not enhanced.
+
+[2021-05-11 16:58:33 #18 type] 
+Type domain.Bet is not enhanced.
+
+[2021-05-11 16:58:33 #19 type.registry] 
+New type domain.Prediction
+
+[2021-05-11 16:58:33 #20 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-05-11 16:58:33 #21 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-05-11 16:58:33 #22 type.registry] 
+New type domain.Question
+
+[2021-05-11 16:58:33 #23 type] 
+Type domain.Question is not enhanced.
+
+[2021-05-11 16:58:33 #24 type.registry] 
+New type domain.Event
+
+[2021-05-11 16:58:33 #25 type] 
+Type domain.Event is not enhanced.
+
+[2021-05-11 16:58:33 #26 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-05-11 16:58:33 #27 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2021-05-11 16:58:33 #28 type.registry] 
+New type java.util.HashMap<java.lang.Object,java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-05-11 17:11:15 #1 store] 
+Database 'C:\Users\suade\git\3iterationREAL\3iteration\src\main\resources\bets.temp' is opened by 6548@LAPTOP-CP3BSS6D
+
+[2021-05-11 17:11:15 #2 type.registry] 
+New type domain.Person
+
+[2021-05-11 17:11:15 #3 type.registry] 
+New type domain.Admin
+
+[2021-05-11 17:11:15 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-05-11 17:11:15 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-05-11 17:11:15 #6 type.registry] 
+New type domain.Worker
+
+[2021-05-11 17:11:15 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-05-11 17:11:15 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-05-11 17:11:15 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-05-11 17:11:15 #10 type.registry] 
+New type domain.ReplicatedProperties
+
+[2021-05-11 17:11:15 #11 type.registry] 
+New type java.util.HashMap<domain.RegisteredClient,domain.ReplicatedProperties>
+
+[2021-05-11 17:11:15 #12 type.registry] 
+New type domain.Movements
+
+[2021-05-11 17:11:15 #13 type.registry] 
+New type java.util.Vector<domain.Movements>
+
+[2021-05-11 17:11:15 #14 type.registry] 
+New type domain.Bet
+
+[2021-05-11 17:11:15 #15 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-05-11 17:11:15 #16 type] 
+Type domain.ReplicatedProperties is not enhanced.
+
+[2021-05-11 17:11:15 #17 type] 
+Type domain.Movements is not enhanced.
+
+[2021-05-11 17:11:15 #18 type] 
+Type domain.Bet is not enhanced.
+
+[2021-05-11 17:11:15 #19 type.registry] 
+New type domain.Prediction
+
+[2021-05-11 17:11:15 #20 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-05-11 17:11:15 #21 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-05-11 17:11:15 #22 type.registry] 
+New type domain.Question
+
+[2021-05-11 17:11:15 #23 type] 
+Type domain.Question is not enhanced.
+
+[2021-05-11 17:11:15 #24 type.registry] 
+New type domain.Event
+
+[2021-05-11 17:11:15 #25 type] 
+Type domain.Event is not enhanced.
+
+[2021-05-11 17:11:15 #26 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-05-11 17:11:15 #27 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2021-05-11 17:11:16 #28 type.registry] 
+New type java.util.HashMap<java.lang.Object,java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-05-11 17:23:43 #1 store] 
+Database 'C:\Users\suade\git\3iterationREAL\3iteration\src\main\resources\bets.temp' is opened by 11240@LAPTOP-CP3BSS6D
+
+[2021-05-11 17:23:44 #2 type.registry] 
+New type domain.Person
+
+[2021-05-11 17:23:44 #3 type.registry] 
+New type domain.Admin
+
+[2021-05-11 17:23:44 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-05-11 17:23:44 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-05-11 17:23:44 #6 type.registry] 
+New type domain.Worker
+
+[2021-05-11 17:23:44 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-05-11 17:23:44 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-05-11 17:23:44 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-05-11 17:23:44 #10 type.registry] 
+New type domain.ReplicatedProperties
+
+[2021-05-11 17:23:44 #11 type.registry] 
+New type java.util.HashMap<domain.RegisteredClient,domain.ReplicatedProperties>
+
+[2021-05-11 17:23:44 #12 type.registry] 
+New type domain.Movements
+
+[2021-05-11 17:23:44 #13 type.registry] 
+New type java.util.Vector<domain.Movements>
+
+[2021-05-11 17:23:44 #14 type.registry] 
+New type domain.Bet
+
+[2021-05-11 17:23:44 #15 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-05-11 17:23:44 #16 type] 
+Type domain.ReplicatedProperties is not enhanced.
+
+[2021-05-11 17:23:44 #17 type] 
+Type domain.Movements is not enhanced.
+
+[2021-05-11 17:23:44 #18 type] 
+Type domain.Bet is not enhanced.
+
+[2021-05-11 17:23:44 #19 type.registry] 
+New type domain.Prediction
+
+[2021-05-11 17:23:44 #20 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-05-11 17:23:44 #21 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-05-11 17:23:44 #22 type.registry] 
+New type domain.Question
+
+[2021-05-11 17:23:44 #23 type] 
+Type domain.Question is not enhanced.
+
+[2021-05-11 17:23:44 #24 type.registry] 
+New type domain.Event
+
+[2021-05-11 17:23:44 #25 type] 
+Type domain.Event is not enhanced.
+
+[2021-05-11 17:23:44 #26 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-05-11 17:23:44 #27 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2021-05-11 17:23:44 #28 type.registry] 
+New type java.util.HashMap<java.lang.Object,java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-05-11 17:36:59 #1 store] 
+Database 'C:\Users\suade\git\3iterationREAL\3iteration\src\main\resources\bets.temp' is opened by 5328@LAPTOP-CP3BSS6D
+
+[2021-05-11 17:36:59 #2 type.registry] 
+New type domain.Person
+
+[2021-05-11 17:36:59 #3 type.registry] 
+New type domain.Admin
+
+[2021-05-11 17:36:59 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-05-11 17:36:59 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-05-11 17:36:59 #6 type.registry] 
+New type domain.Worker
+
+[2021-05-11 17:36:59 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-05-11 17:36:59 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-05-11 17:36:59 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-05-11 17:36:59 #10 type.registry] 
+New type domain.ReplicatedProperties
+
+[2021-05-11 17:36:59 #11 type.registry] 
+New type java.util.HashMap<domain.RegisteredClient,domain.ReplicatedProperties>
+
+[2021-05-11 17:36:59 #12 type.registry] 
+New type domain.Movements
+
+[2021-05-11 17:36:59 #13 type.registry] 
+New type java.util.Vector<domain.Movements>
+
+[2021-05-11 17:36:59 #14 type.registry] 
+New type domain.Bet
+
+[2021-05-11 17:36:59 #15 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-05-11 17:36:59 #16 type] 
+Type domain.ReplicatedProperties is not enhanced.
+
+[2021-05-11 17:36:59 #17 type] 
+Type domain.Movements is not enhanced.
+
+[2021-05-11 17:36:59 #18 type] 
+Type domain.Bet is not enhanced.
+
+[2021-05-11 17:36:59 #19 type.registry] 
+New type domain.Prediction
+
+[2021-05-11 17:36:59 #20 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-05-11 17:36:59 #21 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-05-11 17:36:59 #22 type.registry] 
+New type domain.Question
+
+[2021-05-11 17:36:59 #23 type] 
+Type domain.Question is not enhanced.
+
+[2021-05-11 17:36:59 #24 type.registry] 
+New type domain.Event
+
+[2021-05-11 17:36:59 #25 type] 
+Type domain.Event is not enhanced.
+
+[2021-05-11 17:36:59 #26 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-05-11 17:36:59 #27 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2021-05-11 17:36:59 #28 type.registry] 
+New type java.util.HashMap<java.lang.Object,java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-05-11 17:40:54 #1 store] 
+Database 'C:\Users\suade\git\3iterationREAL\3iteration\src\main\resources\bets.temp' is opened by 18096@LAPTOP-CP3BSS6D
+
+[2021-05-11 17:40:54 #2 type.registry] 
+New type domain.Person
+
+[2021-05-11 17:40:54 #3 type.registry] 
+New type domain.Admin
+
+[2021-05-11 17:40:54 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-05-11 17:40:54 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-05-11 17:40:54 #6 type.registry] 
+New type domain.Worker
+
+[2021-05-11 17:40:54 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-05-11 17:40:54 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-05-11 17:40:54 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-05-11 17:40:54 #10 type.registry] 
+New type domain.ReplicatedProperties
+
+[2021-05-11 17:40:54 #11 type.registry] 
+New type java.util.HashMap<domain.RegisteredClient,domain.ReplicatedProperties>
+
+[2021-05-11 17:40:54 #12 type.registry] 
+New type domain.Movements
+
+[2021-05-11 17:40:54 #13 type.registry] 
+New type java.util.Vector<domain.Movements>
+
+[2021-05-11 17:40:54 #14 type.registry] 
+New type domain.Bet
+
+[2021-05-11 17:40:54 #15 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-05-11 17:40:54 #16 type] 
+Type domain.ReplicatedProperties is not enhanced.
+
+[2021-05-11 17:40:54 #17 type] 
+Type domain.Movements is not enhanced.
+
+[2021-05-11 17:40:54 #18 type] 
+Type domain.Bet is not enhanced.
+
+[2021-05-11 17:40:54 #19 type.registry] 
+New type domain.Prediction
+
+[2021-05-11 17:40:54 #20 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-05-11 17:40:54 #21 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-05-11 17:40:54 #22 type.registry] 
+New type domain.Question
+
+[2021-05-11 17:40:54 #23 type] 
+Type domain.Question is not enhanced.
+
+[2021-05-11 17:40:54 #24 type.registry] 
+New type domain.Event
+
+[2021-05-11 17:40:54 #25 type] 
+Type domain.Event is not enhanced.
+
+[2021-05-11 17:40:54 #26 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-05-11 17:40:54 #27 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2021-05-11 17:40:54 #28 type.registry] 
+New type java.util.HashMap<java.lang.Object,java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-05-11 17:48:16 #1 store] 
+Database 'C:\Users\suade\git\3iterationREAL\3iteration\src\main\resources\bets.temp' is opened by 10004@LAPTOP-CP3BSS6D
+
+[2021-05-11 17:48:16 #2 type.registry] 
+New type domain.Person
+
+[2021-05-11 17:48:16 #3 type.registry] 
+New type domain.Admin
+
+[2021-05-11 17:48:16 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-05-11 17:48:16 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-05-11 17:48:16 #6 type.registry] 
+New type domain.Worker
+
+[2021-05-11 17:48:16 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-05-11 17:48:16 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-05-11 17:48:16 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-05-11 17:48:16 #10 type.registry] 
+New type domain.ReplicatedProperties
+
+[2021-05-11 17:48:17 #11 type.registry] 
+New type java.util.HashMap<domain.RegisteredClient,domain.ReplicatedProperties>
+
+[2021-05-11 17:48:17 #12 type.registry] 
+New type domain.Movements
+
+[2021-05-11 17:48:17 #13 type.registry] 
+New type java.util.Vector<domain.Movements>
+
+[2021-05-11 17:48:17 #14 type.registry] 
+New type domain.Bet
+
+[2021-05-11 17:48:17 #15 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-05-11 17:48:17 #16 type] 
+Type domain.ReplicatedProperties is not enhanced.
+
+[2021-05-11 17:48:17 #17 type] 
+Type domain.Movements is not enhanced.
+
+[2021-05-11 17:48:17 #18 type] 
+Type domain.Bet is not enhanced.
+
+[2021-05-11 17:48:17 #19 type.registry] 
+New type domain.Prediction
+
+[2021-05-11 17:48:17 #20 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-05-11 17:48:17 #21 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-05-11 17:48:17 #22 type.registry] 
+New type domain.Question
+
+[2021-05-11 17:48:17 #23 type] 
+Type domain.Question is not enhanced.
+
+[2021-05-11 17:48:17 #24 type.registry] 
+New type domain.Event
+
+[2021-05-11 17:48:17 #25 type] 
+Type domain.Event is not enhanced.
+
+[2021-05-11 17:48:17 #26 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-05-11 17:48:17 #27 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2021-05-11 17:48:17 #28 type.registry] 
+New type java.util.HashMap<java.lang.Object,java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-05-11 18:01:38 #1 store] 
+Database 'C:\Users\suade\git\3iterationREAL\3iteration\src\main\resources\bets.temp' is opened by 14748@LAPTOP-CP3BSS6D
+
+[2021-05-11 18:01:39 #2 type.registry] 
+New type domain.Person
+
+[2021-05-11 18:01:39 #3 type.registry] 
+New type domain.Admin
+
+[2021-05-11 18:01:39 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-05-11 18:01:39 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-05-11 18:01:39 #6 type.registry] 
+New type domain.Worker
+
+[2021-05-11 18:01:39 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-05-11 18:01:39 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-05-11 18:01:39 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-05-11 18:01:39 #10 type.registry] 
+New type domain.ReplicatedProperties
+
+[2021-05-11 18:01:39 #11 type.registry] 
+New type java.util.HashMap<domain.RegisteredClient,domain.ReplicatedProperties>
+
+[2021-05-11 18:01:39 #12 type.registry] 
+New type domain.Movements
+
+[2021-05-11 18:01:39 #13 type.registry] 
+New type java.util.Vector<domain.Movements>
+
+[2021-05-11 18:01:39 #14 type.registry] 
+New type domain.Bet
+
+[2021-05-11 18:01:39 #15 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-05-11 18:01:39 #16 type] 
+Type domain.ReplicatedProperties is not enhanced.
+
+[2021-05-11 18:01:39 #17 type] 
+Type domain.Movements is not enhanced.
+
+[2021-05-11 18:01:39 #18 type] 
+Type domain.Bet is not enhanced.
+
+[2021-05-11 18:01:39 #19 type.registry] 
+New type domain.Prediction
+
+[2021-05-11 18:01:39 #20 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-05-11 18:01:39 #21 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-05-11 18:01:39 #22 type.registry] 
+New type domain.Question
+
+[2021-05-11 18:01:39 #23 type] 
+Type domain.Question is not enhanced.
+
+[2021-05-11 18:01:39 #24 type.registry] 
+New type domain.Event
+
+[2021-05-11 18:01:39 #25 type] 
+Type domain.Event is not enhanced.
+
+[2021-05-11 18:01:39 #26 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-05-11 18:01:39 #27 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2021-05-11 18:01:39 #28 type.registry] 
+New type java.util.HashMap<java.lang.Object,java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-05-11 19:39:34 #1 store] 
+Database 'C:\Users\suade\git\3iterationREAL\3iteration\src\main\resources\bets.temp' is opened by 12328@LAPTOP-CP3BSS6D
+
+[2021-05-11 19:39:34 #2 type.registry] 
+New type domain.Person
+
+[2021-05-11 19:39:34 #3 type.registry] 
+New type domain.Admin
+
+[2021-05-11 19:39:34 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-05-11 19:39:34 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-05-11 19:39:34 #6 type.registry] 
+New type domain.Worker
+
+[2021-05-11 19:39:34 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-05-11 19:39:34 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-05-11 19:39:34 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-05-11 19:39:34 #10 type.registry] 
+New type domain.ReplicatedProperties
+
+[2021-05-11 19:39:34 #11 type.registry] 
+New type java.util.HashMap<domain.RegisteredClient,domain.ReplicatedProperties>
+
+[2021-05-11 19:39:35 #12 type.registry] 
+New type domain.Movements
+
+[2021-05-11 19:39:35 #13 type.registry] 
+New type java.util.Vector<domain.Movements>
+
+[2021-05-11 19:39:35 #14 type.registry] 
+New type domain.Bet
+
+[2021-05-11 19:39:35 #15 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-05-11 19:39:35 #16 type] 
+Type domain.ReplicatedProperties is not enhanced.
+
+[2021-05-11 19:39:35 #17 type] 
+Type domain.Movements is not enhanced.
+
+[2021-05-11 19:39:35 #18 type] 
+Type domain.Bet is not enhanced.
+
+[2021-05-11 19:39:35 #19 type.registry] 
+New type domain.Prediction
+
+[2021-05-11 19:39:35 #20 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-05-11 19:39:35 #21 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-05-11 19:39:35 #22 type.registry] 
+New type domain.Question
+
+[2021-05-11 19:39:35 #23 type] 
+Type domain.Question is not enhanced.
+
+[2021-05-11 19:39:35 #24 type.registry] 
+New type domain.Event
+
+[2021-05-11 19:39:35 #25 type] 
+Type domain.Event is not enhanced.
+
+[2021-05-11 19:39:35 #26 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-05-11 19:39:35 #27 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2021-05-11 19:39:35 #28 type.registry] 
+New type java.util.HashMap<java.lang.Object,java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-05-11 19:42:10 #1 store] 
+Database 'C:\Users\suade\git\3iterationREAL\3iteration\src\main\resources\bets.temp' is opened by 21800@LAPTOP-CP3BSS6D
+
+[2021-05-11 19:42:10 #2 type.registry] 
+New type domain.Person
+
+[2021-05-11 19:42:10 #3 type.registry] 
+New type domain.Admin
+
+[2021-05-11 19:42:10 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-05-11 19:42:10 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-05-11 19:42:10 #6 type.registry] 
+New type domain.Worker
+
+[2021-05-11 19:42:10 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-05-11 19:42:10 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-05-11 19:42:10 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-05-11 19:42:10 #10 type.registry] 
+New type domain.ReplicatedProperties
+
+[2021-05-11 19:42:10 #11 type.registry] 
+New type java.util.HashMap<domain.RegisteredClient,domain.ReplicatedProperties>
+
+[2021-05-11 19:42:10 #12 type.registry] 
+New type domain.Movements
+
+[2021-05-11 19:42:10 #13 type.registry] 
+New type java.util.Vector<domain.Movements>
+
+[2021-05-11 19:42:10 #14 type.registry] 
+New type domain.Bet
+
+[2021-05-11 19:42:10 #15 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-05-11 19:42:10 #16 type] 
+Type domain.ReplicatedProperties is not enhanced.
+
+[2021-05-11 19:42:10 #17 type] 
+Type domain.Movements is not enhanced.
+
+[2021-05-11 19:42:10 #18 type] 
+Type domain.Bet is not enhanced.
+
+[2021-05-11 19:42:10 #19 type.registry] 
+New type domain.Prediction
+
+[2021-05-11 19:42:10 #20 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-05-11 19:42:10 #21 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-05-11 19:42:10 #22 type.registry] 
+New type domain.Question
+
+[2021-05-11 19:42:10 #23 type] 
+Type domain.Question is not enhanced.
+
+[2021-05-11 19:42:10 #24 type.registry] 
+New type domain.Event
+
+[2021-05-11 19:42:10 #25 type] 
+Type domain.Event is not enhanced.
+
+[2021-05-11 19:42:10 #26 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-05-11 19:42:10 #27 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2021-05-11 19:42:10 #28 type.registry] 
+New type java.util.HashMap<java.lang.Object,java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-05-11 19:44:04 #1 store] 
+Database 'C:\Users\suade\git\3iterationREAL\3iteration\src\main\resources\bets.temp' is opened by 1740@LAPTOP-CP3BSS6D
+
+[2021-05-11 19:44:04 #2 type.registry] 
+New type domain.Person
+
+[2021-05-11 19:44:04 #3 type.registry] 
+New type domain.Admin
+
+[2021-05-11 19:44:04 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-05-11 19:44:04 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-05-11 19:44:04 #6 type.registry] 
+New type domain.Worker
+
+[2021-05-11 19:44:04 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-05-11 19:44:04 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-05-11 19:44:04 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-05-11 19:44:04 #10 type.registry] 
+New type domain.ReplicatedProperties
+
+[2021-05-11 19:44:04 #11 type.registry] 
+New type java.util.HashMap<domain.RegisteredClient,domain.ReplicatedProperties>
+
+[2021-05-11 19:44:04 #12 type.registry] 
+New type domain.Movements
+
+[2021-05-11 19:44:04 #13 type.registry] 
+New type java.util.Vector<domain.Movements>
+
+[2021-05-11 19:44:04 #14 type.registry] 
+New type domain.Bet
+
+[2021-05-11 19:44:04 #15 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-05-11 19:44:04 #16 type] 
+Type domain.ReplicatedProperties is not enhanced.
+
+[2021-05-11 19:44:04 #17 type] 
+Type domain.Movements is not enhanced.
+
+[2021-05-11 19:44:04 #18 type] 
+Type domain.Bet is not enhanced.
+
+[2021-05-11 19:44:04 #19 type.registry] 
+New type domain.Prediction
+
+[2021-05-11 19:44:04 #20 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-05-11 19:44:04 #21 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-05-11 19:44:04 #22 type.registry] 
+New type domain.Question
+
+[2021-05-11 19:44:04 #23 type] 
+Type domain.Question is not enhanced.
+
+[2021-05-11 19:44:04 #24 type.registry] 
+New type domain.Event
+
+[2021-05-11 19:44:04 #25 type] 
+Type domain.Event is not enhanced.
+
+[2021-05-11 19:44:04 #26 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-05-11 19:44:04 #27 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2021-05-11 19:44:04 #28 type.registry] 
+New type java.util.HashMap<java.lang.Object,java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-05-11 19:48:17 #1 store] 
+Database 'C:\Users\suade\git\3iterationREAL\3iteration\src\main\resources\bets.temp' is opened by 21620@LAPTOP-CP3BSS6D
+
+[2021-05-11 19:48:17 #2 type.registry] 
+New type domain.Person
+
+[2021-05-11 19:48:17 #3 type.registry] 
+New type domain.Admin
+
+[2021-05-11 19:48:17 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-05-11 19:48:17 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-05-11 19:48:17 #6 type.registry] 
+New type domain.Worker
+
+[2021-05-11 19:48:17 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-05-11 19:48:17 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-05-11 19:48:17 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-05-11 19:48:17 #10 type.registry] 
+New type domain.ReplicatedProperties
+
+[2021-05-11 19:48:17 #11 type.registry] 
+New type java.util.HashMap<domain.RegisteredClient,domain.ReplicatedProperties>
+
+[2021-05-11 19:48:17 #12 type.registry] 
+New type domain.Movements
+
+[2021-05-11 19:48:17 #13 type.registry] 
+New type java.util.Vector<domain.Movements>
+
+[2021-05-11 19:48:17 #14 type.registry] 
+New type domain.Bet
+
+[2021-05-11 19:48:17 #15 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-05-11 19:48:17 #16 type] 
+Type domain.ReplicatedProperties is not enhanced.
+
+[2021-05-11 19:48:17 #17 type] 
+Type domain.Movements is not enhanced.
+
+[2021-05-11 19:48:17 #18 type] 
+Type domain.Bet is not enhanced.
+
+[2021-05-11 19:48:17 #19 type.registry] 
+New type domain.Prediction
+
+[2021-05-11 19:48:17 #20 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-05-11 19:48:17 #21 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-05-11 19:48:17 #22 type.registry] 
+New type domain.Question
+
+[2021-05-11 19:48:17 #23 type] 
+Type domain.Question is not enhanced.
+
+[2021-05-11 19:48:17 #24 type.registry] 
+New type domain.Event
+
+[2021-05-11 19:48:17 #25 type] 
+Type domain.Event is not enhanced.
+
+[2021-05-11 19:48:17 #26 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-05-11 19:48:17 #27 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2021-05-11 19:48:17 #28 type.registry] 
+New type java.util.HashMap<java.lang.Object,java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-05-11 19:52:56 #1 store] 
+Database 'C:\Users\suade\git\3iterationREAL\3iteration\src\main\resources\bets.temp' is opened by 2908@LAPTOP-CP3BSS6D
+
+[2021-05-11 19:52:57 #2 type.registry] 
+New type domain.Person
+
+[2021-05-11 19:52:57 #3 type.registry] 
+New type domain.Admin
+
+[2021-05-11 19:52:57 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-05-11 19:52:57 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-05-11 19:52:57 #6 type.registry] 
+New type domain.Worker
+
+[2021-05-11 19:52:57 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-05-11 19:52:57 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-05-11 19:52:57 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-05-11 19:52:57 #10 type.registry] 
+New type domain.ReplicatedProperties
+
+[2021-05-11 19:52:57 #11 type.registry] 
+New type java.util.HashMap<domain.RegisteredClient,domain.ReplicatedProperties>
+
+[2021-05-11 19:52:57 #12 type.registry] 
+New type domain.Movements
+
+[2021-05-11 19:52:57 #13 type.registry] 
+New type java.util.Vector<domain.Movements>
+
+[2021-05-11 19:52:57 #14 type.registry] 
+New type domain.Bet
+
+[2021-05-11 19:52:57 #15 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-05-11 19:52:57 #16 type] 
+Type domain.ReplicatedProperties is not enhanced.
+
+[2021-05-11 19:52:57 #17 type] 
+Type domain.Movements is not enhanced.
+
+[2021-05-11 19:52:57 #18 type] 
+Type domain.Bet is not enhanced.
+
+[2021-05-11 19:52:57 #19 type.registry] 
+New type domain.Prediction
+
+[2021-05-11 19:52:57 #20 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-05-11 19:52:57 #21 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-05-11 19:52:57 #22 type.registry] 
+New type domain.Question
+
+[2021-05-11 19:52:57 #23 type] 
+Type domain.Question is not enhanced.
+
+[2021-05-11 19:52:57 #24 type.registry] 
+New type domain.Event
+
+[2021-05-11 19:52:57 #25 type] 
+Type domain.Event is not enhanced.
+
+[2021-05-11 19:52:57 #26 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-05-11 19:52:57 #27 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2021-05-11 19:52:57 #28 type.registry] 
+New type java.util.HashMap<java.lang.Object,java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-05-11 19:55:30 #1 store] 
+Database 'C:\Users\suade\git\3iterationREAL\3iteration\src\main\resources\bets.temp' is opened by 16544@LAPTOP-CP3BSS6D
+
+[2021-05-11 19:55:31 #2 type.registry] 
+New type domain.Person
+
+[2021-05-11 19:55:31 #3 type.registry] 
+New type domain.Admin
+
+[2021-05-11 19:55:31 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-05-11 19:55:31 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-05-11 19:55:31 #6 type.registry] 
+New type domain.Worker
+
+[2021-05-11 19:55:31 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-05-11 19:55:31 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-05-11 19:55:31 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-05-11 19:55:31 #10 type.registry] 
+New type domain.ReplicatedProperties
+
+[2021-05-11 19:55:31 #11 type.registry] 
+New type java.util.HashMap<domain.RegisteredClient,domain.ReplicatedProperties>
+
+[2021-05-11 19:55:31 #12 type.registry] 
+New type domain.Movements
+
+[2021-05-11 19:55:31 #13 type.registry] 
+New type java.util.Vector<domain.Movements>
+
+[2021-05-11 19:55:31 #14 type.registry] 
+New type domain.Bet
+
+[2021-05-11 19:55:31 #15 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-05-11 19:55:31 #16 type] 
+Type domain.ReplicatedProperties is not enhanced.
+
+[2021-05-11 19:55:31 #17 type] 
+Type domain.Movements is not enhanced.
+
+[2021-05-11 19:55:31 #18 type] 
+Type domain.Bet is not enhanced.
+
+[2021-05-11 19:55:31 #19 type.registry] 
+New type domain.Prediction
+
+[2021-05-11 19:55:31 #20 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-05-11 19:55:31 #21 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-05-11 19:55:31 #22 type.registry] 
+New type domain.Question
+
+[2021-05-11 19:55:31 #23 type] 
+Type domain.Question is not enhanced.
+
+[2021-05-11 19:55:31 #24 type.registry] 
+New type domain.Event
+
+[2021-05-11 19:55:31 #25 type] 
+Type domain.Event is not enhanced.
+
+[2021-05-11 19:55:31 #26 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-05-11 19:55:31 #27 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2021-05-11 19:55:31 #28 type.registry] 
+New type java.util.HashMap<java.lang.Object,java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-05-11 20:01:36 #1 store] 
+Database 'C:\Users\suade\git\3iterationREAL\3iteration\src\main\resources\bets.temp' is opened by 10628@LAPTOP-CP3BSS6D
+
+[2021-05-11 20:01:36 #2 type.registry] 
+New type domain.Person
+
+[2021-05-11 20:01:36 #3 type.registry] 
+New type domain.Admin
+
+[2021-05-11 20:01:36 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-05-11 20:01:36 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-05-11 20:01:36 #6 type.registry] 
+New type domain.Worker
+
+[2021-05-11 20:01:36 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-05-11 20:01:36 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-05-11 20:01:36 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-05-11 20:01:36 #10 type.registry] 
+New type domain.ReplicatedProperties
+
+[2021-05-11 20:01:36 #11 type.registry] 
+New type java.util.HashMap<domain.RegisteredClient,domain.ReplicatedProperties>
+
+[2021-05-11 20:01:36 #12 type.registry] 
+New type domain.Movements
+
+[2021-05-11 20:01:36 #13 type.registry] 
+New type java.util.Vector<domain.Movements>
+
+[2021-05-11 20:01:36 #14 type.registry] 
+New type domain.Bet
+
+[2021-05-11 20:01:36 #15 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-05-11 20:01:36 #16 type] 
+Type domain.ReplicatedProperties is not enhanced.
+
+[2021-05-11 20:01:36 #17 type] 
+Type domain.Movements is not enhanced.
+
+[2021-05-11 20:01:36 #18 type] 
+Type domain.Bet is not enhanced.
+
+[2021-05-11 20:01:36 #19 type.registry] 
+New type domain.Prediction
+
+[2021-05-11 20:01:36 #20 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-05-11 20:01:36 #21 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-05-11 20:01:36 #22 type.registry] 
+New type domain.Question
+
+[2021-05-11 20:01:36 #23 type] 
+Type domain.Question is not enhanced.
+
+[2021-05-11 20:01:36 #24 type.registry] 
+New type domain.Event
+
+[2021-05-11 20:01:36 #25 type] 
+Type domain.Event is not enhanced.
+
+[2021-05-11 20:01:36 #26 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-05-11 20:01:36 #27 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2021-05-11 20:01:36 #28 type.registry] 
+New type java.util.HashMap<java.lang.Object,java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-05-11 20:06:58 #1 store] 
+Database 'C:\Users\suade\git\3iterationREAL\3iteration\src\main\resources\bets.temp' is opened by 21196@LAPTOP-CP3BSS6D
+
+[2021-05-11 20:06:58 #2 type.registry] 
+New type domain.Person
+
+[2021-05-11 20:06:58 #3 type.registry] 
+New type domain.Admin
+
+[2021-05-11 20:06:58 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-05-11 20:06:58 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-05-11 20:06:58 #6 type.registry] 
+New type domain.Worker
+
+[2021-05-11 20:06:58 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-05-11 20:06:58 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-05-11 20:06:58 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-05-11 20:06:58 #10 type.registry] 
+New type domain.ReplicatedProperties
+
+[2021-05-11 20:06:58 #11 type.registry] 
+New type java.util.HashMap<domain.RegisteredClient,domain.ReplicatedProperties>
+
+[2021-05-11 20:06:58 #12 type.registry] 
+New type domain.Movements
+
+[2021-05-11 20:06:58 #13 type.registry] 
+New type java.util.Vector<domain.Movements>
+
+[2021-05-11 20:06:58 #14 type.registry] 
+New type domain.Bet
+
+[2021-05-11 20:06:58 #15 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-05-11 20:06:58 #16 type] 
+Type domain.ReplicatedProperties is not enhanced.
+
+[2021-05-11 20:06:58 #17 type] 
+Type domain.Movements is not enhanced.
+
+[2021-05-11 20:06:58 #18 type] 
+Type domain.Bet is not enhanced.
+
+[2021-05-11 20:06:58 #19 type.registry] 
+New type domain.Prediction
+
+[2021-05-11 20:06:58 #20 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-05-11 20:06:58 #21 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-05-11 20:06:58 #22 type.registry] 
+New type domain.Question
+
+[2021-05-11 20:06:58 #23 type] 
+Type domain.Question is not enhanced.
+
+[2021-05-11 20:06:58 #24 type.registry] 
+New type domain.Event
+
+[2021-05-11 20:06:58 #25 type] 
+Type domain.Event is not enhanced.
+
+[2021-05-11 20:06:58 #26 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-05-11 20:06:58 #27 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2021-05-11 20:06:58 #28 type.registry] 
+New type java.util.HashMap<java.lang.Object,java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-05-11 20:11:38 #1 store] 
+Database 'C:\Users\suade\git\3iterationREAL\3iteration\src\main\resources\bets.temp' is opened by 5988@LAPTOP-CP3BSS6D
+
+[2021-05-11 20:11:38 #2 type.registry] 
+New type domain.Person
+
+[2021-05-11 20:11:38 #3 type.registry] 
+New type domain.Admin
+
+[2021-05-11 20:11:38 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-05-11 20:11:38 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-05-11 20:11:38 #6 type.registry] 
+New type domain.Worker
+
+[2021-05-11 20:11:38 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-05-11 20:11:38 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-05-11 20:11:38 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-05-11 20:11:38 #10 type.registry] 
+New type domain.ReplicatedProperties
+
+[2021-05-11 20:11:38 #11 type.registry] 
+New type java.util.HashMap<domain.RegisteredClient,domain.ReplicatedProperties>
+
+[2021-05-11 20:11:38 #12 type.registry] 
+New type domain.Movements
+
+[2021-05-11 20:11:38 #13 type.registry] 
+New type java.util.Vector<domain.Movements>
+
+[2021-05-11 20:11:38 #14 type.registry] 
+New type domain.Bet
+
+[2021-05-11 20:11:38 #15 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-05-11 20:11:38 #16 type] 
+Type domain.ReplicatedProperties is not enhanced.
+
+[2021-05-11 20:11:38 #17 type] 
+Type domain.Movements is not enhanced.
+
+[2021-05-11 20:11:38 #18 type] 
+Type domain.Bet is not enhanced.
+
+[2021-05-11 20:11:38 #19 type.registry] 
+New type domain.Prediction
+
+[2021-05-11 20:11:38 #20 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-05-11 20:11:38 #21 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-05-11 20:11:38 #22 type.registry] 
+New type domain.Question
+
+[2021-05-11 20:11:38 #23 type] 
+Type domain.Question is not enhanced.
+
+[2021-05-11 20:11:38 #24 type.registry] 
+New type domain.Event
+
+[2021-05-11 20:11:38 #25 type] 
+Type domain.Event is not enhanced.
+
+[2021-05-11 20:11:38 #26 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-05-11 20:11:38 #27 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2021-05-11 20:11:38 #28 type.registry] 
+New type java.util.HashMap<java.lang.Object,java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-05-11 20:18:05 #1 store] 
+Database 'C:\Users\suade\git\3iterationREAL\3iteration\src\main\resources\bets.temp' is opened by 14492@LAPTOP-CP3BSS6D
+
+[2021-05-11 20:18:05 #2 type.registry] 
+New type domain.Person
+
+[2021-05-11 20:18:05 #3 type.registry] 
+New type domain.Admin
+
+[2021-05-11 20:18:05 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-05-11 20:18:05 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-05-11 20:18:05 #6 type.registry] 
+New type domain.Worker
+
+[2021-05-11 20:18:05 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-05-11 20:18:05 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-05-11 20:18:05 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-05-11 20:18:05 #10 type.registry] 
+New type domain.ReplicatedProperties
+
+[2021-05-11 20:18:05 #11 type.registry] 
+New type java.util.HashMap<domain.RegisteredClient,domain.ReplicatedProperties>
+
+[2021-05-11 20:18:05 #12 type.registry] 
+New type domain.Movements
+
+[2021-05-11 20:18:05 #13 type.registry] 
+New type java.util.Vector<domain.Movements>
+
+[2021-05-11 20:18:05 #14 type.registry] 
+New type domain.Bet
+
+[2021-05-11 20:18:05 #15 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-05-11 20:18:05 #16 type] 
+Type domain.ReplicatedProperties is not enhanced.
+
+[2021-05-11 20:18:05 #17 type] 
+Type domain.Movements is not enhanced.
+
+[2021-05-11 20:18:05 #18 type] 
+Type domain.Bet is not enhanced.
+
+[2021-05-11 20:18:05 #19 type.registry] 
+New type domain.Prediction
+
+[2021-05-11 20:18:05 #20 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-05-11 20:18:05 #21 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-05-11 20:18:05 #22 type.registry] 
+New type domain.Question
+
+[2021-05-11 20:18:05 #23 type] 
+Type domain.Question is not enhanced.
+
+[2021-05-11 20:18:05 #24 type.registry] 
+New type domain.Event
+
+[2021-05-11 20:18:05 #25 type] 
+Type domain.Event is not enhanced.
+
+[2021-05-11 20:18:05 #26 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-05-11 20:18:05 #27 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2021-05-11 20:18:05 #28 type.registry] 
+New type java.util.HashMap<java.lang.Object,java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-05-11 20:22:09 #1 store] 
+Database 'C:\Users\suade\git\3iterationREAL\3iteration\src\main\resources\bets.temp' is opened by 13780@LAPTOP-CP3BSS6D
+
+[2021-05-11 20:22:09 #2 type.registry] 
+New type domain.Person
+
+[2021-05-11 20:22:09 #3 type.registry] 
+New type domain.Admin
+
+[2021-05-11 20:22:09 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-05-11 20:22:09 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-05-11 20:22:09 #6 type.registry] 
+New type domain.Worker
+
+[2021-05-11 20:22:09 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-05-11 20:22:09 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-05-11 20:22:09 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-05-11 20:22:09 #10 type.registry] 
+New type domain.ReplicatedProperties
+
+[2021-05-11 20:22:09 #11 type.registry] 
+New type java.util.HashMap<domain.RegisteredClient,domain.ReplicatedProperties>
+
+[2021-05-11 20:22:09 #12 type.registry] 
+New type domain.Movements
+
+[2021-05-11 20:22:09 #13 type.registry] 
+New type java.util.Vector<domain.Movements>
+
+[2021-05-11 20:22:09 #14 type.registry] 
+New type domain.Bet
+
+[2021-05-11 20:22:09 #15 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-05-11 20:22:09 #16 type] 
+Type domain.ReplicatedProperties is not enhanced.
+
+[2021-05-11 20:22:09 #17 type] 
+Type domain.Movements is not enhanced.
+
+[2021-05-11 20:22:09 #18 type] 
+Type domain.Bet is not enhanced.
+
+[2021-05-11 20:22:09 #19 type.registry] 
+New type domain.Prediction
+
+[2021-05-11 20:22:09 #20 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-05-11 20:22:09 #21 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-05-11 20:22:09 #22 type.registry] 
+New type domain.Question
+
+[2021-05-11 20:22:09 #23 type] 
+Type domain.Question is not enhanced.
+
+[2021-05-11 20:22:09 #24 type.registry] 
+New type domain.Event
+
+[2021-05-11 20:22:09 #25 type] 
+Type domain.Event is not enhanced.
+
+[2021-05-11 20:22:09 #26 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-05-11 20:22:09 #27 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2021-05-11 20:22:09 #28 type.registry] 
+New type java.util.HashMap<java.lang.Object,java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-05-11 20:24:13 #1 store] 
+Database 'C:\Users\suade\git\3iterationREAL\3iteration\src\main\resources\bets.temp' is opened by 10744@LAPTOP-CP3BSS6D
+
+[2021-05-11 20:24:13 #2 type.registry] 
+New type domain.Person
+
+[2021-05-11 20:24:13 #3 type.registry] 
+New type domain.Admin
+
+[2021-05-11 20:24:13 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-05-11 20:24:13 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-05-11 20:24:13 #6 type.registry] 
+New type domain.Worker
+
+[2021-05-11 20:24:13 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-05-11 20:24:13 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-05-11 20:24:13 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-05-11 20:24:13 #10 type.registry] 
+New type domain.ReplicatedProperties
+
+[2021-05-11 20:24:13 #11 type.registry] 
+New type java.util.HashMap<domain.RegisteredClient,domain.ReplicatedProperties>
+
+[2021-05-11 20:24:13 #12 type.registry] 
+New type domain.Movements
+
+[2021-05-11 20:24:13 #13 type.registry] 
+New type java.util.Vector<domain.Movements>
+
+[2021-05-11 20:24:13 #14 type.registry] 
+New type domain.Bet
+
+[2021-05-11 20:24:13 #15 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-05-11 20:24:13 #16 type] 
+Type domain.ReplicatedProperties is not enhanced.
+
+[2021-05-11 20:24:13 #17 type] 
+Type domain.Movements is not enhanced.
+
+[2021-05-11 20:24:13 #18 type] 
+Type domain.Bet is not enhanced.
+
+[2021-05-11 20:24:13 #19 type.registry] 
+New type domain.Prediction
+
+[2021-05-11 20:24:13 #20 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-05-11 20:24:13 #21 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-05-11 20:24:13 #22 type.registry] 
+New type domain.Question
+
+[2021-05-11 20:24:13 #23 type] 
+Type domain.Question is not enhanced.
+
+[2021-05-11 20:24:13 #24 type.registry] 
+New type domain.Event
+
+[2021-05-11 20:24:13 #25 type] 
+Type domain.Event is not enhanced.
+
+[2021-05-11 20:24:13 #26 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-05-11 20:24:13 #27 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2021-05-11 20:24:13 #28 type.registry] 
+New type java.util.HashMap<java.lang.Object,java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-05-11 20:26:41 #1 store] 
+Database 'C:\Users\suade\git\3iterationREAL\3iteration\src\main\resources\bets.temp' is opened by 5536@LAPTOP-CP3BSS6D
+
+[2021-05-11 20:26:42 #2 type.registry] 
+New type domain.Person
+
+[2021-05-11 20:26:42 #3 type.registry] 
+New type domain.Admin
+
+[2021-05-11 20:26:42 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-05-11 20:26:42 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-05-11 20:26:42 #6 type.registry] 
+New type domain.Worker
+
+[2021-05-11 20:26:42 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-05-11 20:26:42 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-05-11 20:26:42 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-05-11 20:26:42 #10 type.registry] 
+New type domain.ReplicatedProperties
+
+[2021-05-11 20:26:42 #11 type.registry] 
+New type java.util.HashMap<domain.RegisteredClient,domain.ReplicatedProperties>
+
+[2021-05-11 20:26:42 #12 type.registry] 
+New type domain.Movements
+
+[2021-05-11 20:26:42 #13 type.registry] 
+New type java.util.Vector<domain.Movements>
+
+[2021-05-11 20:26:42 #14 type.registry] 
+New type domain.Bet
+
+[2021-05-11 20:26:42 #15 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-05-11 20:26:42 #16 type] 
+Type domain.ReplicatedProperties is not enhanced.
+
+[2021-05-11 20:26:42 #17 type] 
+Type domain.Movements is not enhanced.
+
+[2021-05-11 20:26:42 #18 type] 
+Type domain.Bet is not enhanced.
+
+[2021-05-11 20:26:42 #19 type.registry] 
+New type domain.Prediction
+
+[2021-05-11 20:26:42 #20 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-05-11 20:26:42 #21 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-05-11 20:26:42 #22 type.registry] 
+New type domain.Question
+
+[2021-05-11 20:26:42 #23 type] 
+Type domain.Question is not enhanced.
+
+[2021-05-11 20:26:42 #24 type.registry] 
+New type domain.Event
+
+[2021-05-11 20:26:42 #25 type] 
+Type domain.Event is not enhanced.
+
+[2021-05-11 20:26:42 #26 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-05-11 20:26:42 #27 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2021-05-11 20:26:42 #28 type.registry] 
+New type java.util.HashMap<java.lang.Object,java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-05-11 20:28:54 #1 store] 
+Database 'C:\Users\suade\git\3iterationREAL\3iteration\src\main\resources\bets.temp' is opened by 9984@LAPTOP-CP3BSS6D
+
+[2021-05-11 20:28:54 #2 type.registry] 
+New type domain.Person
+
+[2021-05-11 20:28:54 #3 type.registry] 
+New type domain.Admin
+
+[2021-05-11 20:28:54 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-05-11 20:28:54 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-05-11 20:28:54 #6 type.registry] 
+New type domain.Worker
+
+[2021-05-11 20:28:54 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-05-11 20:28:54 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-05-11 20:28:54 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-05-11 20:28:54 #10 type.registry] 
+New type domain.ReplicatedProperties
+
+[2021-05-11 20:28:54 #11 type.registry] 
+New type java.util.HashMap<domain.RegisteredClient,domain.ReplicatedProperties>
+
+[2021-05-11 20:28:54 #12 type.registry] 
+New type domain.Movements
+
+[2021-05-11 20:28:54 #13 type.registry] 
+New type java.util.Vector<domain.Movements>
+
+[2021-05-11 20:28:54 #14 type.registry] 
+New type domain.Bet
+
+[2021-05-11 20:28:54 #15 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-05-11 20:28:54 #16 type] 
+Type domain.ReplicatedProperties is not enhanced.
+
+[2021-05-11 20:28:54 #17 type] 
+Type domain.Movements is not enhanced.
+
+[2021-05-11 20:28:54 #18 type] 
+Type domain.Bet is not enhanced.
+
+[2021-05-11 20:28:54 #19 type.registry] 
+New type domain.Prediction
+
+[2021-05-11 20:28:54 #20 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-05-11 20:28:54 #21 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-05-11 20:28:54 #22 type.registry] 
+New type domain.Question
+
+[2021-05-11 20:28:54 #23 type] 
+Type domain.Question is not enhanced.
+
+[2021-05-11 20:28:54 #24 type.registry] 
+New type domain.Event
+
+[2021-05-11 20:28:54 #25 type] 
+Type domain.Event is not enhanced.
+
+[2021-05-11 20:28:54 #26 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-05-11 20:28:54 #27 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2021-05-11 20:28:54 #28 type.registry] 
+New type java.util.HashMap<java.lang.Object,java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-05-11 20:30:40 #1 store] 
+Database 'C:\Users\suade\git\3iterationREAL\3iteration\src\main\resources\bets.temp' is opened by 19884@LAPTOP-CP3BSS6D
+
+[2021-05-11 20:30:40 #2 type.registry] 
+New type domain.Person
+
+[2021-05-11 20:30:40 #3 type.registry] 
+New type domain.Admin
+
+[2021-05-11 20:30:40 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-05-11 20:30:40 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-05-11 20:30:40 #6 type.registry] 
+New type domain.Worker
+
+[2021-05-11 20:30:40 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-05-11 20:30:40 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-05-11 20:30:40 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-05-11 20:30:40 #10 type.registry] 
+New type domain.ReplicatedProperties
+
+[2021-05-11 20:30:40 #11 type.registry] 
+New type java.util.HashMap<domain.RegisteredClient,domain.ReplicatedProperties>
+
+[2021-05-11 20:30:40 #12 type.registry] 
+New type domain.Movements
+
+[2021-05-11 20:30:40 #13 type.registry] 
+New type java.util.Vector<domain.Movements>
+
+[2021-05-11 20:30:40 #14 type.registry] 
+New type domain.Bet
+
+[2021-05-11 20:30:40 #15 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-05-11 20:30:40 #16 type] 
+Type domain.ReplicatedProperties is not enhanced.
+
+[2021-05-11 20:30:40 #17 type] 
+Type domain.Movements is not enhanced.
+
+[2021-05-11 20:30:40 #18 type] 
+Type domain.Bet is not enhanced.
+
+[2021-05-11 20:30:40 #19 type.registry] 
+New type domain.Prediction
+
+[2021-05-11 20:30:40 #20 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-05-11 20:30:40 #21 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-05-11 20:30:40 #22 type.registry] 
+New type domain.Question
+
+[2021-05-11 20:30:40 #23 type] 
+Type domain.Question is not enhanced.
+
+[2021-05-11 20:30:40 #24 type.registry] 
+New type domain.Event
+
+[2021-05-11 20:30:40 #25 type] 
+Type domain.Event is not enhanced.
+
+[2021-05-11 20:30:40 #26 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-05-11 20:30:40 #27 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2021-05-11 20:30:40 #28 type.registry] 
+New type java.util.HashMap<java.lang.Object,java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-05-11 20:36:26 #1 store] 
+Database 'C:\Users\suade\git\3iterationREAL\3iteration\src\main\resources\bets.temp' is opened by 18244@LAPTOP-CP3BSS6D
+
+[2021-05-11 20:36:26 #2 type.registry] 
+New type domain.Person
+
+[2021-05-11 20:36:26 #3 type.registry] 
+New type domain.Admin
+
+[2021-05-11 20:36:26 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-05-11 20:36:26 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-05-11 20:36:26 #6 type.registry] 
+New type domain.Worker
+
+[2021-05-11 20:36:26 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-05-11 20:36:26 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-05-11 20:36:26 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-05-11 20:36:26 #10 type.registry] 
+New type domain.ReplicatedProperties
+
+[2021-05-11 20:36:26 #11 type.registry] 
+New type java.util.HashMap<domain.RegisteredClient,domain.ReplicatedProperties>
+
+[2021-05-11 20:36:26 #12 type.registry] 
+New type domain.Movements
+
+[2021-05-11 20:36:26 #13 type.registry] 
+New type java.util.Vector<domain.Movements>
+
+[2021-05-11 20:36:26 #14 type.registry] 
+New type domain.Bet
+
+[2021-05-11 20:36:26 #15 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-05-11 20:36:26 #16 type] 
+Type domain.ReplicatedProperties is not enhanced.
+
+[2021-05-11 20:36:26 #17 type] 
+Type domain.Movements is not enhanced.
+
+[2021-05-11 20:36:26 #18 type] 
+Type domain.Bet is not enhanced.
+
+[2021-05-11 20:36:26 #19 type.registry] 
+New type domain.Prediction
+
+[2021-05-11 20:36:26 #20 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-05-11 20:36:26 #21 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-05-11 20:36:26 #22 type.registry] 
+New type domain.Question
+
+[2021-05-11 20:36:26 #23 type] 
+Type domain.Question is not enhanced.
+
+[2021-05-11 20:36:26 #24 type.registry] 
+New type domain.Event
+
+[2021-05-11 20:36:26 #25 type] 
+Type domain.Event is not enhanced.
+
+[2021-05-11 20:36:26 #26 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-05-11 20:36:26 #27 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2021-05-11 20:36:26 #28 type.registry] 
+New type java.util.HashMap<java.lang.Object,java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-05-11 20:41:31 #1 store] 
+Database 'C:\Users\suade\git\3iterationREAL\3iteration\src\main\resources\bets.temp' is opened by 11584@LAPTOP-CP3BSS6D
+
+[2021-05-11 20:41:31 #2 type.registry] 
+New type domain.Person
+
+[2021-05-11 20:41:31 #3 type.registry] 
+New type domain.Admin
+
+[2021-05-11 20:41:31 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-05-11 20:41:31 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-05-11 20:41:31 #6 type.registry] 
+New type domain.Worker
+
+[2021-05-11 20:41:31 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-05-11 20:41:31 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-05-11 20:41:31 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-05-11 20:41:31 #10 type.registry] 
+New type domain.ReplicatedProperties
+
+[2021-05-11 20:41:31 #11 type.registry] 
+New type java.util.HashMap<domain.RegisteredClient,domain.ReplicatedProperties>
+
+[2021-05-11 20:41:31 #12 type.registry] 
+New type domain.Movements
+
+[2021-05-11 20:41:31 #13 type.registry] 
+New type java.util.Vector<domain.Movements>
+
+[2021-05-11 20:41:31 #14 type.registry] 
+New type domain.Bet
+
+[2021-05-11 20:41:31 #15 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-05-11 20:41:31 #16 type] 
+Type domain.ReplicatedProperties is not enhanced.
+
+[2021-05-11 20:41:31 #17 type] 
+Type domain.Movements is not enhanced.
+
+[2021-05-11 20:41:31 #18 type] 
+Type domain.Bet is not enhanced.
+
+[2021-05-11 20:41:31 #19 type.registry] 
+New type domain.Prediction
+
+[2021-05-11 20:41:31 #20 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-05-11 20:41:31 #21 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-05-11 20:41:31 #22 type.registry] 
+New type domain.Question
+
+[2021-05-11 20:41:31 #23 type] 
+Type domain.Question is not enhanced.
+
+[2021-05-11 20:41:31 #24 type.registry] 
+New type domain.Event
+
+[2021-05-11 20:41:31 #25 type] 
+Type domain.Event is not enhanced.
+
+[2021-05-11 20:41:31 #26 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-05-11 20:41:31 #27 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2021-05-11 20:41:31 #28 type.registry] 
+New type java.util.HashMap<java.lang.Object,java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-05-11 20:42:28 #1 store] 
+Database 'C:\Users\suade\git\3iterationREAL\3iteration\src\main\resources\bets.temp' is opened by 19736@LAPTOP-CP3BSS6D
+
+[2021-05-11 20:42:28 #2 type.registry] 
+New type domain.Person
+
+[2021-05-11 20:42:28 #3 type.registry] 
+New type domain.Admin
+
+[2021-05-11 20:42:28 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-05-11 20:42:28 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-05-11 20:42:28 #6 type.registry] 
+New type domain.Worker
+
+[2021-05-11 20:42:28 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-05-11 20:42:28 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-05-11 20:42:28 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-05-11 20:42:28 #10 type.registry] 
+New type domain.ReplicatedProperties
+
+[2021-05-11 20:42:28 #11 type.registry] 
+New type java.util.HashMap<domain.RegisteredClient,domain.ReplicatedProperties>
+
+[2021-05-11 20:42:28 #12 type.registry] 
+New type domain.Movements
+
+[2021-05-11 20:42:28 #13 type.registry] 
+New type java.util.Vector<domain.Movements>
+
+[2021-05-11 20:42:28 #14 type.registry] 
+New type domain.Bet
+
+[2021-05-11 20:42:28 #15 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-05-11 20:42:28 #16 type] 
+Type domain.ReplicatedProperties is not enhanced.
+
+[2021-05-11 20:42:28 #17 type] 
+Type domain.Movements is not enhanced.
+
+[2021-05-11 20:42:28 #18 type] 
+Type domain.Bet is not enhanced.
+
+[2021-05-11 20:42:28 #19 type.registry] 
+New type domain.Prediction
+
+[2021-05-11 20:42:28 #20 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-05-11 20:42:28 #21 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-05-11 20:42:28 #22 type.registry] 
+New type domain.Question
+
+[2021-05-11 20:42:28 #23 type] 
+Type domain.Question is not enhanced.
+
+[2021-05-11 20:42:28 #24 type.registry] 
+New type domain.Event
+
+[2021-05-11 20:42:28 #25 type] 
+Type domain.Event is not enhanced.
+
+[2021-05-11 20:42:28 #26 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-05-11 20:42:28 #27 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2021-05-11 20:42:28 #28 type.registry] 
+New type java.util.HashMap<java.lang.Object,java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-05-11 20:47:18 #1 store] 
+Database 'C:\Users\suade\git\3iterationREAL\3iteration\src\main\resources\bets.temp' is opened by 21880@LAPTOP-CP3BSS6D
+
+[2021-05-11 20:47:18 #2 type.registry] 
+New type domain.Person
+
+[2021-05-11 20:47:18 #3 type.registry] 
+New type domain.Admin
+
+[2021-05-11 20:47:18 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-05-11 20:47:18 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-05-11 20:47:18 #6 type.registry] 
+New type domain.Worker
+
+[2021-05-11 20:47:18 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-05-11 20:47:18 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-05-11 20:47:18 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-05-11 20:47:18 #10 type.registry] 
+New type domain.ReplicatedProperties
+
+[2021-05-11 20:47:18 #11 type.registry] 
+New type java.util.HashMap<domain.RegisteredClient,domain.ReplicatedProperties>
+
+[2021-05-11 20:47:18 #12 type.registry] 
+New type domain.Movements
+
+[2021-05-11 20:47:18 #13 type.registry] 
+New type java.util.Vector<domain.Movements>
+
+[2021-05-11 20:47:18 #14 type.registry] 
+New type domain.Bet
+
+[2021-05-11 20:47:18 #15 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-05-11 20:47:18 #16 type] 
+Type domain.ReplicatedProperties is not enhanced.
+
+[2021-05-11 20:47:18 #17 type] 
+Type domain.Movements is not enhanced.
+
+[2021-05-11 20:47:18 #18 type] 
+Type domain.Bet is not enhanced.
+
+[2021-05-11 20:47:18 #19 type.registry] 
+New type domain.Prediction
+
+[2021-05-11 20:47:18 #20 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-05-11 20:47:18 #21 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-05-11 20:47:18 #22 type.registry] 
+New type domain.Question
+
+[2021-05-11 20:47:18 #23 type] 
+Type domain.Question is not enhanced.
+
+[2021-05-11 20:47:18 #24 type.registry] 
+New type domain.Event
+
+[2021-05-11 20:47:18 #25 type] 
+Type domain.Event is not enhanced.
+
+[2021-05-11 20:47:18 #26 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-05-11 20:47:18 #27 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2021-05-11 20:47:18 #28 type.registry] 
+New type java.util.HashMap<java.lang.Object,java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-05-11 20:50:51 #1 store] 
+Database 'C:\Users\suade\git\3iterationREAL\3iteration\src\main\resources\bets.temp' is opened by 12460@LAPTOP-CP3BSS6D
+
+[2021-05-11 20:50:51 #2 type.registry] 
+New type domain.Person
+
+[2021-05-11 20:50:51 #3 type.registry] 
+New type domain.Admin
+
+[2021-05-11 20:50:51 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-05-11 20:50:51 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-05-11 20:50:51 #6 type.registry] 
+New type domain.Worker
+
+[2021-05-11 20:50:51 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-05-11 20:50:51 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-05-11 20:50:51 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-05-11 20:50:51 #10 type.registry] 
+New type domain.ReplicatedProperties
+
+[2021-05-11 20:50:51 #11 type.registry] 
+New type java.util.HashMap<domain.RegisteredClient,domain.ReplicatedProperties>
+
+[2021-05-11 20:50:51 #12 type.registry] 
+New type domain.Movements
+
+[2021-05-11 20:50:51 #13 type.registry] 
+New type java.util.Vector<domain.Movements>
+
+[2021-05-11 20:50:51 #14 type.registry] 
+New type domain.Bet
+
+[2021-05-11 20:50:51 #15 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-05-11 20:50:51 #16 type] 
+Type domain.ReplicatedProperties is not enhanced.
+
+[2021-05-11 20:50:51 #17 type] 
+Type domain.Movements is not enhanced.
+
+[2021-05-11 20:50:51 #18 type] 
+Type domain.Bet is not enhanced.
+
+[2021-05-11 20:50:51 #19 type.registry] 
+New type domain.Prediction
+
+[2021-05-11 20:50:51 #20 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-05-11 20:50:51 #21 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-05-11 20:50:51 #22 type.registry] 
+New type domain.Question
+
+[2021-05-11 20:50:51 #23 type] 
+Type domain.Question is not enhanced.
+
+[2021-05-11 20:50:51 #24 type.registry] 
+New type domain.Event
+
+[2021-05-11 20:50:51 #25 type] 
+Type domain.Event is not enhanced.
+
+[2021-05-11 20:50:51 #26 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-05-11 20:50:51 #27 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2021-05-11 20:50:51 #28 type.registry] 
+New type java.util.HashMap<java.lang.Object,java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-05-11 20:51:46 #1 store] 
+Database 'C:\Users\suade\git\3iterationREAL\3iteration\src\main\resources\bets.temp' is opened by 15692@LAPTOP-CP3BSS6D
+
+[2021-05-11 20:51:46 #2 type.registry] 
+New type domain.Person
+
+[2021-05-11 20:51:46 #3 type.registry] 
+New type domain.Admin
+
+[2021-05-11 20:51:46 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-05-11 20:51:46 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-05-11 20:51:46 #6 type.registry] 
+New type domain.Worker
+
+[2021-05-11 20:51:46 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-05-11 20:51:46 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-05-11 20:51:46 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-05-11 20:51:46 #10 type.registry] 
+New type domain.ReplicatedProperties
+
+[2021-05-11 20:51:46 #11 type.registry] 
+New type java.util.HashMap<domain.RegisteredClient,domain.ReplicatedProperties>
+
+[2021-05-11 20:51:46 #12 type.registry] 
+New type domain.Movements
+
+[2021-05-11 20:51:46 #13 type.registry] 
+New type java.util.Vector<domain.Movements>
+
+[2021-05-11 20:51:46 #14 type.registry] 
+New type domain.Bet
+
+[2021-05-11 20:51:46 #15 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-05-11 20:51:46 #16 type] 
+Type domain.ReplicatedProperties is not enhanced.
+
+[2021-05-11 20:51:46 #17 type] 
+Type domain.Movements is not enhanced.
+
+[2021-05-11 20:51:46 #18 type] 
+Type domain.Bet is not enhanced.
+
+[2021-05-11 20:51:46 #19 type.registry] 
+New type domain.Prediction
+
+[2021-05-11 20:51:46 #20 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-05-11 20:51:46 #21 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-05-11 20:51:46 #22 type.registry] 
+New type domain.Question
+
+[2021-05-11 20:51:46 #23 type] 
+Type domain.Question is not enhanced.
+
+[2021-05-11 20:51:46 #24 type.registry] 
+New type domain.Event
+
+[2021-05-11 20:51:46 #25 type] 
+Type domain.Event is not enhanced.
+
+[2021-05-11 20:51:46 #26 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-05-11 20:51:46 #27 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2021-05-11 20:51:46 #28 type.registry] 
+New type java.util.HashMap<java.lang.Object,java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-05-11 21:34:05 #1 store] 
+Database 'C:\Users\suade\git\3iterationREAL\3iteration\src\main\resources\bets.temp' is opened by 6548@LAPTOP-CP3BSS6D
+
+[2021-05-11 21:34:05 #2 type.registry] 
+New type domain.Person
+
+[2021-05-11 21:34:05 #3 type.registry] 
+New type domain.Admin
+
+[2021-05-11 21:34:05 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-05-11 21:34:05 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-05-11 21:34:05 #6 type.registry] 
+New type domain.Worker
+
+[2021-05-11 21:34:05 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-05-11 21:34:05 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-05-11 21:34:05 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-05-11 21:34:05 #10 type.registry] 
+New type domain.ReplicatedProperties
+
+[2021-05-11 21:34:05 #11 type.registry] 
+New type java.util.HashMap<domain.RegisteredClient,domain.ReplicatedProperties>
+
+[2021-05-11 21:34:05 #12 type.registry] 
+New type domain.Movements
+
+[2021-05-11 21:34:05 #13 type.registry] 
+New type java.util.Vector<domain.Movements>
+
+[2021-05-11 21:34:05 #14 type.registry] 
+New type domain.Bet
+
+[2021-05-11 21:34:05 #15 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-05-11 21:34:05 #16 type] 
+Type domain.ReplicatedProperties is not enhanced.
+
+[2021-05-11 21:34:05 #17 type] 
+Type domain.Movements is not enhanced.
+
+[2021-05-11 21:34:05 #18 type] 
+Type domain.Bet is not enhanced.
+
+[2021-05-11 21:34:05 #19 type.registry] 
+New type domain.Prediction
+
+[2021-05-11 21:34:05 #20 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-05-11 21:34:05 #21 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-05-11 21:34:05 #22 type.registry] 
+New type domain.Question
+
+[2021-05-11 21:34:05 #23 type] 
+Type domain.Question is not enhanced.
+
+[2021-05-11 21:34:05 #24 type.registry] 
+New type domain.Event
+
+[2021-05-11 21:34:05 #25 type] 
+Type domain.Event is not enhanced.
+
+[2021-05-11 21:34:05 #26 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-05-11 21:34:05 #27 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2021-05-11 21:34:05 #28 type.registry] 
+New type java.util.HashMap<java.lang.Object,java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-05-11 21:34:38 #1 store] 
+Database 'C:\Users\suade\git\3iterationREAL\3iteration\src\main\resources\bets.temp' is opened by 22184@LAPTOP-CP3BSS6D
+
+[2021-05-11 21:34:39 #2 type.registry] 
+New type domain.Person
+
+[2021-05-11 21:34:39 #3 type.registry] 
+New type domain.Admin
+
+[2021-05-11 21:34:39 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-05-11 21:34:39 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-05-11 21:34:39 #6 type.registry] 
+New type domain.Worker
+
+[2021-05-11 21:34:39 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-05-11 21:34:39 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-05-11 21:34:39 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-05-11 21:34:39 #10 type.registry] 
+New type domain.ReplicatedProperties
+
+[2021-05-11 21:34:39 #11 type.registry] 
+New type java.util.HashMap<domain.RegisteredClient,domain.ReplicatedProperties>
+
+[2021-05-11 21:34:39 #12 type.registry] 
+New type domain.Movements
+
+[2021-05-11 21:34:39 #13 type.registry] 
+New type java.util.Vector<domain.Movements>
+
+[2021-05-11 21:34:39 #14 type.registry] 
+New type domain.Bet
+
+[2021-05-11 21:34:39 #15 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-05-11 21:34:39 #16 type] 
+Type domain.ReplicatedProperties is not enhanced.
+
+[2021-05-11 21:34:39 #17 type] 
+Type domain.Movements is not enhanced.
+
+[2021-05-11 21:34:39 #18 type] 
+Type domain.Bet is not enhanced.
+
+[2021-05-11 21:34:39 #19 type.registry] 
+New type domain.Prediction
+
+[2021-05-11 21:34:39 #20 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-05-11 21:34:39 #21 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-05-11 21:34:39 #22 type.registry] 
+New type domain.Question
+
+[2021-05-11 21:34:39 #23 type] 
+Type domain.Question is not enhanced.
+
+[2021-05-11 21:34:39 #24 type.registry] 
+New type domain.Event
+
+[2021-05-11 21:34:39 #25 type] 
+Type domain.Event is not enhanced.
+
+[2021-05-11 21:34:39 #26 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-05-11 21:34:39 #27 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2021-05-11 21:34:39 #28 type.registry] 
+New type java.util.HashMap<java.lang.Object,java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-05-11 21:36:53 #1 store] 
+Database 'C:\Users\suade\git\3iterationREAL\3iteration\src\main\resources\bets.temp' is opened by 5416@LAPTOP-CP3BSS6D
+
+[2021-05-11 21:36:53 #2 type.registry] 
+New type domain.Person
+
+[2021-05-11 21:36:53 #3 type.registry] 
+New type domain.Admin
+
+[2021-05-11 21:36:53 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-05-11 21:36:53 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-05-11 21:36:53 #6 type.registry] 
+New type domain.Worker
+
+[2021-05-11 21:36:53 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-05-11 21:36:53 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-05-11 21:36:53 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-05-11 21:36:53 #10 type.registry] 
+New type domain.ReplicatedProperties
+
+[2021-05-11 21:36:53 #11 type.registry] 
+New type java.util.HashMap<domain.RegisteredClient,domain.ReplicatedProperties>
+
+[2021-05-11 21:36:53 #12 type.registry] 
+New type domain.Movements
+
+[2021-05-11 21:36:53 #13 type.registry] 
+New type java.util.Vector<domain.Movements>
+
+[2021-05-11 21:36:53 #14 type.registry] 
+New type domain.Bet
+
+[2021-05-11 21:36:53 #15 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-05-11 21:36:53 #16 type] 
+Type domain.ReplicatedProperties is not enhanced.
+
+[2021-05-11 21:36:53 #17 type] 
+Type domain.Movements is not enhanced.
+
+[2021-05-11 21:36:53 #18 type] 
+Type domain.Bet is not enhanced.
+
+[2021-05-11 21:36:53 #19 type.registry] 
+New type domain.Prediction
+
+[2021-05-11 21:36:53 #20 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-05-11 21:36:53 #21 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-05-11 21:36:53 #22 type.registry] 
+New type domain.Question
+
+[2021-05-11 21:36:53 #23 type] 
+Type domain.Question is not enhanced.
+
+[2021-05-11 21:36:53 #24 type.registry] 
+New type domain.Event
+
+[2021-05-11 21:36:53 #25 type] 
+Type domain.Event is not enhanced.
+
+[2021-05-11 21:36:53 #26 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-05-11 21:36:53 #27 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2021-05-11 21:36:53 #28 type.registry] 
+New type java.util.HashMap<java.lang.Object,java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-05-11 21:40:02 #1 store] 
+Database 'C:\Users\suade\git\3iterationREAL\3iteration\src\main\resources\bets.temp' is opened by 21208@LAPTOP-CP3BSS6D
+
+[2021-05-11 21:40:02 #2 type.registry] 
+New type domain.Person
+
+[2021-05-11 21:40:02 #3 type.registry] 
+New type domain.Admin
+
+[2021-05-11 21:40:02 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-05-11 21:40:02 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-05-11 21:40:02 #6 type.registry] 
+New type domain.Worker
+
+[2021-05-11 21:40:02 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-05-11 21:40:02 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-05-11 21:40:02 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-05-11 21:40:02 #10 type.registry] 
+New type domain.ReplicatedProperties
+
+[2021-05-11 21:40:02 #11 type.registry] 
+New type java.util.HashMap<domain.RegisteredClient,domain.ReplicatedProperties>
+
+[2021-05-11 21:40:02 #12 type.registry] 
+New type domain.Movements
+
+[2021-05-11 21:40:02 #13 type.registry] 
+New type java.util.Vector<domain.Movements>
+
+[2021-05-11 21:40:02 #14 type.registry] 
+New type domain.Bet
+
+[2021-05-11 21:40:02 #15 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-05-11 21:40:02 #16 type] 
+Type domain.ReplicatedProperties is not enhanced.
+
+[2021-05-11 21:40:02 #17 type] 
+Type domain.Movements is not enhanced.
+
+[2021-05-11 21:40:02 #18 type] 
+Type domain.Bet is not enhanced.
+
+[2021-05-11 21:40:02 #19 type.registry] 
+New type domain.Prediction
+
+[2021-05-11 21:40:02 #20 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-05-11 21:40:02 #21 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-05-11 21:40:02 #22 type.registry] 
+New type domain.Question
+
+[2021-05-11 21:40:02 #23 type] 
+Type domain.Question is not enhanced.
+
+[2021-05-11 21:40:02 #24 type.registry] 
+New type domain.Event
+
+[2021-05-11 21:40:02 #25 type] 
+Type domain.Event is not enhanced.
+
+[2021-05-11 21:40:02 #26 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-05-11 21:40:02 #27 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2021-05-11 21:40:02 #28 type.registry] 
+New type java.util.HashMap<java.lang.Object,java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-05-11 22:00:45 #1 store] 
+Database 'C:\Users\suade\git\3iterationREAL\3iteration\src\main\resources\bets.temp' is opened by 11096@LAPTOP-CP3BSS6D
+
+[2021-05-11 22:00:45 #2 type.registry] 
+New type domain.Person
+
+[2021-05-11 22:00:45 #3 type.registry] 
+New type domain.Admin
+
+[2021-05-11 22:00:45 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-05-11 22:00:45 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-05-11 22:00:45 #6 type.registry] 
+New type domain.Worker
+
+[2021-05-11 22:00:45 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-05-11 22:00:45 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-05-11 22:00:45 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-05-11 22:00:45 #10 type.registry] 
+New type domain.ReplicatedProperties
+
+[2021-05-11 22:00:45 #11 type.registry] 
+New type java.util.HashMap<domain.RegisteredClient,domain.ReplicatedProperties>
+
+[2021-05-11 22:00:45 #12 type.registry] 
+New type domain.Movements
+
+[2021-05-11 22:00:45 #13 type.registry] 
+New type java.util.Vector<domain.Movements>
+
+[2021-05-11 22:00:45 #14 type.registry] 
+New type domain.Bet
+
+[2021-05-11 22:00:45 #15 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-05-11 22:00:45 #16 type] 
+Type domain.ReplicatedProperties is not enhanced.
+
+[2021-05-11 22:00:45 #17 type] 
+Type domain.Movements is not enhanced.
+
+[2021-05-11 22:00:45 #18 type] 
+Type domain.Bet is not enhanced.
+
+[2021-05-11 22:00:45 #19 type.registry] 
+New type domain.Prediction
+
+[2021-05-11 22:00:45 #20 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-05-11 22:00:45 #21 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-05-11 22:00:45 #22 type.registry] 
+New type domain.Question
+
+[2021-05-11 22:00:45 #23 type] 
+Type domain.Question is not enhanced.
+
+[2021-05-11 22:00:45 #24 type.registry] 
+New type domain.Event
+
+[2021-05-11 22:00:45 #25 type] 
+Type domain.Event is not enhanced.
+
+[2021-05-11 22:00:45 #26 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-05-11 22:00:45 #27 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2021-05-11 22:00:45 #28 type.registry] 
+New type java.util.HashMap<java.lang.Object,java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-05-11 22:01:57 #1 store] 
+Database 'C:\Users\suade\git\3iterationREAL\3iteration\src\main\resources\bets.temp' is opened by 2676@LAPTOP-CP3BSS6D
+
+[2021-05-11 22:01:57 #2 type.registry] 
+New type domain.Person
+
+[2021-05-11 22:01:57 #3 type.registry] 
+New type domain.Admin
+
+[2021-05-11 22:01:57 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-05-11 22:01:57 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-05-11 22:01:57 #6 type.registry] 
+New type domain.Worker
+
+[2021-05-11 22:01:57 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-05-11 22:01:57 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-05-11 22:01:57 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-05-11 22:01:57 #10 type.registry] 
+New type domain.ReplicatedProperties
+
+[2021-05-11 22:01:57 #11 type.registry] 
+New type java.util.HashMap<domain.RegisteredClient,domain.ReplicatedProperties>
+
+[2021-05-11 22:01:57 #12 type.registry] 
+New type domain.Movements
+
+[2021-05-11 22:01:57 #13 type.registry] 
+New type java.util.Vector<domain.Movements>
+
+[2021-05-11 22:01:57 #14 type.registry] 
+New type domain.Bet
+
+[2021-05-11 22:01:57 #15 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-05-11 22:01:57 #16 type] 
+Type domain.ReplicatedProperties is not enhanced.
+
+[2021-05-11 22:01:57 #17 type] 
+Type domain.Movements is not enhanced.
+
+[2021-05-11 22:01:57 #18 type] 
+Type domain.Bet is not enhanced.
+
+[2021-05-11 22:01:57 #19 type.registry] 
+New type domain.Prediction
+
+[2021-05-11 22:01:57 #20 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-05-11 22:01:57 #21 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-05-11 22:01:57 #22 type.registry] 
+New type domain.Question
+
+[2021-05-11 22:01:57 #23 type] 
+Type domain.Question is not enhanced.
+
+[2021-05-11 22:01:57 #24 type.registry] 
+New type domain.Event
+
+[2021-05-11 22:01:57 #25 type] 
+Type domain.Event is not enhanced.
+
+[2021-05-11 22:01:57 #26 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-05-11 22:01:57 #27 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2021-05-11 22:01:57 #28 type.registry] 
+New type java.util.HashMap<java.lang.Object,java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-05-11 22:17:37 #1 store] 
+Database 'C:\Users\suade\git\3iterationREAL\3iteration\src\main\resources\bets.temp' is opened by 10412@LAPTOP-CP3BSS6D
+
+[2021-05-11 22:17:38 #2 type.registry] 
+New type domain.Person
+
+[2021-05-11 22:17:38 #3 type.registry] 
+New type domain.Admin
+
+[2021-05-11 22:17:38 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-05-11 22:17:38 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-05-11 22:17:38 #6 type.registry] 
+New type domain.Worker
+
+[2021-05-11 22:17:38 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-05-11 22:17:38 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-05-11 22:17:38 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-05-11 22:17:38 #10 type.registry] 
+New type domain.ReplicatedProperties
+
+[2021-05-11 22:17:38 #11 type.registry] 
+New type java.util.HashMap<domain.RegisteredClient,domain.ReplicatedProperties>
+
+[2021-05-11 22:17:38 #12 type.registry] 
+New type domain.Movements
+
+[2021-05-11 22:17:38 #13 type.registry] 
+New type java.util.Vector<domain.Movements>
+
+[2021-05-11 22:17:38 #14 type.registry] 
+New type domain.Bet
+
+[2021-05-11 22:17:38 #15 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-05-11 22:17:38 #16 type] 
+Type domain.ReplicatedProperties is not enhanced.
+
+[2021-05-11 22:17:38 #17 type] 
+Type domain.Movements is not enhanced.
+
+[2021-05-11 22:17:38 #18 type] 
+Type domain.Bet is not enhanced.
+
+[2021-05-11 22:17:38 #19 type.registry] 
+New type domain.Prediction
+
+[2021-05-11 22:17:38 #20 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-05-11 22:17:38 #21 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-05-11 22:17:38 #22 type.registry] 
+New type domain.Question
+
+[2021-05-11 22:17:38 #23 type] 
+Type domain.Question is not enhanced.
+
+[2021-05-11 22:17:38 #24 type.registry] 
+New type domain.Event
+
+[2021-05-11 22:17:38 #25 type] 
+Type domain.Event is not enhanced.
+
+[2021-05-11 22:17:38 #26 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-05-11 22:17:38 #27 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2021-05-11 22:17:38 #28 type.registry] 
+New type java.util.HashMap<java.lang.Object,java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-05-11 22:19:30 #1 store] 
+Database 'C:\Users\suade\git\3iterationREAL\3iteration\src\main\resources\bets.temp' is opened by 7472@LAPTOP-CP3BSS6D
+
+[2021-05-11 22:19:31 #2 type.registry] 
+New type domain.Person
+
+[2021-05-11 22:19:31 #3 type.registry] 
+New type domain.Admin
+
+[2021-05-11 22:19:31 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-05-11 22:19:31 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-05-11 22:19:31 #6 type.registry] 
+New type domain.Worker
+
+[2021-05-11 22:19:31 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-05-11 22:19:31 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-05-11 22:19:31 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-05-11 22:19:31 #10 type.registry] 
+New type domain.ReplicatedProperties
+
+[2021-05-11 22:19:31 #11 type.registry] 
+New type java.util.HashMap<domain.RegisteredClient,domain.ReplicatedProperties>
+
+[2021-05-11 22:19:31 #12 type.registry] 
+New type domain.Movements
+
+[2021-05-11 22:19:31 #13 type.registry] 
+New type java.util.Vector<domain.Movements>
+
+[2021-05-11 22:19:31 #14 type.registry] 
+New type domain.Bet
+
+[2021-05-11 22:19:31 #15 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-05-11 22:19:31 #16 type] 
+Type domain.ReplicatedProperties is not enhanced.
+
+[2021-05-11 22:19:31 #17 type] 
+Type domain.Movements is not enhanced.
+
+[2021-05-11 22:19:31 #18 type] 
+Type domain.Bet is not enhanced.
+
+[2021-05-11 22:19:31 #19 type.registry] 
+New type domain.Prediction
+
+[2021-05-11 22:19:31 #20 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-05-11 22:19:31 #21 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-05-11 22:19:31 #22 type.registry] 
+New type domain.Question
+
+[2021-05-11 22:19:31 #23 type] 
+Type domain.Question is not enhanced.
+
+[2021-05-11 22:19:31 #24 type.registry] 
+New type domain.Event
+
+[2021-05-11 22:19:31 #25 type] 
+Type domain.Event is not enhanced.
+
+[2021-05-11 22:19:31 #26 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-05-11 22:19:31 #27 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2021-05-11 22:19:31 #28 type.registry] 
+New type java.util.HashMap<java.lang.Object,java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-05-11 22:21:01 #1 store] 
+Database 'C:\Users\suade\git\3iterationREAL\3iteration\src\main\resources\bets.temp' is opened by 13780@LAPTOP-CP3BSS6D
+
+[2021-05-11 22:21:01 #2 type.registry] 
+New type domain.Person
+
+[2021-05-11 22:21:01 #3 type.registry] 
+New type domain.Admin
+
+[2021-05-11 22:21:01 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-05-11 22:21:01 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-05-11 22:21:01 #6 type.registry] 
+New type domain.Worker
+
+[2021-05-11 22:21:01 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-05-11 22:21:01 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-05-11 22:21:01 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-05-11 22:21:01 #10 type.registry] 
+New type domain.ReplicatedProperties
+
+[2021-05-11 22:21:01 #11 type.registry] 
+New type java.util.HashMap<domain.RegisteredClient,domain.ReplicatedProperties>
+
+[2021-05-11 22:21:01 #12 type.registry] 
+New type domain.Movements
+
+[2021-05-11 22:21:01 #13 type.registry] 
+New type java.util.Vector<domain.Movements>
+
+[2021-05-11 22:21:01 #14 type.registry] 
+New type domain.Bet
+
+[2021-05-11 22:21:01 #15 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-05-11 22:21:01 #16 type] 
+Type domain.ReplicatedProperties is not enhanced.
+
+[2021-05-11 22:21:01 #17 type] 
+Type domain.Movements is not enhanced.
+
+[2021-05-11 22:21:01 #18 type] 
+Type domain.Bet is not enhanced.
+
+[2021-05-11 22:21:01 #19 type.registry] 
+New type domain.Prediction
+
+[2021-05-11 22:21:01 #20 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-05-11 22:21:01 #21 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-05-11 22:21:01 #22 type.registry] 
+New type domain.Question
+
+[2021-05-11 22:21:01 #23 type] 
+Type domain.Question is not enhanced.
+
+[2021-05-11 22:21:01 #24 type.registry] 
+New type domain.Event
+
+[2021-05-11 22:21:01 #25 type] 
+Type domain.Event is not enhanced.
+
+[2021-05-11 22:21:01 #26 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-05-11 22:21:01 #27 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2021-05-11 22:21:01 #28 type.registry] 
+New type java.util.HashMap<java.lang.Object,java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-05-11 22:29:45 #1 store] 
+Database 'C:\Users\suade\git\3iterationREAL\3iteration\src\main\resources\bets.temp' is opened by 16912@LAPTOP-CP3BSS6D
+
+[2021-05-11 22:29:45 #2 type.registry] 
+New type domain.Person
+
+[2021-05-11 22:29:45 #3 type.registry] 
+New type domain.Admin
+
+[2021-05-11 22:29:45 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-05-11 22:29:45 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-05-11 22:29:45 #6 type.registry] 
+New type domain.Worker
+
+[2021-05-11 22:29:45 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-05-11 22:29:45 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-05-11 22:29:45 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-05-11 22:29:45 #10 type.registry] 
+New type domain.ReplicatedProperties
+
+[2021-05-11 22:29:45 #11 type.registry] 
+New type java.util.HashMap<domain.RegisteredClient,domain.ReplicatedProperties>
+
+[2021-05-11 22:29:45 #12 type.registry] 
+New type domain.Movements
+
+[2021-05-11 22:29:45 #13 type.registry] 
+New type java.util.Vector<domain.Movements>
+
+[2021-05-11 22:29:45 #14 type.registry] 
+New type domain.Bet
+
+[2021-05-11 22:29:45 #15 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-05-11 22:29:45 #16 type] 
+Type domain.ReplicatedProperties is not enhanced.
+
+[2021-05-11 22:29:45 #17 type] 
+Type domain.Movements is not enhanced.
+
+[2021-05-11 22:29:45 #18 type] 
+Type domain.Bet is not enhanced.
+
+[2021-05-11 22:29:45 #19 type.registry] 
+New type domain.Prediction
+
+[2021-05-11 22:29:45 #20 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-05-11 22:29:45 #21 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-05-11 22:29:45 #22 type.registry] 
+New type domain.Question
+
+[2021-05-11 22:29:45 #23 type] 
+Type domain.Question is not enhanced.
+
+[2021-05-11 22:29:45 #24 type.registry] 
+New type domain.Event
+
+[2021-05-11 22:29:45 #25 type] 
+Type domain.Event is not enhanced.
+
+[2021-05-11 22:29:45 #26 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-05-11 22:29:45 #27 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2021-05-11 22:29:45 #28 type.registry] 
+New type java.util.HashMap<java.lang.Object,java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-05-11 22:32:07 #1 store] 
+Database 'C:\Users\suade\git\3iterationREAL\3iteration\src\main\resources\bets.temp' is opened by 21856@LAPTOP-CP3BSS6D
+
+[2021-05-11 22:32:07 #2 type.registry] 
+New type domain.Person
+
+[2021-05-11 22:32:07 #3 type.registry] 
+New type domain.Admin
+
+[2021-05-11 22:32:07 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-05-11 22:32:07 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-05-11 22:32:07 #6 type.registry] 
+New type domain.Worker
+
+[2021-05-11 22:32:07 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-05-11 22:32:07 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-05-11 22:32:07 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-05-11 22:32:07 #10 type.registry] 
+New type domain.ReplicatedProperties
+
+[2021-05-11 22:32:07 #11 type.registry] 
+New type java.util.HashMap<domain.RegisteredClient,domain.ReplicatedProperties>
+
+[2021-05-11 22:32:07 #12 type.registry] 
+New type domain.Movements
+
+[2021-05-11 22:32:07 #13 type.registry] 
+New type java.util.Vector<domain.Movements>
+
+[2021-05-11 22:32:07 #14 type.registry] 
+New type domain.Bet
+
+[2021-05-11 22:32:07 #15 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-05-11 22:32:07 #16 type] 
+Type domain.ReplicatedProperties is not enhanced.
+
+[2021-05-11 22:32:07 #17 type] 
+Type domain.Movements is not enhanced.
+
+[2021-05-11 22:32:07 #18 type] 
+Type domain.Bet is not enhanced.
+
+[2021-05-11 22:32:07 #19 type.registry] 
+New type domain.Prediction
+
+[2021-05-11 22:32:07 #20 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-05-11 22:32:07 #21 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-05-11 22:32:07 #22 type.registry] 
+New type domain.Question
+
+[2021-05-11 22:32:07 #23 type] 
+Type domain.Question is not enhanced.
+
+[2021-05-11 22:32:07 #24 type.registry] 
+New type domain.Event
+
+[2021-05-11 22:32:07 #25 type] 
+Type domain.Event is not enhanced.
+
+[2021-05-11 22:32:07 #26 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-05-11 22:32:07 #27 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2021-05-11 22:32:07 #28 type.registry] 
+New type java.util.HashMap<java.lang.Object,java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-05-11 22:36:29 #1 store] 
+Database 'C:\Users\suade\git\3iterationREAL\3iteration\src\main\resources\bets.temp' is opened by 22220@LAPTOP-CP3BSS6D
+
+[2021-05-11 22:36:29 #2 type.registry] 
+New type domain.Person
+
+[2021-05-11 22:36:29 #3 type.registry] 
+New type domain.Admin
+
+[2021-05-11 22:36:29 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-05-11 22:36:29 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-05-11 22:36:29 #6 type.registry] 
+New type domain.Worker
+
+[2021-05-11 22:36:29 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-05-11 22:36:29 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-05-11 22:36:29 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-05-11 22:36:29 #10 type.registry] 
+New type domain.ReplicatedProperties
+
+[2021-05-11 22:36:29 #11 type.registry] 
+New type java.util.HashMap<domain.RegisteredClient,domain.ReplicatedProperties>
+
+[2021-05-11 22:36:29 #12 type.registry] 
+New type domain.Movements
+
+[2021-05-11 22:36:29 #13 type.registry] 
+New type java.util.Vector<domain.Movements>
+
+[2021-05-11 22:36:29 #14 type.registry] 
+New type domain.Bet
+
+[2021-05-11 22:36:29 #15 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-05-11 22:36:29 #16 type] 
+Type domain.ReplicatedProperties is not enhanced.
+
+[2021-05-11 22:36:29 #17 type] 
+Type domain.Movements is not enhanced.
+
+[2021-05-11 22:36:29 #18 type] 
+Type domain.Bet is not enhanced.
+
+[2021-05-11 22:36:29 #19 type.registry] 
+New type domain.Prediction
+
+[2021-05-11 22:36:29 #20 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-05-11 22:36:29 #21 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-05-11 22:36:29 #22 type.registry] 
+New type domain.Question
+
+[2021-05-11 22:36:29 #23 type] 
+Type domain.Question is not enhanced.
+
+[2021-05-11 22:36:29 #24 type.registry] 
+New type domain.Event
+
+[2021-05-11 22:36:29 #25 type] 
+Type domain.Event is not enhanced.
+
+[2021-05-11 22:36:29 #26 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-05-11 22:36:29 #27 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2021-05-11 22:36:29 #28 type.registry] 
+New type java.util.HashMap<java.lang.Object,java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-05-11 22:53:43 #1 store] 
+Database 'C:\Users\suade\git\3iterationREAL\3iteration\src\main\resources\bets.temp' is opened by 22316@LAPTOP-CP3BSS6D
+
+[2021-05-11 22:53:43 #2 type.registry] 
+New type domain.Person
+
+[2021-05-11 22:53:43 #3 type.registry] 
+New type domain.Admin
+
+[2021-05-11 22:53:43 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-05-11 22:53:43 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-05-11 22:53:43 #6 type.registry] 
+New type domain.Worker
+
+[2021-05-11 22:53:43 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-05-11 22:53:43 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-05-11 22:53:43 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-05-11 22:53:43 #10 type.registry] 
+New type domain.ReplicatedProperties
+
+[2021-05-11 22:53:43 #11 type.registry] 
+New type java.util.HashMap<domain.RegisteredClient,domain.ReplicatedProperties>
+
+[2021-05-11 22:53:43 #12 type.registry] 
+New type domain.Movements
+
+[2021-05-11 22:53:43 #13 type.registry] 
+New type java.util.Vector<domain.Movements>
+
+[2021-05-11 22:53:43 #14 type.registry] 
+New type domain.Bet
+
+[2021-05-11 22:53:43 #15 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-05-11 22:53:43 #16 type] 
+Type domain.ReplicatedProperties is not enhanced.
+
+[2021-05-11 22:53:43 #17 type] 
+Type domain.Movements is not enhanced.
+
+[2021-05-11 22:53:43 #18 type] 
+Type domain.Bet is not enhanced.
+
+[2021-05-11 22:53:43 #19 type.registry] 
+New type domain.Prediction
+
+[2021-05-11 22:53:43 #20 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-05-11 22:53:43 #21 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-05-11 22:53:43 #22 type.registry] 
+New type domain.Question
+
+[2021-05-11 22:53:43 #23 type] 
+Type domain.Question is not enhanced.
+
+[2021-05-11 22:53:43 #24 type.registry] 
+New type domain.Event
+
+[2021-05-11 22:53:43 #25 type] 
+Type domain.Event is not enhanced.
+
+[2021-05-11 22:53:43 #26 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-05-11 22:53:43 #27 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2021-05-11 22:53:43 #28 type.registry] 
+New type java.util.HashMap<java.lang.Object,java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-05-11 22:55:36 #1 store] 
+Database 'C:\Users\suade\git\3iterationREAL\3iteration\src\main\resources\bets.temp' is opened by 14864@LAPTOP-CP3BSS6D
+
+[2021-05-11 22:55:36 #2 type.registry] 
+New type domain.Person
+
+[2021-05-11 22:55:36 #3 type.registry] 
+New type domain.Admin
+
+[2021-05-11 22:55:36 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-05-11 22:55:36 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-05-11 22:55:36 #6 type.registry] 
+New type domain.Worker
+
+[2021-05-11 22:55:36 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-05-11 22:55:36 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-05-11 22:55:36 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-05-11 22:55:36 #10 type.registry] 
+New type domain.ReplicatedProperties
+
+[2021-05-11 22:55:36 #11 type.registry] 
+New type java.util.HashMap<domain.RegisteredClient,domain.ReplicatedProperties>
+
+[2021-05-11 22:55:36 #12 type.registry] 
+New type domain.Movements
+
+[2021-05-11 22:55:36 #13 type.registry] 
+New type java.util.Vector<domain.Movements>
+
+[2021-05-11 22:55:36 #14 type.registry] 
+New type domain.Bet
+
+[2021-05-11 22:55:36 #15 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-05-11 22:55:36 #16 type] 
+Type domain.ReplicatedProperties is not enhanced.
+
+[2021-05-11 22:55:36 #17 type] 
+Type domain.Movements is not enhanced.
+
+[2021-05-11 22:55:36 #18 type] 
+Type domain.Bet is not enhanced.
+
+[2021-05-11 22:55:36 #19 type.registry] 
+New type domain.Prediction
+
+[2021-05-11 22:55:36 #20 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-05-11 22:55:36 #21 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-05-11 22:55:36 #22 type.registry] 
+New type domain.Question
+
+[2021-05-11 22:55:36 #23 type] 
+Type domain.Question is not enhanced.
+
+[2021-05-11 22:55:36 #24 type.registry] 
+New type domain.Event
+
+[2021-05-11 22:55:36 #25 type] 
+Type domain.Event is not enhanced.
+
+[2021-05-11 22:55:36 #26 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-05-11 22:55:36 #27 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2021-05-11 22:55:36 #28 type.registry] 
+New type java.util.HashMap<java.lang.Object,java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-05-11 22:57:16 #1 store] 
+Database 'C:\Users\suade\git\3iterationREAL\3iteration\src\main\resources\bets.temp' is opened by 14516@LAPTOP-CP3BSS6D
+
+[2021-05-11 22:57:16 #2 type.registry] 
+New type domain.Person
+
+[2021-05-11 22:57:16 #3 type.registry] 
+New type domain.Admin
+
+[2021-05-11 22:57:17 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-05-11 22:57:17 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-05-11 22:57:17 #6 type.registry] 
+New type domain.Worker
+
+[2021-05-11 22:57:17 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-05-11 22:57:17 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-05-11 22:57:17 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-05-11 22:57:17 #10 type.registry] 
+New type domain.ReplicatedProperties
+
+[2021-05-11 22:57:17 #11 type.registry] 
+New type java.util.HashMap<domain.RegisteredClient,domain.ReplicatedProperties>
+
+[2021-05-11 22:57:17 #12 type.registry] 
+New type domain.Movements
+
+[2021-05-11 22:57:17 #13 type.registry] 
+New type java.util.Vector<domain.Movements>
+
+[2021-05-11 22:57:17 #14 type.registry] 
+New type domain.Bet
+
+[2021-05-11 22:57:17 #15 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-05-11 22:57:17 #16 type] 
+Type domain.ReplicatedProperties is not enhanced.
+
+[2021-05-11 22:57:17 #17 type] 
+Type domain.Movements is not enhanced.
+
+[2021-05-11 22:57:17 #18 type] 
+Type domain.Bet is not enhanced.
+
+[2021-05-11 22:57:17 #19 type.registry] 
+New type domain.Prediction
+
+[2021-05-11 22:57:17 #20 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-05-11 22:57:17 #21 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-05-11 22:57:17 #22 type.registry] 
+New type domain.Question
+
+[2021-05-11 22:57:17 #23 type] 
+Type domain.Question is not enhanced.
+
+[2021-05-11 22:57:17 #24 type.registry] 
+New type domain.Event
+
+[2021-05-11 22:57:17 #25 type] 
+Type domain.Event is not enhanced.
+
+[2021-05-11 22:57:17 #26 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-05-11 22:57:17 #27 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2021-05-11 22:57:17 #28 type.registry] 
+New type java.util.HashMap<java.lang.Object,java.lang.Object>
+

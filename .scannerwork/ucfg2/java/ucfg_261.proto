@@ -1,0 +1,118 @@
+
+∫businessLogic.BLFacadeImplementation#storeRegisteredClient(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)Z
+sC:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/businessLogic/BLFacadeImplementation.java≠ ≠(%"startingBlock*ü
+startingBlockÄ
+sC:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/businessLogic/BLFacadeImplementation.java≠% ≠(®¡
+æ
+
+sC:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/businessLogic/BLFacadeImplementation.java¨ ¨(
+%0"
+__annotate*
+	WebMethod*
+
+namejava.lang.String¥
+±
+
+sC:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/businessLogic/BLFacadeImplementation.java≠- ≠(1
+namejava.lang.String"__annotation*
+
+%0ƒ
+¡
+
+sC:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/businessLogic/BLFacadeImplementation.java¨ ¨(
+%1"
+__annotate*
+	WebMethod*
+
+surnamejava.lang.String∑
+¥
+
+sC:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/businessLogic/BLFacadeImplementation.java≠: ≠(A
+surnamejava.lang.String"__annotation*
+
+%1ƒ
+¡
+
+sC:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/businessLogic/BLFacadeImplementation.java¨ ¨(
+%2"
+__annotate*
+	WebMethod*
+
+	birthDatejava.util.Date∑
+¥
+
+sC:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/businessLogic/BLFacadeImplementation.java≠H ≠(Q
+	birthDatejava.util.Date"__annotation*
+
+%2¿
+Ω
+
+sC:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/businessLogic/BLFacadeImplementation.java¨ ¨(
+%3"
+__annotate*
+	WebMethod*
+
+DNIjava.lang.String≥
+∞
+
+sC:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/businessLogic/BLFacadeImplementation.java≠Z ≠(]
+DNIjava.lang.String"__annotation*
+
+%3¬
+ø
+
+sC:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/businessLogic/BLFacadeImplementation.java¨ ¨(
+%4"
+__annotate*
+	WebMethod*
+
+emailjava.lang.Stringµ
+≤
+
+sC:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/businessLogic/BLFacadeImplementation.java≠f ≠(k
+emailjava.lang.String"__annotation*
+
+%4≈
+¬
+
+sC:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/businessLogic/BLFacadeImplementation.java¨ ¨(
+%5"
+__annotate*
+	WebMethod*
+
+passwordjava.lang.String∏
+µ
+
+sC:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/businessLogic/BLFacadeImplementation.java≠t ≠(|
+passwordjava.lang.String"__annotation*
+
+%5À
+»
+
+sC:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/businessLogic/BLFacadeImplementation.java¨ ¨(
+%6"
+__annotate*
+	WebMethod*$
+"
+currentAccountjava.lang.String¡
+æ
+Å
+sC:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/businessLogic/BLFacadeImplementation.java≠Ö ≠(ì"
+currentAccountjava.lang.String"__annotation*
+
+%6*
+1*ê
+1
+sC:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/businessLogic/BLFacadeImplementation.javaÆ Æ("â
+
+sC:/Users/oihan/OneDrive/Escritorio/sonar_bukatua/3iterazioa/src/main/java/businessLogic/BLFacadeImplementation.java≤ ≤(
+"":
+namejava.lang.String:
+surnamejava.lang.String:
+	birthDatejava.util.Date:
+DNIjava.lang.String:
+emailjava.lang.String:
+passwordjava.lang.String:"
+currentAccountjava.lang.String:
+""B(&
+$businessLogic.BLFacadeImplementation
