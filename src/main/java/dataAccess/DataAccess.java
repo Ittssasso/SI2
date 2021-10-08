@@ -47,7 +47,7 @@ import exceptions.QuestionAlreadyExist;
 public class DataAccess {
 	protected static EntityManager db;
 	protected static EntityManagerFactory emf;
-	//AAAAA
+
 	ConfigXML c = ConfigXML.getInstance();
 
 	public DataAccess(boolean initializeMode) {
