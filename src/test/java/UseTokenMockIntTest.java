@@ -23,7 +23,7 @@ import org.mockito.Mockito;
 import org.mockito.runners.MockitoJUnitRunner;
 
 @RunWith(MockitoJUnitRunner.class)
-public class UseTokenMockInt {
+public class UseTokenMockIntTest {
 	
      DataAccess dataAccess=Mockito.mock(DataAccess.class);
 	

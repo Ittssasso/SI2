@@ -14,7 +14,7 @@ import domain.Prediction;
 import domain.Question;
 import domain.RegisteredClient;
 import test.dataAccess.TestDataAccess;
-public class DeleteEventDAW {
+public class DeleteEventDAWTest {
 
 	// sut:system under test
 	static DataAccess sut = new DataAccess(true);

@@ -7,35 +7,22 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-import org.junit.BeforeClass;
 import org.junit.Test;
-
-import businessLogic.BLFacadeImplementation;
 import dataAccess.DataAccess;
 import domain.Event;
 import domain.Question;
-import exceptions.EventFinished;
 import exceptions.QuestionAlreadyExist;
-import test.businessLogic.TestFacadeImplementation;
+import test.dataAccess.TestDataAccess;
 
-public class CreateQuestionInt {
-	 static BLFacadeImplementation sut;
-	 static TestFacadeImplementation testBL;
+public class CreateQuestionDAWTest {
+
+	 //sut:system under test
+	 static DataAccess sut=new DataAccess(true);
+	 
+	 //additional operations needed to execute the test 
+	 static TestDataAccess testDA=new TestDataAccess();
 
 	private Event ev;
-	
-	@BeforeClass
-	public static void setUpClass() {
-		//sut= new BLFacadeImplementation();
-		
-		// you can parametrize the DataAccess used by BLFacadeImplementation
-		//DataAccess da= new DataAccess(ConfigXML.getInstance().getDataBaseOpenMode().equals("initialize"));
-		DataAccess da= new DataAccess(false);
-
-		sut=new BLFacadeImplementation(da);
-		
-		testBL= new TestFacadeImplementation();
-	}
 	
 	@Test
 	//sut.createQuestion:  The event has one question with a queryText. 
@@ -57,7 +44,9 @@ public class CreateQuestionInt {
 			}	
 			
 			//configure the state of the system (create object in the dabatase)
-			ev = testBL.addEventWithQuestion(eventText,oneDate,queryText,betMinimum );
+			testDA.open();
+			ev = testDA.addEventWithQuestion(eventText,oneDate,queryText, betMinimum);
+			testDA.close();
 			
 			
 			//invoke System Under Test (sut)  
@@ -67,21 +56,17 @@ public class CreateQuestionInt {
 			//if the program continues fail
 		    fail();
 		   } catch (QuestionAlreadyExist e) {
-			// TODO Auto-generated catch block
 			// if the program goes to this point OK  
-			assertTrue(true);
-			} catch (EventFinished e) {
-				// if the program goes to this point fail
-			    fail();
-				// TODO Auto-generated catch block
-				e.printStackTrace();
+			//fail();
+			   assertTrue(true);
 			} finally {
 				  //Remove the created objects in the database (cascade removing)   
-		          boolean b=testBL.removeEvent(ev);
-		           System.out.println("Finally "+b);          
+				testDA.open();
+		         boolean b=testDA.removeEvent(ev);
+		          testDA.close();
+		         System.out.println("Finally "+b);          
 		        }
 		   }
-	
 	@Test
 	//sut.createQuestion:  The event has NOT one question with a queryText. 
 	public void test2() {
@@ -102,7 +87,9 @@ public class CreateQuestionInt {
 			}	
 			
 			//configure the state of the system (create object in the dabatase)
-			ev = testBL.addEventWithQuestion(eventText,oneDate,"query2",betMinimum );
+			testDA.open();
+			ev = testDA.addEventWithQuestion(eventText,oneDate,"query2", betMinimum);
+			testDA.close();			
 			
 			//invoke System Under Test (sut)  
 			Question q=sut.createQuestion(ev, queryText, betMinimum);
@@ -113,21 +100,23 @@ public class CreateQuestionInt {
 			assertEquals(q.getQuestion(),queryText);
 			assertEquals(q.getBetMinimum(),betMinimum,0);
 			
+			//q datubasean dago
+			testDA.open();
+			boolean exist = testDA.existQuestion(ev,q);
+				
+			assertTrue(exist);
+			testDA.close();
 			
 		   } catch (QuestionAlreadyExist e) {
 			// TODO Auto-generated catch block
 			// if the program goes to this point fail  
 			fail();
-			} catch (EventFinished e) {
-				// if the program goes to this point fail
-			    fail();
-				// TODO Auto-generated catch block
-				e.printStackTrace();
 			} finally {
 				  //Remove the created objects in the database (cascade removing)   
-		          boolean b=testBL.removeEvent(ev);
-		           System.out.println("Finally "+b);          
+				testDA.open();
+		          boolean b=testDA.removeEvent(ev);
+		          testDA.close();
+		      //     System.out.println("Finally "+b);          
 		        }
 		   }
-	
 }

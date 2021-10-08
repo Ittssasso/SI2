@@ -15,7 +15,7 @@ import exceptions.QuestionAlreadyExist;
 
 import test.dataAccess.TestDataAccess;
 
-public class CreateQuestionDAB {
+public class CreateQuestionDABTest {
 
 	 //sut:system under test
 	 static DataAccess sut=new DataAccess(true);

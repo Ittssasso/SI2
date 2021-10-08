@@ -1,35 +1,23 @@
 import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.fail;
-
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-
-import org.junit.BeforeClass;
 import org.junit.Test;
-
-import businessLogic.BLFacadeImplementation;
 import dataAccess.DataAccess;
 import domain.Event;
-import test.businessLogic.TestFacadeImplementation;
+import test.dataAccess.TestDataAccess;
 
-public class DeleteEventInt {
+public class DeleteEventDABTest {
 
-	static BLFacadeImplementation sut;
-	static TestFacadeImplementation testBL;
+	// sut:system under test
+	static DataAccess sut = new DataAccess(true);
+
+	// additional operations needed to execute the test
+	static TestDataAccess testDA = new TestDataAccess();
 
 	private Event ev;
 
-	@BeforeClass
-	public static void setUpClass() {
-		
-		DataAccess da = new DataAccess(false);
-
-		sut = new BLFacadeImplementation(da);
-
-		testBL = new TestFacadeImplementation();
-	}
-	
 	@Test
 	// sut.deleteEvent: The event is in the database
 	public void test1() {
@@ -48,21 +36,26 @@ public class DeleteEventInt {
 			}
 
 			// configure the state of the system (create object in the dabatase)
-			ev = testBL.addEvent(eventText, oneDate);
+			testDA.open();
+			ev = testDA.addEvent(eventText, oneDate);
+			testDA.close();
 
 			// invoke System Under Test (sut)
 			sut.deleteEvent(ev);
 			
 			// verify the results
-			assertTrue(testBL.removedEvent(ev));
+			testDA.open();
+			testDA.removedEvent(ev);
+			assertTrue(testDA.removedEvent(ev));
+			testDA.close();
 
 		} catch (Exception e) {
 			fail();
 		}
 	}
-	
+
 	@Test
-	// sut.createQuestion: The event is null.
+	// sut.deleteEvent: The event is null.
 	public void test2() {
 		try {
 
@@ -79,7 +72,7 @@ public class DeleteEventInt {
 	}
 
 	@Test
-	// sut.createQuestion: The event is not in the database.
+	// sut.deleteEvent: The event is not in the database.
 	public void test3() {
 		try {
 

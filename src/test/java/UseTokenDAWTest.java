@@ -17,7 +17,7 @@ import exceptions.BetIsMultiple;
 import exceptions.NoTokens;
 import test.dataAccess.TestDataAccess;
 
-public class UseTokenDAW {
+public class UseTokenDAWTest {
 
 	// sut:system under test
 	static DataAccess sut = new DataAccess(true);

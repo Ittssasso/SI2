@@ -1,11 +1,16 @@
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.fail;
+
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Vector;
+
+import org.junit.BeforeClass;
 import org.junit.Test;
+
+import businessLogic.BLFacadeImplementation;
 import dataAccess.DataAccess;
 import domain.Bet;
 import domain.Event;
@@ -15,15 +20,12 @@ import domain.RegisteredClient;
 import exceptions.BetIsLocked;
 import exceptions.BetIsMultiple;
 import exceptions.NoTokens;
-import test.dataAccess.TestDataAccess;
+import test.businessLogic.TestFacadeImplementation;
 
-public class UseTokenDAB {
+public class UseTokenIntTest {
 
-	// sut:system under test
-	static DataAccess sut = new DataAccess(true);
-
-	// additional operations needed to execute the test
-	static TestDataAccess testDA = new TestDataAccess();
+	static BLFacadeImplementation sut;
+	static TestFacadeImplementation testBL;
 
 	private RegisteredClient rC;
 	private Event ev;
@@ -31,6 +33,16 @@ public class UseTokenDAB {
 	private Question q;
 	private Prediction p;
 
+	@BeforeClass
+	public static void setUpClass() {
+		
+		DataAccess da = new DataAccess(false);
+
+		sut = new BLFacadeImplementation(da);
+
+		testBL = new TestFacadeImplementation();
+	}
+	
 	@Test
 	// sut.UseToken: The bet and the registered client are in the database.
 	public void test1() throws BetIsMultiple, NoTokens, BetIsLocked {
@@ -60,28 +72,24 @@ public class UseTokenDAB {
 				e.printStackTrace();
 			}
 
-			testDA.open();
-			ev = testDA.addEvent(event, date);
-			q = testDA.addQuestion(ev, "Nork irabaziko du?", 3);
-			p = testDA.addPrediction(q, "Barça", (float) 1.5);
+			ev = testBL.addEvent(event, date);
+			q = testBL.addQuestion(ev, "Nork irabaziko du?", 3);
+			p = testBL.addPrediction(q, "Barça", (float) 1.5);
 			Vector<Prediction> prediction = new Vector<Prediction>();
 			prediction.add(p);
-			rC = testDA.addRegisteredClient(name, surname, birthDate, dNI, email, password, currentAcount, replicable,
+			rC = testBL.addRegisteredClient(name, surname, birthDate, dNI, email, password, currentAcount, replicable,
 					tokensAmount);
-			b = testDA.addBet(prediction, 17, rC, locked);
-			testDA.close();
+			b = testBL.addBet(prediction, 17, rC, locked);
 
 			int esperoEm = 4;
 			//Invoke sut.
-			int sutEm = sut.useToken(b, rC);
-			
+			int em=sut.useToken(b, rC);
 			//Verify.
-			assertEquals(esperoEm, sutEm);
+			assertEquals(esperoEm,em);
 			
-			testDA.open();
-			boolean exist = testDA.existRegisteredClient(rC);
-			boolean exist1 = testDA.existBet(b);
-			testDA.close();
+
+			boolean exist = testBL.existRegisteredClient(rC);
+			boolean exist1 = testBL.existBet(b);
 
 			// Verify.
 			assertTrue(exist);
@@ -89,15 +97,13 @@ public class UseTokenDAB {
 
 		} finally {
 			// Remove the created objects in the database (cascade removing)
-			testDA.open();
-			boolean registeredClient = testDA.removeRegisteredClient(rC);
-			boolean bet = testDA.removedBet(b);
-			testDA.close();
+			boolean registeredClient = testBL.removeRegisteredClient(rC);
+			boolean bet = testBL.removedBet(b);
 			System.out.println(
 					"Bet ondo ezabatu da: " + bet + ", Registered client ondo ezabatu da: " + registeredClient);
 		}
 	}
-
+	
 	@Test
 	// sut.UseToken: The bet is not in the database.
 	public void test2() {
@@ -127,16 +133,14 @@ public class UseTokenDAB {
 				e.printStackTrace();
 			}
 
-			testDA.open();
-			ev = testDA.addEvent(event, date);
-			q = testDA.addQuestion(ev, "Nork irabaziko du?", 3);
-			p = testDA.addPrediction(q, "Barça", (float) 1.5);
+			ev = testBL.addEvent(event, date);
+			q = testBL.addQuestion(ev, "Nork irabaziko du?", 3);
+			p = testBL.addPrediction(q, "Barça", (float) 1.5);
 			Vector<Prediction> prediction = new Vector<Prediction>();
 			prediction.add(p);
-			rC = testDA.addRegisteredClient(name, surname, birthDate, dNI, email, password, currentAcount, replicable,
+			rC = testBL.addRegisteredClient(name, surname, birthDate, dNI, email, password, currentAcount, replicable,
 					tokensAmount);
 			b = rC.addBet(money, prediction);
-			testDA.close();
 			
 			//Invoke sut.
 			sut.useToken(b, rC);
@@ -146,9 +150,7 @@ public class UseTokenDAB {
 			assertTrue(true);
 		} finally {
 			// Remove the created objects in the database (cascade removing)
-			testDA.open();
-			boolean registeredClient = testDA.removeRegisteredClient(rC);
-			testDA.close();
+			boolean registeredClient = testBL.removeRegisteredClient(rC);
 			System.out.println("Registered client ondo ezabatu da: " + registeredClient);
 		}
 	}
@@ -210,15 +212,13 @@ public class UseTokenDAB {
 				e.printStackTrace();
 			}
 
-			testDA.open();
-			ev = testDA.addEvent(event, date);
-			q = testDA.addQuestion(ev, "Nork irabaziko du?", 3);
-			p = testDA.addPrediction(q, "Barça", (float) 1.5);
+			ev = testBL.addEvent(event, date);
+			q = testBL.addQuestion(ev, "Nork irabaziko du?", 3);
+			p = testBL.addPrediction(q, "Barça", (float) 1.5);
 			Vector<Prediction> prediction = new Vector<Prediction>();
 			prediction.add(p);
-			rC = testDA.addRegisteredClient(name, surname, birthDate, dNI, email, password, currentAcount, replicable,
+			rC = testBL.addRegisteredClient(name, surname, birthDate, dNI, email, password, currentAcount, replicable,
 					tokensAmount);
-			testDA.close();
 			
 			//Invoke sut.
 			sut.useToken(null, rC);
@@ -228,9 +228,7 @@ public class UseTokenDAB {
 			assertTrue(true);
 		} finally {
 			// Remove the created objects in the database (cascade removing)
-			testDA.open();
-			boolean registeredClient = testDA.removeRegisteredClient(rC);
-			testDA.close();
+			boolean registeredClient = testBL.removeRegisteredClient(rC);
 			System.out.println("Registered client ondo ezabatu da: " + registeredClient);
 		}
 
@@ -254,11 +252,11 @@ public class UseTokenDAB {
 
 	@Test
 	//sut.UseToken: NoTokens exception. (tokensAmount=-7).
-	public void test21() {
+	public void test6() {
 		try {
 
 			System.out.println("");
-			System.out.println("TEST21:");
+			System.out.println("TEST6:");
 
 			//Define parameters.
 			String name = "Alexandra";
@@ -281,16 +279,14 @@ public class UseTokenDAB {
 				e.printStackTrace();
 			}
 
-			testDA.open();
-			ev = testDA.addEvent(event, date);
-			q = testDA.addQuestion(ev, "Nork irabaziko du?", 3);
-			p = testDA.addPrediction(q, "Barça", (float) 1.5);
+			ev = testBL.addEvent(event, date);
+			q = testBL.addQuestion(ev, "Nork irabaziko du?", 3);
+			p = testBL.addPrediction(q, "Barça", (float) 1.5);
 			Vector<Prediction> prediction = new Vector<Prediction>();
 			prediction.add(p);
-			rC = testDA.addRegisteredClient(name, surname, birthDate, dNI, email, password, currentAcount, replicable,
+			rC = testBL.addRegisteredClient(name, surname, birthDate, dNI, email, password, currentAcount, replicable,
 					tokensAmount);
-			b = testDA.addBet(prediction, 17, rC, locked);
-			testDA.close();
+			b = testBL.addBet(prediction, 17, rC, locked);
 			
 			//Invoke sut.
 			sut.useToken(b, rC);
@@ -303,10 +299,8 @@ public class UseTokenDAB {
 			fail();
 		} finally {
 			// Remove the created objects in the database (cascade removing)
-			testDA.open();
-			boolean registeredClient = testDA.removeRegisteredClient(rC);
-			boolean bet = testDA.removedBet(b);
-			testDA.close();
+			boolean registeredClient = testBL.removeRegisteredClient(rC);
+			boolean bet = testBL.removedBet(b);
 			System.out.println(
 					"Bet ondo ezabatu da: " + bet + ", Registered client ondo ezabatu da: " + registeredClient);
 		}
@@ -314,11 +308,11 @@ public class UseTokenDAB {
 
 	@Test
 	//sut.UseToken: BetIsLocked exception. (locked==true).
-	public void test19() {
+	public void test7() {
 		try {
 
 			System.out.println("");
-			System.out.println("TEST19:");
+			System.out.println("TEST7:");
 
 			//Define parameters.
 			String name = "Alex";
@@ -341,16 +335,14 @@ public class UseTokenDAB {
 				e.printStackTrace();
 			}
 
-			testDA.open();
-			ev = testDA.addEvent(event, date);
-			q = testDA.addQuestion(ev, "Nork irabaziko du?", 3);
-			p = testDA.addPrediction(q, "Barça", (float) 1.5);
+			ev = testBL.addEvent(event, date);
+			q = testBL.addQuestion(ev, "Nork irabaziko du?", 3);
+			p = testBL.addPrediction(q, "Barça", (float) 1.5);
 			Vector<Prediction> prediction = new Vector<Prediction>();
 			prediction.add(p);
-			rC = testDA.addRegisteredClient(name, surname, birthDate, dNI, email, password, currentAcount, replicable,
+			rC = testBL.addRegisteredClient(name, surname, birthDate, dNI, email, password, currentAcount, replicable,
 					tokensAmount);
-			b = testDA.addBet(prediction, 17, rC, locked);
-			testDA.close();
+			b = testBL.addBet(prediction, 17, rC, locked);
 			
 			//Invoke sut.
 			sut.useToken(b, rC);
@@ -363,10 +355,8 @@ public class UseTokenDAB {
 			fail();
 		} finally {
 			// Remove the created objects in the database (cascade removing)
-			testDA.open();
-			boolean registeredClient = testDA.removeRegisteredClient(rC);
-			boolean bet = testDA.removedBet(b);
-			testDA.close();
+			boolean registeredClient = testBL.removeRegisteredClient(rC);
+			boolean bet = testBL.removedBet(b);
 			System.out.println(
 					"Bet ondo ezabatu da: " + bet + ", Registered client ondo ezabatu da: " + registeredClient);
 		}
@@ -375,11 +365,11 @@ public class UseTokenDAB {
 
 	@Test
 	//sut.UseToken: BetIsMultiple exception. (prediction.size()>1).
-	public void test20() {
+	public void test8() {
 		try {
 
 			System.out.println("");
-			System.out.println("TEST20:");
+			System.out.println("TEST8:");
 
 			//Define parameters.
 			String name = "Nerea";
@@ -402,18 +392,16 @@ public class UseTokenDAB {
 				e.printStackTrace();
 			}
 
-			testDA.open();
-			ev = testDA.addEvent(event, date);
-			q = testDA.addQuestion(ev, "Nork irabaziko du?", 3);
-			p = testDA.addPrediction(q, "Barça", (float) 1.5);
-			Prediction p1 = testDA.addPrediction(q, "Sevilla", (float) 2);
+			ev = testBL.addEvent(event, date);
+			q = testBL.addQuestion(ev, "Nork irabaziko du?", 3);
+			p = testBL.addPrediction(q, "Barça", (float) 1.5);
+			Prediction p1 = testBL.addPrediction(q, "Sevilla", (float) 2);
 			Vector<Prediction> prediction = new Vector<Prediction>();
 			prediction.add(p);
 			prediction.add(p1);
-			rC = testDA.addRegisteredClient(name, surname, birthDate, dNI, email, password, currentAcount, replicable,
+			rC = testBL.addRegisteredClient(name, surname, birthDate, dNI, email, password, currentAcount, replicable,
 					tokensAmount);
-			b = testDA.addBet(prediction, 17, rC, locked);
-			testDA.close();
+			b = testBL.addBet(prediction, 17, rC, locked);
 			
 			//Invoke sut.
 			sut.useToken(b, rC);
@@ -426,10 +414,8 @@ public class UseTokenDAB {
 			assertTrue(true);
 		} finally {
 			// Remove the created objects in the database (cascade removing)
-			testDA.open();
-			boolean registeredClient = testDA.removeRegisteredClient(rC);
-			boolean bet = testDA.removedBet(b);
-			testDA.close();
+			boolean registeredClient = testBL.removeRegisteredClient(rC);
+			boolean bet = testBL.removedBet(b);
 			System.out.println(
 					"Bet ondo ezabatu da: " + bet + ", Registered client ondo ezabatu da: " + registeredClient);
 		}
@@ -439,11 +425,11 @@ public class UseTokenDAB {
 
 	@Test
 	//sut.UseToken: rc.Tokens=-1.
-	public void test16() {
+	public void test9() {
 		try {
 
 			System.out.println("");
-			System.out.println("TEST16:");
+			System.out.println("TEST9:");
 
 			//Define parameters.
 			String name = "Alexandra";
@@ -466,16 +452,14 @@ public class UseTokenDAB {
 				e.printStackTrace();
 			}
 
-			testDA.open();
-			ev = testDA.addEvent(event, date);
-			q = testDA.addQuestion(ev, "Nork irabaziko du?", 3);
-			p = testDA.addPrediction(q, "Barça", (float) 1.5);
+			ev = testBL.addEvent(event, date);
+			q = testBL.addQuestion(ev, "Nork irabaziko du?", 3);
+			p = testBL.addPrediction(q, "Barça", (float) 1.5);
 			Vector<Prediction> prediction = new Vector<Prediction>();
 			prediction.add(p);
-			rC = testDA.addRegisteredClient(name, surname, birthDate, dNI, email, password, currentAcount, replicable,
+			rC = testBL.addRegisteredClient(name, surname, birthDate, dNI, email, password, currentAcount, replicable,
 					tokensAmount);
-			b = testDA.addBet(prediction, 17, rC, locked);
-			testDA.close();
+			b = testBL.addBet(prediction, 17, rC, locked);
 
 			//Invoke sut.
 			sut.useToken(b, rC);
@@ -488,10 +472,8 @@ public class UseTokenDAB {
 			fail();
 		} finally {
 			// Remove the created objects in the database (cascade removing)
-			testDA.open();
-			boolean registeredClient = testDA.removeRegisteredClient(rC);
-			boolean bet = testDA.removedBet(b);
-			testDA.close();
+			boolean registeredClient = testBL.removeRegisteredClient(rC);
+			boolean bet = testBL.removedBet(b);
 			System.out.println(
 					"Bet ondo ezabatu da: " + bet + ", Registered client ondo ezabatu da: " + registeredClient);
 		}
@@ -499,11 +481,11 @@ public class UseTokenDAB {
 
 	@Test
 	//sut.UseToken: rc.Tokens=0.
-	public void test17() {
+	public void test10() {
 		try {
 
 			System.out.println("");
-			System.out.println("TEST17:");
+			System.out.println("TEST10:");
 
 			//Define parameters.
 			String name = "Alex";
@@ -526,17 +508,14 @@ public class UseTokenDAB {
 				e.printStackTrace();
 			}
 
-			testDA.open();
-			ev = testDA.addEvent(event, date);
-			q = testDA.addQuestion(ev, "Nork irabaziko du?", 3);
-			p = testDA.addPrediction(q, "Barça", (float) 1.5);
+			ev = testBL.addEvent(event, date);
+			q = testBL.addQuestion(ev, "Nork irabaziko du?", 3);
+			p = testBL.addPrediction(q, "Barça", (float) 1.5);
 			Vector<Prediction> prediction = new Vector<Prediction>();
 			prediction.add(p);
-			rC = testDA.addRegisteredClient(name, surname, birthDate, dNI, email, password, currentAcount, replicable,
+			rC = testBL.addRegisteredClient(name, surname, birthDate, dNI, email, password, currentAcount, replicable,
 					tokensAmount);
-			b = testDA.addBet(prediction, 17, rC, locked);
-			testDA.close();
-
+			b = testBL.addBet(prediction, 17, rC, locked);
 			//Invoke sut.
 			sut.useToken(b, rC);
 
@@ -548,10 +527,8 @@ public class UseTokenDAB {
 			fail();
 		} finally {
 			// Remove the created objects in the database (cascade removing)
-			testDA.open();
-			boolean registeredClient = testDA.removeRegisteredClient(rC);
-			boolean bet = testDA.removedBet(b);
-			testDA.close();
+			boolean registeredClient = testBL.removeRegisteredClient(rC);
+			boolean bet = testBL.removedBet(b);
 			System.out.println(
 					"Bet ondo ezabatu da: " + bet + ", Registered client ondo ezabatu da: " + registeredClient);
 		}
@@ -560,11 +537,11 @@ public class UseTokenDAB {
 
 	@Test
 	//sut.UseToken: rc.Tokens=1.
-	public void test18() {
+	public void test11() {
 		try {
 
 			System.out.println("");
-			System.out.println("TEST18:");
+			System.out.println("TEST11:");
 
 			//Define parameters.
 			String name = "Idoia";
@@ -587,16 +564,14 @@ public class UseTokenDAB {
 				e.printStackTrace();
 			}
 
-			testDA.open();
-			ev = testDA.addEvent(event, date);
-			q = testDA.addQuestion(ev, "Nork irabaziko du?", 3);
-			p = testDA.addPrediction(q, "Barça", (float) 1.5);
+			ev = testBL.addEvent(event, date);
+			q = testBL.addQuestion(ev, "Nork irabaziko du?", 3);
+			p = testBL.addPrediction(q, "Barça", (float) 1.5);
 			Vector<Prediction> prediction = new Vector<Prediction>();
 			prediction.add(p);
-			rC = testDA.addRegisteredClient(name, surname, birthDate, dNI, email, password, currentAcount, replicable,
+			rC = testBL.addRegisteredClient(name, surname, birthDate, dNI, email, password, currentAcount, replicable,
 					tokensAmount);
-			b = testDA.addBet(prediction, 17, rC, locked);
-			testDA.close();
+			b = testBL.addBet(prediction, 17, rC, locked);
 
 			int esperoEm = 0;
 			//Invoke sut.
@@ -613,13 +588,14 @@ public class UseTokenDAB {
 			fail();
 		} finally {
 			// Remove the created objects in the database (cascade removing)
-			testDA.open();
-			boolean registeredClient = testDA.removeRegisteredClient(rC);
-			boolean bet = testDA.removedBet(b);
-			testDA.close();
+			boolean registeredClient = testBL.removeRegisteredClient(rC);
+			boolean bet = testBL.removedBet(b);
 			System.out.println(
 					"Bet ondo ezabatu da: " + bet + ", Registered client ondo ezabatu da: " + registeredClient);
 		}
 	}
 
 }
+
+
+	
