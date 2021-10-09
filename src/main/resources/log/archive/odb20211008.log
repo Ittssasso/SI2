@@ -1,86 +1,86 @@
 ------------------------------------------------------------------------------------------------------------------------
 
-[2021-10-08 09:19:36 #1 store] 
-Database 'C:\Users\karpe\git\repository2\3iterazioa\src\main\resources\bets.temp' is opened by 22772@LAPTOP-O54S2HDJ
+[2021-10-09 18:48:51 #1 store] 
+Database 'C:\Users\karpe\git\repository2\3iterazioa\src\main\resources\bets.temp' is opened by 9640@LAPTOP-O54S2HDJ
 
-[2021-10-08 09:19:37 #2 type.registry] 
-New type domain.Event
-
-[2021-10-08 09:19:37 #3 type] 
-Type domain.Event is not enhanced.
-
-[2021-10-08 09:19:37 #4 type.registry] 
-New type domain.Question
-
-[2021-10-08 09:19:37 #5 type.registry] 
-New type java.util.Vector<domain.Question>
-
-[2021-10-08 09:19:37 #6 type] 
-Type domain.Question is not enhanced.
-
-[2021-10-08 09:19:37 #7 type.registry] 
-New type domain.Prediction
-
-[2021-10-08 09:19:37 #8 type.registry] 
-New type java.util.Vector<domain.Prediction>
-
-[2021-10-08 09:19:37 #9 type] 
-Type domain.Prediction is not enhanced.
-
-[2021-10-08 09:19:37 #10 type.registry] 
-New type domain.Bet
-
-[2021-10-08 09:19:37 #11 type.registry] 
-New type java.util.Vector<domain.Bet>
-
-[2021-10-08 09:19:37 #12 type] 
-Type domain.Bet is not enhanced.
-
-[2021-10-08 09:19:37 #13 type.registry] 
+[2021-10-09 18:48:52 #2 type.registry] 
 New type domain.Person
 
-[2021-10-08 09:19:37 #14 type.registry] 
-New type domain.RegisteredClient
-
-[2021-10-08 09:19:37 #15 type] 
-Type domain.Person is not enhanced.
-
-[2021-10-08 09:19:37 #16 type] 
-Type domain.RegisteredClient is not enhanced.
-
-[2021-10-08 09:19:37 #17 type.registry] 
-New type domain.ReplicatedProperties
-
-[2021-10-08 09:19:37 #18 type.registry] 
-New type java.util.HashMap<domain.RegisteredClient,domain.ReplicatedProperties>
-
-[2021-10-08 09:19:37 #19 type.registry] 
-New type domain.Movements
-
-[2021-10-08 09:19:37 #20 type.registry] 
-New type java.util.Vector<domain.Movements>
-
-[2021-10-08 09:19:37 #21 type] 
-Type domain.ReplicatedProperties is not enhanced.
-
-[2021-10-08 09:19:37 #22 type] 
-Type domain.Movements is not enhanced.
-
-[2021-10-08 09:19:37 #23 type.registry] 
-New type java.util.Vector<java.lang.Object>
-
-[2021-10-08 09:19:37 #24 type.registry] 
-New type java.util.HashMap<java.lang.Object,java.lang.Object>
-
-[2021-10-08 09:19:41 #25 type.registry] 
+[2021-10-09 18:48:52 #3 type.registry] 
 New type domain.Admin
 
-[2021-10-08 09:19:41 #26 type] 
+[2021-10-09 18:48:52 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-10-09 18:48:52 #5 type] 
 Type domain.Admin is not enhanced.
 
-[2021-10-08 09:19:41 #27 type.registry] 
+[2021-10-09 18:48:52 #6 type.registry] 
 New type domain.Worker
 
-[2021-10-08 09:19:41 #28 type] 
+[2021-10-09 18:48:52 #7 type] 
 Type domain.Worker is not enhanced.
+
+[2021-10-09 18:48:52 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-10-09 18:48:52 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-10-09 18:48:52 #10 type.registry] 
+New type domain.ReplicatedProperties
+
+[2021-10-09 18:48:52 #11 type.registry] 
+New type java.util.HashMap<domain.RegisteredClient,domain.ReplicatedProperties>
+
+[2021-10-09 18:48:52 #12 type.registry] 
+New type domain.Movements
+
+[2021-10-09 18:48:52 #13 type.registry] 
+New type java.util.Vector<domain.Movements>
+
+[2021-10-09 18:48:52 #14 type.registry] 
+New type domain.Bet
+
+[2021-10-09 18:48:52 #15 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-10-09 18:48:52 #16 type] 
+Type domain.ReplicatedProperties is not enhanced.
+
+[2021-10-09 18:48:52 #17 type] 
+Type domain.Movements is not enhanced.
+
+[2021-10-09 18:48:52 #18 type] 
+Type domain.Bet is not enhanced.
+
+[2021-10-09 18:48:52 #19 type.registry] 
+New type domain.Prediction
+
+[2021-10-09 18:48:52 #20 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-10-09 18:48:52 #21 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-10-09 18:48:52 #22 type.registry] 
+New type domain.Question
+
+[2021-10-09 18:48:52 #23 type] 
+Type domain.Question is not enhanced.
+
+[2021-10-09 18:48:52 #24 type.registry] 
+New type domain.Event
+
+[2021-10-09 18:48:52 #25 type] 
+Type domain.Event is not enhanced.
+
+[2021-10-09 18:48:52 #26 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-10-09 18:48:52 #27 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2021-10-09 18:48:52 #28 type.registry] 
+New type java.util.HashMap<java.lang.Object,java.lang.Object>
 
