@@ -628,46 +628,11 @@ public class DataAccess {
 		for (int i = 0; i < bets.size(); i++) { //predikzioko apustu bakoitzeko
 			Bet b = db.find(Bet.class, bets.get(i).getBetNumber());
 			RegisteredClient rc = db.find(RegisteredClient.class, b.getClient().getEmail());
-			float money = b.getMoney(); //apustatutako ditu kantitatea
-			Vector<Prediction> ps = b.getPredictions();
-			RegisteredClient replicatedClient=null;
-			if(b.getReplicatedClient()!=null) {//apustua erreplikatutako bezero baten erreplika bada
-				replicatedClient = b.getReplicatedClient();
-			}
+			
 			if(b.getMultiple()) { //apustu anitza bada
-				boolean multipleWin = true;
-				float totalFee=1;
-				for(int j=0; j<ps.size(); j++) {
-					if(ps.get(j).getQuestion().getResult()==null || !ps.get(j).getQuestion().getResult().equals(ps.get(j).getPrediction())) multipleWin=false;
-					totalFee=totalFee*ps.get(j).getFee();
-				}
-				if (multipleWin) { //apustu anitza irabazi badu
-					if(replicatedClient!=null) { //apustua erreplikatua bazen, bezero originalari portzentai bat eman
-						replicatedClient.setBalance(replicatedClient.getBalance() + money*totalFee*(float)(0.1));
-						rc.setBalance(rc.getBalance() + money*totalFee*(float)(0.9));
-						rc.addMovements2(ResourceBundle.getBundle("Etiquetas").getString("BetWon")+": "+b.getPredictions().get(0).getQuestion().getEvent().getDescription(), rc.getBalance() + money*totalFee*(float)(0.9), new Date(), "x");
-						replicatedClient.addMovements2(ResourceBundle.getBundle("Etiquetas").getString("BetWon")+": "+b.getPredictions().get(0).getQuestion().getEvent().getDescription(), replicatedClient.getBalance() + money*totalFee*(float)(0.1), new Date(), "x");
-					}else{
-						rc.setBalance(rc.getBalance() + money*totalFee);
-						rc.addMovements2(ResourceBundle.getBundle("Etiquetas").getString("BetWon")+": "+b.getPredictions().get(0).getQuestion().getEvent().getDescription(), rc.getBalance() + money*totalFee, new Date(), "x");
-
-					}
-					b.setWin(true);
-				}
+				putResultMultipleBet(b, rc);
 			} else { //apustu sinplea
-				float new_balance = money * prediction.getFee() * b.getFeeMultiplier();
-				if(replicatedClient!=null) { //apustua erreplikatua bazen, bezero originalari portzentai bat eman
-					replicatedClient.setBalance(replicatedClient.getBalance() + new_balance*(float)(0.1));
-					rc.setBalance(rc.getBalance() + new_balance*(float)(0.9));
-					rc.addMovements2(ResourceBundle.getBundle("Etiquetas").getString("BetWon")+": "+b.getPredictions().get(0).getQuestion().getEvent().getDescription(),rc.getBalance() + new_balance*(float)(0.9), new Date(), "-");
-					replicatedClient.addMovements2(ResourceBundle.getBundle("Etiquetas").getString("BetWon")+": "+b.getPredictions().get(0).getQuestion().getEvent().getDescription(), replicatedClient.getBalance() + money*(float)(0.1), new Date(), "-");
-
-				}else{
-					rc.setBalance(rc.getBalance() + new_balance);
-					rc.addMovements2(ResourceBundle.getBundle("Etiquetas").getString("BetWon")+": "+b.getPredictions().get(0).getQuestion().getEvent().getDescription(),rc.getBalance() + new_balance, new Date(), "-");
-
-				}
-				b.setWin(true);
+				putResultSimpleBet(prediction, b, rc);
 			}
 			db.persist(rc);
 			db.persist(b);
@@ -676,6 +641,57 @@ public class DataAccess {
 		db.getTransaction().commit();
 	}
 
+	/**
+	 * This method sets as won the not-multiple bet and calls winMoney so bet winners' gain their money
+	 * @param prediction
+	 * @param b
+	 * @param rc
+	 */
+	private void putResultSimpleBet(Prediction prediction, Bet b, RegisteredClient rc) {
+		float new_balance = b.getMoney() * prediction.getFee() * b.getFeeMultiplier();
+		winMoney(b, new_balance, "-", rc);
+		b.setWin(true);
+	}
+
+	/**
+	 * This method checks if the multiple bet has been won and calls winMoney so bet winners' gain their money
+	 * @param b
+	 * @param rc
+	 */
+	private void putResultMultipleBet(Bet b, RegisteredClient rc) {
+		Vector<Prediction> ps = b.getPredictions();
+		boolean multipleWin = true;
+		float totalFee=1;
+		for(int j=0; j<ps.size(); j++) {
+			if(ps.get(j).getQuestion().getResult()==null || !ps.get(j).getQuestion().getResult().equals(ps.get(j).getPrediction())) multipleWin=false;
+			totalFee=totalFee*ps.get(j).getFee();
+		}
+		if (multipleWin) { //apustu anitza irabazi badu
+			float new_balance = b.getMoney()*totalFee;
+			winMoney(b, new_balance, "x", rc);
+			b.setWin(true);
+		}
+	}
+	
+	/**
+	 * This method gives the clients the corresponded money for winning a bet
+	 * @param b
+	 * @param new_balance
+	 * @param multipleorsimple
+	 * @param rc
+	 */
+	private void winMoney(Bet b, float new_balance, String multipleorsimple, RegisteredClient rc){
+		RegisteredClient replicatedClient = b.getReplicatedClient();
+		if(replicatedClient!=null) {//apustua erreplikatua bada, bezero originalari portzentai bat eman
+			replicatedClient.setBalance(replicatedClient.getBalance() + new_balance*(float)(0.1));
+			rc.setBalance(rc.getBalance() + new_balance*(float)(0.9));
+			rc.addMovements2(ResourceBundle.getBundle("Etiquetas").getString("BetWon")+": "+b.getPredictions().get(0).getQuestion().getEvent().getDescription(), rc.getBalance() + new_balance*(float)(0.9), new Date(), multipleorsimple);
+			replicatedClient.addMovements2(ResourceBundle.getBundle("Etiquetas").getString("BetWon")+": "+b.getPredictions().get(0).getQuestion().getEvent().getDescription(), replicatedClient.getBalance() + new_balance*(float)(0.1), new Date(), multipleorsimple);
+		}else {
+			rc.setBalance(rc.getBalance() + new_balance);
+			rc.addMovements2(ResourceBundle.getBundle("Etiquetas").getString("BetWon")+": "+b.getPredictions().get(0).getQuestion().getEvent().getDescription(),rc.getBalance() + new_balance, new Date(), multipleorsimple);
+		}
+	}
 	
 	/**
 	 * This method create a bet from a prediction
