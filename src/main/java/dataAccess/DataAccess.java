@@ -2,7 +2,6 @@ package dataAccess;
 
 import java.util.Calendar;
 
-
 import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
@@ -126,7 +125,6 @@ public class DataAccess {
 			Prediction pr1;
 			Prediction pr2;
 			Prediction pr3;
-			
 
 			if (Locale.getDefault().equals(new Locale("es"))) {
 				q1 = ev1.addQuestion(" Quién ganará el partido?", 1);
@@ -145,7 +143,7 @@ public class DataAccess {
 
 				q9 = ev23.addQuestion(" Cuántos goles se marcarán?", 2);
 				q9.setEvent(ev23);
-				
+
 				q10 = ev24.addQuestion(" Cuántos goles se marcarán?", 2);
 				q10.setEvent(ev24);
 
@@ -164,7 +162,7 @@ public class DataAccess {
 				q9.addPrediction("Alavs", (float) 1.5);
 				q9.addPrediction("Cdiz", (float) 2.5);
 				q9.addPrediction("Draws", (float) 2.0);
-				
+
 				q10.addPrediction("0", (float) 1.5);
 				q10.addPrediction("1", (float) 1.3);
 				q10.addPrediction("2", (float) 1.2);
@@ -192,7 +190,7 @@ public class DataAccess {
 
 				q9 = ev23.addQuestion("How many goals will be scored in the match?", 2);
 				q9.setEvent(ev23);
-				
+
 				q10 = ev24.addQuestion("How many goals will be scored in the match?", 2);
 				q10.setEvent(ev24);
 
@@ -211,7 +209,7 @@ public class DataAccess {
 				q9.addPrediction("Alavs", (float) 1.5);
 				q9.addPrediction("Cdiz", (float) 2.5);
 				q9.addPrediction("Draws", (float) 2.0);
-				
+
 				q10.addPrediction("0", (float) 1.5);
 				q10.addPrediction("1", (float) 1.3);
 				q10.addPrediction("2", (float) 1.2);
@@ -239,15 +237,15 @@ public class DataAccess {
 
 				q9 = ev23.addQuestion("Zenbat gol sartuko dira?", 2);
 				q9.setEvent(ev23);
-				
+
 				q10 = ev24.addQuestion("Zenbat gol sartuko dira?", 2);
 				q10.setEvent(ev24);
 
 				q1.addPrediction("Atletico", (float) 1.5);
 				q1.addPrediction("Athletic", (float) 1.1);
 				q1.addPrediction("Draws", (float) 1.2);
-				
-				q5.addPrediction("Malaga",(float) 1.5);
+
+				q5.addPrediction("Malaga", (float) 1.5);
 				q5.addPrediction("Valencia", (float) 1.1);
 				q5.addPrediction("Draws", (float) 1.0);
 
@@ -262,7 +260,7 @@ public class DataAccess {
 				q9.addPrediction("Alavs", (float) 1.5);
 				q9.addPrediction("Cdiz", (float) 2.5);
 				q9.addPrediction("Draws", (float) 2.0);
-				
+
 				q10.addPrediction("0", (float) 1.5);
 				q10.addPrediction("1", (float) 1.3);
 				q10.addPrediction("2", (float) 1.2);
@@ -274,7 +272,7 @@ public class DataAccess {
 				pr3 = new Prediction("Cdiz", (float) 2.5, q9);
 
 			}
-			
+
 			q7.setResult(pr1.getPrediction());
 			q8.setResult(pr2.getPrediction());
 			q9.setResult("Draws");
@@ -285,8 +283,8 @@ public class DataAccess {
 					"1234567812345678");
 			RegisteredClient p3 = new RegisteredClient("p1", "p2", newDate(2000, 9, 15), "11111111X",
 					"client@email.com", "12345678", "1234567812345678", true);
-			RegisteredClient p4= new RegisteredClient("p1", "p2", newDate(2000, 9, 15), "11111111X",
-					"a", "a", "1234567812345678", true);
+			RegisteredClient p4 = new RegisteredClient("p1", "p2", newDate(2000, 9, 15), "11111111X", "a", "a",
+					"1234567812345678", true);
 			p3.setBalance(40);
 			p4.setBalance(40);
 
@@ -297,9 +295,9 @@ public class DataAccess {
 			Vector<Prediction> pred3 = new Vector<Prediction>();
 			pred3.addElement(pr3);
 			pred3.addElement(pr1);
-			//para probar replicateUser con apuesta mltiple:
-			Event ev70= new Event(70, "khazix vs yuumi", UtilDate.newDate(year, month, 17));
-			Question q700= new Question(700, "Who would win?",  1, ev70);
+			// para probar replicateUser con apuesta mltiple:
+			Event ev70 = new Event(70, "khazix vs yuumi", UtilDate.newDate(year, month, 17));
+			Question q700 = new Question(700, "Who would win?", 1, ev70);
 			Prediction pr6 = new Prediction("Khazix", (float) 1.1, q700);
 			Prediction pr7 = new Prediction("Yuumi", 3, q700);
 			Vector<Prediction> predictionsKY = new Vector<Prediction>();
@@ -315,9 +313,11 @@ public class DataAccess {
 			b3.setClient(p4);
 			b3.setWin(true);
 			p4.addBet(b3);
-			p4.addMovements2(ResourceBundle.getBundle("Etiquetas").getString("ToBet")+": "+b3.getPredictions().get(0).getQuestion().getEvent().getDescription(), -b3.getMoney(),  UtilDate.newDate(2021, 3, 2), "x");
+			p4.addMovements2(
+					ResourceBundle.getBundle("Etiquetas").getString("ToBet") + ": "
+							+ b3.getPredictions().get(0).getQuestion().getEvent().getDescription(),
+					-b3.getMoney(), UtilDate.newDate(2021, 3, 2), "x");
 
-			
 			Bet b = new Bet(3, pred1);
 			Bet b1 = new Bet(2, pred2);
 			Bet b2 = new Bet(4, pred3);
@@ -335,11 +335,19 @@ public class DataAccess {
 			p3.addBet(b);
 			p3.addBet(b1);
 			p3.addBet(b2);
-			p3.addMovements2(ResourceBundle.getBundle("Etiquetas").getString("ToBet")+": "+b.getPredictions().get(0).getQuestion().getEvent().getDescription(), -b.getMoney(),  UtilDate.newDate(2021, 3, 2),"-");
-			p3.addMovements2(ResourceBundle.getBundle("Etiquetas").getString("ToBet")+": "+b1.getPredictions().get(0).getQuestion().getEvent().getDescription(), -b1.getMoney(),   UtilDate.newDate(2021, 2, 25), "-");
-			p3.addMovements2(ResourceBundle.getBundle("Etiquetas").getString("ToBet")+": "+b2.getPredictions().get(0).getQuestion().getEvent().getDescription(), -b2.getMoney(),   UtilDate.newDate(2021, 0, 17), "x");
-			
-			
+			p3.addMovements2(
+					ResourceBundle.getBundle("Etiquetas").getString("ToBet") + ": "
+							+ b.getPredictions().get(0).getQuestion().getEvent().getDescription(),
+					-b.getMoney(), UtilDate.newDate(2021, 3, 2), "-");
+			p3.addMovements2(
+					ResourceBundle.getBundle("Etiquetas").getString("ToBet") + ": "
+							+ b1.getPredictions().get(0).getQuestion().getEvent().getDescription(),
+					-b1.getMoney(), UtilDate.newDate(2021, 2, 25), "-");
+			p3.addMovements2(
+					ResourceBundle.getBundle("Etiquetas").getString("ToBet") + ": "
+							+ b2.getPredictions().get(0).getQuestion().getEvent().getDescription(),
+					-b2.getMoney(), UtilDate.newDate(2021, 0, 17), "x");
+
 			q7.setResult(pr1.getPrediction());
 			q8.setResult(pr2.getPrediction());
 			q9.setResult(pr3.getPrediction());
@@ -353,8 +361,6 @@ public class DataAccess {
 			db.persist(pr2);
 			db.persist(pr3);
 			db.persist(pr7);
-
-
 
 			db.persist(q1);
 			db.persist(q2);
@@ -392,9 +398,9 @@ public class DataAccess {
 			db.persist(ev22);
 			db.persist(ev23);
 			db.persist(ev70);
-			
+
 			db.persist(ev24);
-			
+
 			db.getTransaction().commit();
 			System.out.println("Db initialized");
 		} catch (Exception e) {
@@ -513,21 +519,18 @@ public class DataAccess {
 	 * @return boolean, true if the client has been registered successfully, false
 	 *         if there is already someone registered with that email
 	 */
-	public boolean storeRegisteredClient(String name, String surname, Date birthDate, String DNI, String email,
-			String password, String currentAccount, boolean replicable) {
+	public boolean storeRegisteredClient(RegisteredClient rC) {
 
 		db.getTransaction().begin();
 		TypedQuery<Person> query = db.createQuery("SELECT p FROM Person p WHERE p.email=?1 OR p.DNI=?2", Person.class);
-		query.setParameter(1, email);
-		query.setParameter(2, DNI);
+		query.setParameter(1, rC.getEmail());
+		query.setParameter(2, rC.getDNI());
 		List<Person> p = query.getResultList();
-		Person rc = null;
 		if (p.isEmpty()) {
-			rc = new RegisteredClient(name, surname, birthDate, DNI, email, password, currentAccount, replicable);
-			db.persist(rc);
+			db.persist(rC);
 		}
 		db.getTransaction().commit();
-		return rc==null;
+		return rC == null;
 	}
 
 	/**
@@ -560,7 +563,7 @@ public class DataAccess {
 			return ev;
 		} else
 			throw new EventAlreadyExists();
-		
+
 	}
 
 	/**
@@ -625,46 +628,67 @@ public class DataAccess {
 		Question q = db.find(Question.class, question.getQuestionNumber());
 		q.setResult(prediction.getPrediction());
 		Vector<Bet> bets = prediction.getBets();
-		for (int i = 0; i < bets.size(); i++) { //predikzioko apustu bakoitzeko
+		for (int i = 0; i < bets.size(); i++) { // predikzioko apustu bakoitzeko
 			Bet b = db.find(Bet.class, bets.get(i).getBetNumber());
 			RegisteredClient rc = db.find(RegisteredClient.class, b.getClient().getEmail());
-			float money = b.getMoney(); //apustatutako ditu kantitatea
+			float money = b.getMoney(); // apustatutako ditu kantitatea
 			Vector<Prediction> ps = b.getPredictions();
-			RegisteredClient replicatedClient=null;
-			if(b.getReplicatedClient()!=null) {//apustua erreplikatutako bezero baten erreplika bada
+			RegisteredClient replicatedClient = null;
+			if (b.getReplicatedClient() != null) {// apustua erreplikatutako bezero baten erreplika bada
 				replicatedClient = b.getReplicatedClient();
 			}
-			if(b.getMultiple()) { //apustu anitza bada
+			if (b.getMultiple()) { // apustu anitza bada
 				boolean multipleWin = true;
-				float totalFee=1;
-				for(int j=0; j<ps.size(); j++) {
-					if(ps.get(j).getQuestion().getResult()==null || !ps.get(j).getQuestion().getResult().equals(ps.get(j).getPrediction())) multipleWin=false;
-					totalFee=totalFee*ps.get(j).getFee();
+				float totalFee = 1;
+				for (int j = 0; j < ps.size(); j++) {
+					if (ps.get(j).getQuestion().getResult() == null
+							|| !ps.get(j).getQuestion().getResult().equals(ps.get(j).getPrediction()))
+						multipleWin = false;
+					totalFee = totalFee * ps.get(j).getFee();
 				}
-				if (multipleWin) { //apustu anitza irabazi badu
-					if(replicatedClient!=null) { //apustua erreplikatua bazen, bezero originalari portzentai bat eman
-						replicatedClient.setBalance(replicatedClient.getBalance() + money*totalFee*(float)(0.1));
-						rc.setBalance(rc.getBalance() + money*totalFee*(float)(0.9));
-						rc.addMovements2(ResourceBundle.getBundle("Etiquetas").getString("BetWon")+": "+b.getPredictions().get(0).getQuestion().getEvent().getDescription(), rc.getBalance() + money*totalFee*(float)(0.9), new Date(), "x");
-						replicatedClient.addMovements2(ResourceBundle.getBundle("Etiquetas").getString("BetWon")+": "+b.getPredictions().get(0).getQuestion().getEvent().getDescription(), replicatedClient.getBalance() + money*totalFee*(float)(0.1), new Date(), "x");
-					}else{
-						rc.setBalance(rc.getBalance() + money*totalFee);
-						rc.addMovements2(ResourceBundle.getBundle("Etiquetas").getString("BetWon")+": "+b.getPredictions().get(0).getQuestion().getEvent().getDescription(), rc.getBalance() + money*totalFee, new Date(), "x");
+				if (multipleWin) { // apustu anitza irabazi badu
+					if (replicatedClient != null) { // apustua erreplikatua bazen, bezero originalari portzentai bat
+													// eman
+						replicatedClient.setBalance(replicatedClient.getBalance() + money * totalFee * (float) (0.1));
+						rc.setBalance(rc.getBalance() + money * totalFee * (float) (0.9));
+						rc.addMovements2(
+								ResourceBundle.getBundle("Etiquetas").getString("BetWon") + ": "
+										+ b.getPredictions().get(0).getQuestion().getEvent().getDescription(),
+								rc.getBalance() + money * totalFee * (float) (0.9), new Date(), "x");
+						replicatedClient.addMovements2(
+								ResourceBundle.getBundle("Etiquetas").getString("BetWon") + ": "
+										+ b.getPredictions().get(0).getQuestion().getEvent().getDescription(),
+								replicatedClient.getBalance() + money * totalFee * (float) (0.1), new Date(), "x");
+					} else {
+						rc.setBalance(rc.getBalance() + money * totalFee);
+						rc.addMovements2(
+								ResourceBundle.getBundle("Etiquetas").getString("BetWon") + ": "
+										+ b.getPredictions().get(0).getQuestion().getEvent().getDescription(),
+								rc.getBalance() + money * totalFee, new Date(), "x");
 
 					}
 					b.setWin(true);
 				}
-			} else { //apustu sinplea
+			} else { // apustu sinplea
 				float new_balance = money * prediction.getFee() * b.getFeeMultiplier();
-				if(replicatedClient!=null) { //apustua erreplikatua bazen, bezero originalari portzentai bat eman
-					replicatedClient.setBalance(replicatedClient.getBalance() + new_balance*(float)(0.1));
-					rc.setBalance(rc.getBalance() + new_balance*(float)(0.9));
-					rc.addMovements2(ResourceBundle.getBundle("Etiquetas").getString("BetWon")+": "+b.getPredictions().get(0).getQuestion().getEvent().getDescription(),rc.getBalance() + new_balance*(float)(0.9), new Date(), "-");
-					replicatedClient.addMovements2(ResourceBundle.getBundle("Etiquetas").getString("BetWon")+": "+b.getPredictions().get(0).getQuestion().getEvent().getDescription(), replicatedClient.getBalance() + money*(float)(0.1), new Date(), "-");
+				if (replicatedClient != null) { // apustua erreplikatua bazen, bezero originalari portzentai bat eman
+					replicatedClient.setBalance(replicatedClient.getBalance() + new_balance * (float) (0.1));
+					rc.setBalance(rc.getBalance() + new_balance * (float) (0.9));
+					rc.addMovements2(
+							ResourceBundle.getBundle("Etiquetas").getString("BetWon") + ": "
+									+ b.getPredictions().get(0).getQuestion().getEvent().getDescription(),
+							rc.getBalance() + new_balance * (float) (0.9), new Date(), "-");
+					replicatedClient.addMovements2(
+							ResourceBundle.getBundle("Etiquetas").getString("BetWon") + ": "
+									+ b.getPredictions().get(0).getQuestion().getEvent().getDescription(),
+							replicatedClient.getBalance() + money * (float) (0.1), new Date(), "-");
 
-				}else{
+				} else {
 					rc.setBalance(rc.getBalance() + new_balance);
-					rc.addMovements2(ResourceBundle.getBundle("Etiquetas").getString("BetWon")+": "+b.getPredictions().get(0).getQuestion().getEvent().getDescription(),rc.getBalance() + new_balance, new Date(), "-");
+					rc.addMovements2(
+							ResourceBundle.getBundle("Etiquetas").getString("BetWon") + ": "
+									+ b.getPredictions().get(0).getQuestion().getEvent().getDescription(),
+							rc.getBalance() + new_balance, new Date(), "-");
 
 				}
 				b.setWin(true);
@@ -676,15 +700,15 @@ public class DataAccess {
 		db.getTransaction().commit();
 	}
 
-	
 	/**
 	 * This method create a bet from a prediction
-	 * @param p prediction of question
-	 * @param m money to bet with
-	 * @param u registered client who bet
+	 * 
+	 * @param p             prediction of question
+	 * @param m             money to bet with
+	 * @param u             registered client who bet
 	 * @param evdescription event description
 	 * @return boolean, true if the bet has been created successfully, false if not
-	 * @throws EventFinished 
+	 * @throws EventFinished
 	 */
 	@WebMethod
 	public boolean createBet(Vector<Prediction> p, float m, RegisteredClient u, String evdescription) {
@@ -699,11 +723,15 @@ public class DataAccess {
 		RegisteredClient rG = db.find(RegisteredClient.class, u.getEmail());
 		rG.setBalance(rG.getBalance() - m);
 		rG.addBet(b);
-		if(b.getPredictions().size()==1) {		
-			rG.addMovements2(ResourceBundle.getBundle("Etiquetas").getString("ToBet")+": "+b.getPredictions().get(0).getQuestion().getEvent().getDescription(), -b.getMoney(), new Date(), "-");
-		}else {
-			for(Prediction pre: b.getPredictions()) {
-			rG.addMovements2(ResourceBundle.getBundle("Etiquetas").getString("ToBet")+": "+pre.getQuestion().getEvent().getDescription(), -b.getMoney(), new Date(), "x");
+		if (b.getPredictions().size() == 1) {
+			rG.addMovements2(
+					ResourceBundle.getBundle("Etiquetas").getString("ToBet") + ": "
+							+ b.getPredictions().get(0).getQuestion().getEvent().getDescription(),
+					-b.getMoney(), new Date(), "-");
+		} else {
+			for (Prediction pre : b.getPredictions()) {
+				rG.addMovements2(ResourceBundle.getBundle("Etiquetas").getString("ToBet") + ": "
+						+ pre.getQuestion().getEvent().getDescription(), -b.getMoney(), new Date(), "x");
 			}
 		}
 
@@ -721,9 +749,9 @@ public class DataAccess {
 		RegisteredClient rC;
 		Bet bR;
 		float mR;
-		for(Entry<RegisteredClient, ReplicatedProperties> en : it) {
+		for (Entry<RegisteredClient, ReplicatedProperties> en : it) {
 			rC = db.find(RegisteredClient.class, en.getKey().getEmail());
-			mR = m*en.getValue().getPercentage()/100;
+			mR = m * en.getValue().getPercentage() / 100;
 			bR = new Bet(mR, p);
 			rC.setBalance(rC.getBalance() - mR);
 			rC.addBet(bR);
@@ -738,11 +766,12 @@ public class DataAccess {
 	}
 
 	/**
-     * This method delete a bet from a prediction
-     * @param b
-     * @param u
-     * @return boolean, true if the bet has been deleted successfully, false if not
-     */
+	 * This method delete a bet from a prediction
+	 * 
+	 * @param b
+	 * @param u
+	 * @return boolean, true if the bet has been deleted successfully, false if not
+	 */
 	@WebMethod
 	public boolean deleteBet(Bet b, RegisteredClient u) {
 		Boolean r = false;
@@ -751,11 +780,15 @@ public class DataAccess {
 		db.remove(bet);
 		RegisteredClient rG = db.find(RegisteredClient.class, u.getEmail());
 		rG.setBalance(rG.getBalance() + b.getMoney());
-		if(bet.getPredictions().size()==1) {		
-			rG.addMovements2(ResourceBundle.getBundle("Etiquetas").getString("deleteBet")+": "+bet.getPredictions().get(0).getQuestion().getEvent().getDescription(), +bet.getMoney(), new Date(), "-");
-		}else {
-			for(Prediction pre: bet.getPredictions())
-				rG.addMovements2(ResourceBundle.getBundle("Etiquetas").getString("deleteBet")+": "+pre.getQuestion().getEvent().getDescription(), +bet.getMoney(), new Date(), "x");
+		if (bet.getPredictions().size() == 1) {
+			rG.addMovements2(
+					ResourceBundle.getBundle("Etiquetas").getString("deleteBet") + ": "
+							+ bet.getPredictions().get(0).getQuestion().getEvent().getDescription(),
+					+bet.getMoney(), new Date(), "-");
+		} else {
+			for (Prediction pre : bet.getPredictions())
+				rG.addMovements2(ResourceBundle.getBundle("Etiquetas").getString("deleteBet") + ": "
+						+ pre.getQuestion().getEvent().getDescription(), +bet.getMoney(), new Date(), "x");
 		}
 		db.persist(rG);
 		r = true;
@@ -773,6 +806,7 @@ public class DataAccess {
 
 	/**
 	 * This method search if question exists
+	 * 
 	 * @param event
 	 * @param question
 	 * @return true if question exists, else false.
@@ -785,6 +819,7 @@ public class DataAccess {
 
 	/**
 	 * This method get registered client
+	 * 
 	 * @param u
 	 * @return the registered client who wanted to obtain
 	 */
@@ -798,6 +833,7 @@ public class DataAccess {
 
 	/**
 	 * This method delete a event
+	 * 
 	 * @param event to be deleted
 	 */
 	public void deleteEvent(Event event) {
@@ -811,15 +847,21 @@ public class DataAccess {
 					Bet b1 = db.find(Bet.class, bet.getBetNumber());
 					RegisteredClient rc1 = db.find(RegisteredClient.class, b1.getClient().getEmail());
 					float extra = bet.getMoney();
-					if(bet.getPredictions().size()==1) {
-						Movements m=rc1.addMovements2(ResourceBundle.getBundle("Etiquetas").getString("DeleteEvent")+": "+bet.getPredictions().get(0).getQuestion().getEvent().getDescription(), +bet.getMoney(), new Date(), "-");
+					if (bet.getPredictions().size() == 1) {
+						Movements m = rc1.addMovements2(
+								ResourceBundle.getBundle("Etiquetas").getString("DeleteEvent") + ": "
+										+ bet.getPredictions().get(0).getQuestion().getEvent().getDescription(),
+								+bet.getMoney(), new Date(), "-");
 						db.persist(m);
-					}else {
-						Movements m2=rc1.addMovements2(ResourceBundle.getBundle("Etiquetas").getString("DeleteEvent")+": "+bet.getPredictions().get(0).getQuestion().getEvent().getDescription(), +bet.getMoney(), new Date(), "x");
+					} else {
+						Movements m2 = rc1.addMovements2(
+								ResourceBundle.getBundle("Etiquetas").getString("DeleteEvent") + ": "
+										+ bet.getPredictions().get(0).getQuestion().getEvent().getDescription(),
+								+bet.getMoney(), new Date(), "x");
 						db.persist(m2);
 					}
 					rc1.setBalance(rc1.getBalance() + extra);
-					//db.persist(rc1);
+					// db.persist(rc1);
 				}
 			}
 		}
@@ -830,7 +872,8 @@ public class DataAccess {
 
 	/**
 	 * This method insert money to a registered client
-	 * @param money that goes to insert
+	 * 
+	 * @param money  that goes to insert
 	 * @param logged registered client to whom the money is going to be put
 	 * @return the registered client to whom the money has been put
 	 */
@@ -843,45 +886,55 @@ public class DataAccess {
 		db.getTransaction().commit();
 		return rc;
 	}
-	
+
 	/**
 	 * This method invokes the data access to buy tokens.
+	 * 
 	 * @param quantityTokens, the quantity of tokens that the user wants to buy.
-	 * @param logged, the current logged registered client.
+	 * @param logged,         the current logged registered client.
 	 * @return the logged registered client
 	 */
 	public RegisteredClient buyTokens(int quantityTokens, Person registeredClient) throws NotEnoughMoney {
 		db.getTransaction().begin();
 		RegisteredClient rc = db.find(RegisteredClient.class, registeredClient.getEmail());
-		if(rc.getBalance()<(quantityTokens*5)) {
+		if (rc.getBalance() < (quantityTokens * 5)) {
 			throw new NotEnoughMoney();
-		}else {
+		} else {
 			rc.setTokens(rc.getTokens() + quantityTokens);
-			rc.setBalance(rc.getBalance()-(quantityTokens*5));
-			java.util.Date dToday= new java.util.Date();
-			rc.addMovements1(ResourceBundle.getBundle("Etiquetas").getString("ShopGUI_buyTokens_button")+": "+quantityTokens, -quantityTokens*(float)5, dToday);
+			rc.setBalance(rc.getBalance() - (quantityTokens * 5));
+			java.util.Date dToday = new java.util.Date();
+			rc.addMovements1(
+					ResourceBundle.getBundle("Etiquetas").getString("ShopGUI_buyTokens_button") + ": " + quantityTokens,
+					-quantityTokens * (float) 5, dToday);
 			db.persist(rc);
 		}
 		db.getTransaction().commit();
 		return rc;
 	}
-/**
+
+	/**
 	 * This method returns a registered client passing his/her email.
+	 * 
 	 * @param email
 	 * @return RegisteredClient
 	 */
 	public RegisteredClient getRegisteredClientByEmail(String email) {
 		return db.find(RegisteredClient.class, email);
 	}
-	
+
 	/**
-	 * This method replicates all the future bets (bets that haven't happened yet) that have done a specific user.
-	 * @param percentage, in which percentage we want to pay what the other user has paid.
+	 * This method replicates all the future bets (bets that haven't happened yet)
+	 * that have done a specific user.
+	 * 
+	 * @param percentage,        in which percentage we want to pay what the other
+	 *                           user has paid.
 	 * @param registeredClientJ, the client who wants to replicate the bets.
-	 * @param bets, all the bets that will be replicated.
-	 * @param email, the email of the user from who we want to replicate.
+	 * @param bets,              all the bets that will be replicated.
+	 * @param email,             the email of the user from who we want to
+	 *                           replicate.
 	 */
-	public void replicateUser(int percentage, RegisteredClient registeredClientJ, Vector<BetPredictionQuestionEventContainer> bets, String email) {
+	public void replicateUser(int percentage, RegisteredClient registeredClientJ,
+			Vector<BetPredictionQuestionEventContainer> bets, String email) {
 		db.getTransaction().begin();
 		RegisteredClient rc = getRegisteredClientByEmail(email);
 		RegisteredClient registeredClient = db.find(RegisteredClient.class, registeredClientJ.getEmail());
@@ -890,19 +943,23 @@ public class DataAccess {
 		Vector<Prediction> pVi;
 		Prediction pi;
 		Bet bet;
-		for(int i=0; i<bets.size(); i++) {
-			registeredClient.setBalance(registeredClient.getBalance()-bets.get(i).getBet().getMoney()*percentage/100);
+		for (int i = 0; i < bets.size(); i++) {
+			registeredClient
+					.setBalance(registeredClient.getBalance() - bets.get(i).getBet().getMoney() * percentage / 100);
 			System.out.println(registeredClient.getBalance());
 			pVi = db.find(Bet.class, bets.get(i).getBet().getBetNumber()).getPredictions();
-			bet = new Bet(bets.get(i).getBet().getMoney()*percentage/100, pVi);
+			bet = new Bet(bets.get(i).getBet().getMoney() * percentage / 100, pVi);
 			bet.setClient(registeredClient);
 			bet.setReplicatedClient(rc);
 			registeredClient.addBet(bet);
-			for(int j=0; j<bets.get(i).getPredictions().size(); j++) {
+			for (int j = 0; j < bets.get(i).getPredictions().size(); j++) {
 				Vector<Prediction> prediction = bets.get(i).getPredictions();
 				pi = db.find(Prediction.class, prediction.get(j).getPredictionNumber());
-				java.util.Date dToday= new java.util.Date();
-				registeredClient.addMovements1(ResourceBundle.getBundle("Etiquetas").getString("ToBet")+": "+bet.getPredictions().get(j).getQuestion().getEvent().getDescription(), -bet.getMoney(),  dToday);
+				java.util.Date dToday = new java.util.Date();
+				registeredClient.addMovements1(
+						ResourceBundle.getBundle("Etiquetas").getString("ToBet") + ": "
+								+ bet.getPredictions().get(j).getQuestion().getEvent().getDescription(),
+						-bet.getMoney(), dToday);
 				pi.addBet(bet);
 				db.persist(pi);
 			}
@@ -913,7 +970,6 @@ public class DataAccess {
 		db.getTransaction().commit();
 	}
 
-	
 	@WebMethod
 	public Date newDate(int year, int month, int day) {
 		Calendar calendar = Calendar.getInstance();
@@ -924,6 +980,7 @@ public class DataAccess {
 
 	/**
 	 * This method get the bet
+	 * 
 	 * @param bet who wants to get
 	 * @return the bet who wants
 	 */
@@ -933,13 +990,15 @@ public class DataAccess {
 		db.getTransaction().commit();
 		return b;
 	}
-	
+
 	/**
 	 * This method looks for the tokens of the client to be used in a bet
-	 * @param b Bet where the token is wanted to be used
+	 * 
+	 * @param b  Bet where the token is wanted to be used
 	 * @param rc the client who wants to use a token
-	 * @throws BetIsMultiple if the bet where the token is wanted to be used is multiple
-	 * @throws NoTokens if the client has no tokens
+	 * @throws BetIsMultiple if the bet where the token is wanted to be used is
+	 *                       multiple
+	 * @throws NoTokens      if the client has no tokens
 	 */
 	public int useToken(Bet b, RegisteredClient rc) throws BetIsMultiple, NoTokens, BetIsLocked {
 

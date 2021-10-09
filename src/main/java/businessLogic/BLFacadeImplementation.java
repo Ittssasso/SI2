@@ -172,11 +172,13 @@ public class BLFacadeImplementation  implements BLFacade {
 	@WebMethod 
 	public boolean storeRegisteredClient(String name, String surname, Date birthDate, String DNI, String email, String password, String currentAccount, boolean replicable) {
 		boolean isRegistered = false;
+		RegisteredClient rC= new RegisteredClient(name,surname, birthDate, DNI, email, password, currentAccount, replicable);
 		dbManager.open(false);
-		isRegistered= dbManager.storeRegisteredClient(name, surname, birthDate, DNI, email, password, currentAccount, replicable);
+		isRegistered= dbManager.storeRegisteredClient(rC);
 		dbManager.close();
 		return isRegistered;
 	}
+
 
 	/**
 	 * This method invokes the data access to create a new event, with two teams and a date
