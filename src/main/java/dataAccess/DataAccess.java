@@ -507,15 +507,9 @@ public class DataAccess {
 	/**
 	 * This method stores the client into the system or database
 	 * 
-	 * @param name
-	 * @param surname
-	 * @param birthDate
-	 * @param DNI
-	 * @param email
-	 * @param password
-	 * @param currentAccount
+	 * @param rC the registered client that has to be stored in the database.
 	 * @return boolean, true if the client has been registered successfully, false
-	 *         if there is already someone registered with that email
+	 *         if there is already someone registered with that email.
 	 */
 	public boolean storeRegisteredClient(RegisteredClient rC) {
 
