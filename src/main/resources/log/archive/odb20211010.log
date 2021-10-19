@@ -1,0 +1,124 @@
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-10-10 15:06:11 #1 store] 
+Database 'C:\Users\oihan\OneDrive\Escritorio\SI2\src\main\resources\bets.temp' has been recovered (tr. 1-9)
+
+[2021-10-10 15:06:12 #2 store] 
+Database 'C:\Users\oihan\OneDrive\Escritorio\SI2\src\main\resources\bets.temp' is opened by 18112@LAPTOP-PVI2M80U
+
+[2021-10-10 15:06:12 #3 type] 
+Type domain.Person is not enhanced.
+
+[2021-10-10 15:06:12 #4 type] 
+Type domain.Admin is not enhanced.
+
+[2021-10-10 15:06:12 #5 type] 
+Type domain.Worker is not enhanced.
+
+[2021-10-10 15:06:12 #6 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-10-10 15:06:12 #7 type] 
+Type domain.ReplicatedProperties is not enhanced.
+
+[2021-10-10 15:06:12 #8 type] 
+Type domain.Movements is not enhanced.
+
+[2021-10-10 15:06:12 #9 type] 
+Type domain.Bet is not enhanced.
+
+[2021-10-10 15:06:12 #10 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-10-10 15:06:12 #11 type] 
+Type domain.Question is not enhanced.
+
+[2021-10-10 15:06:12 #12 type] 
+Type domain.Event is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-10-10 15:06:48 #1 store] 
+Database 'C:\Users\oihan\OneDrive\Escritorio\SI2\src\main\resources\bets.temp' is opened by 6248@LAPTOP-PVI2M80U
+
+[2021-10-10 15:06:48 #2 type.registry] 
+New type domain.Person
+
+[2021-10-10 15:06:48 #3 type.registry] 
+New type domain.Admin
+
+[2021-10-10 15:06:48 #4 type] 
+Type domain.Person is not enhanced.
+
+[2021-10-10 15:06:48 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2021-10-10 15:06:48 #6 type.registry] 
+New type domain.Worker
+
+[2021-10-10 15:06:48 #7 type] 
+Type domain.Worker is not enhanced.
+
+[2021-10-10 15:06:48 #8 type.registry] 
+New type domain.RegisteredClient
+
+[2021-10-10 15:06:48 #9 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-10-10 15:06:48 #10 type.registry] 
+New type domain.ReplicatedProperties
+
+[2021-10-10 15:06:48 #11 type.registry] 
+New type java.util.HashMap<domain.RegisteredClient,domain.ReplicatedProperties>
+
+[2021-10-10 15:06:48 #12 type.registry] 
+New type domain.Movements
+
+[2021-10-10 15:06:48 #13 type.registry] 
+New type java.util.Vector<domain.Movements>
+
+[2021-10-10 15:06:48 #14 type.registry] 
+New type domain.Bet
+
+[2021-10-10 15:06:48 #15 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-10-10 15:06:48 #16 type] 
+Type domain.ReplicatedProperties is not enhanced.
+
+[2021-10-10 15:06:48 #17 type] 
+Type domain.Movements is not enhanced.
+
+[2021-10-10 15:06:48 #18 type] 
+Type domain.Bet is not enhanced.
+
+[2021-10-10 15:06:48 #19 type.registry] 
+New type domain.Prediction
+
+[2021-10-10 15:06:48 #20 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-10-10 15:06:48 #21 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-10-10 15:06:48 #22 type.registry] 
+New type domain.Question
+
+[2021-10-10 15:06:48 #23 type] 
+Type domain.Question is not enhanced.
+
+[2021-10-10 15:06:48 #24 type.registry] 
+New type domain.Event
+
+[2021-10-10 15:06:48 #25 type] 
+Type domain.Event is not enhanced.
+
+[2021-10-10 15:06:48 #26 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-10-10 15:06:48 #27 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2021-10-10 15:06:48 #28 type.registry] 
+New type java.util.HashMap<java.lang.Object,java.lang.Object>
+
