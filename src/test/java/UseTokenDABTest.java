@@ -330,7 +330,7 @@ public class UseTokenDABTest {
 			String currentAcount = "1234567812345678";
 			boolean replicable = true;
 			int tokensAmount = 3;
-			boolean locked = false;
+			boolean locked = true;
 
 			String event = "Barça - Sevilla";
 			SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
