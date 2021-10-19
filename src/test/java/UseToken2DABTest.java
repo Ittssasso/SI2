@@ -373,67 +373,67 @@ public class UseToken2DABTest {
 //
 //	}
 //
-//	@Test
-//	//sut.UseToken: BetIsMultiple exception. (prediction.size()>1).
-//	public void test20() {
-//		try {
-//
-//			System.out.println("");
-//			System.out.println("TEST20:");
-//
-//			//Define parameters.
-//			String name = "Nerea";
-//			String surname = "Garcia";
-//			Date birthDate = new Date();
-//			String dNI = "12345678X";
-//			String email = "client4@email.com";
-//			String password = "12335678";
-//			String currentAcount = "1234537812345678";
-//			boolean replicable = true;
-//			int tokensAmount = 5;
-//			boolean locked = false;
-//
-//			String event = "Barça - Sevilla";
-//			SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
-//			Date date = null;
-//			try {
-//				date = sdf.parse("10/11/2021");
-//			} catch (ParseException e) {
-//				e.printStackTrace();
-//			}
-//
-//			testDA.open();
-//			ev = testDA.addEvent(event, date);
-//			q = testDA.addQuestion(ev, "Nork irabaziko du?", 3);
-//			p = testDA.addPrediction(q, "Barça", (float) 1.5);
-//			Prediction p1 = testDA.addPrediction(q, "Sevilla", (float) 2);
-//			Vector<Prediction> prediction = new Vector<Prediction>();
-//			prediction.add(p);
-//			prediction.add(p1);
-//			rC = testDA.addRegisteredClient(name, surname, birthDate, dNI, email, password, currentAcount, replicable,
-//					tokensAmount);
-//			b = testDA.addBet(prediction, 17, rC, locked);
-//			testDA.close();
-//			
-//			//Invoke sut.
-//			sut.useToken(b, rC);
-//
-//		} catch (NoTokens e) {
-//			fail();
-//		} catch (BetIsLocked e) {
-//			fail();
-//		} catch (BetIsMultiple e) {
-//			assertTrue(true);
-//		} finally {
-//			// Remove the created objects in the database (cascade removing)
-//			testDA.open();
-//			boolean registeredClient = testDA.removeRegisteredClient(rC);
-//			boolean bet = testDA.removedBet(b);
-//			testDA.close();
-//			System.out.println(
-//					"Bet ondo ezabatu da: " + bet + ", Registered client ondo ezabatu da: " + registeredClient);
-//		}
-//	}
+	@Test
+	//sut.UseToken: BetIsMultiple exception. (prediction.size()>1).
+	public void test20() {
+		try {
+
+			System.out.println("");
+			System.out.println("TEST20:");
+
+			//Define parameters.
+			String name = "Nerea";
+			String surname = "Garcia";
+			Date birthDate = new Date();
+			String dNI = "12345678X";
+			String email = "client4@email.com";
+			String password = "12335678";
+			String currentAcount = "1234537812345678";
+			boolean replicable = true;
+			int tokensAmount = 5;
+			boolean locked = false;
+
+			String event = "Barça - Sevilla";
+			SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+			Date date = null;
+			try {
+				date = sdf.parse("10/11/2021");
+			} catch (ParseException e) {
+				e.printStackTrace();
+			}
+
+			testDA.open();
+			ev = testDA.addEvent(event, date);
+			q = testDA.addQuestion(ev, "Nork irabaziko du?", 3);
+			p = testDA.addPrediction(q, "Barça", (float) 1.5);
+			Prediction p1 = testDA.addPrediction(q, "Sevilla", (float) 2);
+			Vector<Prediction> prediction = new Vector<Prediction>();
+			prediction.add(p);
+			prediction.add(p1);
+			rC = testDA.addRegisteredClient(name, surname, birthDate, dNI, email, password, currentAcount, replicable,
+					tokensAmount);
+			b = testDA.addBet(prediction, 17, rC, locked);
+			testDA.close();
+			
+			//Invoke sut.
+			sut.useToken(b, rC);
+
+		} catch (NoTokens e) {
+			fail();
+		} catch (BetIsLocked e) {
+			fail();
+		} catch (BetIsMultiple e) {
+			assertTrue(true);
+		} finally {
+			// Remove the created objects in the database (cascade removing)
+			testDA.open();
+			boolean registeredClient = testDA.removeRegisteredClient(rC);
+			boolean bet = testDA.removedBet(b);
+			testDA.close();
+			System.out.println(
+					"Bet ondo ezabatu da: " + bet + ", Registered client ondo ezabatu da: " + registeredClient);
+		}
+	}
 
 	// MUGA BALIOAK: Tokens atributuarekin.
 
