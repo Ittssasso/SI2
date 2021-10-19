@@ -3069,3 +3069,373 @@ New type java.util.Vector<java.lang.Object>
 [2021-10-19 12:47:26 #24 type.registry] 
 New type java.util.HashMap<java.lang.Object,java.lang.Object>
 
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-10-19 10:42:12 #1 store] 
+Database 'C:\Users\karpe\git\repository2\3iterazioa\src\main\resources\bets.temp' is opened by 6108@LAPTOP-O54S2HDJ
+
+[2021-10-19 10:42:13 #2 type.registry] 
+New type domain.Event
+
+[2021-10-19 10:42:13 #3 type] 
+Type domain.Event is not enhanced.
+
+[2021-10-19 10:42:13 #4 type.registry] 
+New type domain.Question
+
+[2021-10-19 10:42:13 #5 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-10-19 10:42:13 #6 type] 
+Type domain.Question is not enhanced.
+
+[2021-10-19 10:42:13 #7 type.registry] 
+New type domain.Prediction
+
+[2021-10-19 10:42:13 #8 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-10-19 10:42:13 #9 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-10-19 10:42:13 #10 type.registry] 
+New type domain.Bet
+
+[2021-10-19 10:42:13 #11 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-10-19 10:42:13 #12 type] 
+Type domain.Bet is not enhanced.
+
+[2021-10-19 10:42:13 #13 type.registry] 
+New type domain.Person
+
+[2021-10-19 10:42:13 #14 type.registry] 
+New type domain.RegisteredClient
+
+[2021-10-19 10:42:13 #15 type] 
+Type domain.Person is not enhanced.
+
+[2021-10-19 10:42:13 #16 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-10-19 10:42:13 #17 type.registry] 
+New type domain.ReplicatedProperties
+
+[2021-10-19 10:42:13 #18 type.registry] 
+New type java.util.HashMap<domain.RegisteredClient,domain.ReplicatedProperties>
+
+[2021-10-19 10:42:13 #19 type.registry] 
+New type domain.Movements
+
+[2021-10-19 10:42:13 #20 type.registry] 
+New type java.util.Vector<domain.Movements>
+
+[2021-10-19 10:42:13 #21 type] 
+Type domain.ReplicatedProperties is not enhanced.
+
+[2021-10-19 10:42:13 #22 type] 
+Type domain.Movements is not enhanced.
+
+[2021-10-19 10:42:13 #23 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2021-10-19 10:42:13 #24 type.registry] 
+New type java.util.HashMap<java.lang.Object,java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-10-19 10:43:23 #1 store] 
+Database 'C:\Users\karpe\git\repository2\3iterazioa\src\main\resources\bets.temp' is opened by 25300@LAPTOP-O54S2HDJ
+
+[2021-10-19 10:43:24 #2 type.registry] 
+New type domain.Event
+
+[2021-10-19 10:43:24 #3 type] 
+Type domain.Event is not enhanced.
+
+[2021-10-19 10:43:24 #4 type.registry] 
+New type domain.Question
+
+[2021-10-19 10:43:24 #5 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-10-19 10:43:24 #6 type] 
+Type domain.Question is not enhanced.
+
+[2021-10-19 10:43:24 #7 type.registry] 
+New type domain.Prediction
+
+[2021-10-19 10:43:24 #8 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-10-19 10:43:24 #9 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-10-19 10:43:24 #10 type.registry] 
+New type domain.Bet
+
+[2021-10-19 10:43:24 #11 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-10-19 10:43:24 #12 type] 
+Type domain.Bet is not enhanced.
+
+[2021-10-19 10:43:24 #13 type.registry] 
+New type domain.Person
+
+[2021-10-19 10:43:24 #14 type.registry] 
+New type domain.RegisteredClient
+
+[2021-10-19 10:43:24 #15 type] 
+Type domain.Person is not enhanced.
+
+[2021-10-19 10:43:24 #16 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-10-19 10:43:24 #17 type.registry] 
+New type domain.ReplicatedProperties
+
+[2021-10-19 10:43:24 #18 type.registry] 
+New type java.util.HashMap<domain.RegisteredClient,domain.ReplicatedProperties>
+
+[2021-10-19 10:43:24 #19 type.registry] 
+New type domain.Movements
+
+[2021-10-19 10:43:24 #20 type.registry] 
+New type java.util.Vector<domain.Movements>
+
+[2021-10-19 10:43:24 #21 type] 
+Type domain.ReplicatedProperties is not enhanced.
+
+[2021-10-19 10:43:24 #22 type] 
+Type domain.Movements is not enhanced.
+
+[2021-10-19 10:43:24 #23 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2021-10-19 10:43:24 #24 type.registry] 
+New type java.util.HashMap<java.lang.Object,java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-10-19 10:50:13 #1 store] 
+Database 'C:\Users\karpe\git\repository2\3iterazioa\src\main\resources\bets.temp' is opened by 9056@LAPTOP-O54S2HDJ
+
+[2021-10-19 10:50:13 #2 type.registry] 
+New type domain.Event
+
+[2021-10-19 10:50:13 #3 type] 
+Type domain.Event is not enhanced.
+
+[2021-10-19 10:50:13 #4 type.registry] 
+New type domain.Question
+
+[2021-10-19 10:50:13 #5 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-10-19 10:50:13 #6 type] 
+Type domain.Question is not enhanced.
+
+[2021-10-19 10:50:13 #7 type.registry] 
+New type domain.Prediction
+
+[2021-10-19 10:50:13 #8 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-10-19 10:50:13 #9 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-10-19 10:50:13 #10 type.registry] 
+New type domain.Bet
+
+[2021-10-19 10:50:13 #11 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-10-19 10:50:13 #12 type] 
+Type domain.Bet is not enhanced.
+
+[2021-10-19 10:50:13 #13 type.registry] 
+New type domain.Person
+
+[2021-10-19 10:50:13 #14 type.registry] 
+New type domain.RegisteredClient
+
+[2021-10-19 10:50:13 #15 type] 
+Type domain.Person is not enhanced.
+
+[2021-10-19 10:50:13 #16 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-10-19 10:50:13 #17 type.registry] 
+New type domain.ReplicatedProperties
+
+[2021-10-19 10:50:13 #18 type.registry] 
+New type java.util.HashMap<domain.RegisteredClient,domain.ReplicatedProperties>
+
+[2021-10-19 10:50:13 #19 type.registry] 
+New type domain.Movements
+
+[2021-10-19 10:50:13 #20 type.registry] 
+New type java.util.Vector<domain.Movements>
+
+[2021-10-19 10:50:13 #21 type] 
+Type domain.ReplicatedProperties is not enhanced.
+
+[2021-10-19 10:50:13 #22 type] 
+Type domain.Movements is not enhanced.
+
+[2021-10-19 10:50:13 #23 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2021-10-19 10:50:13 #24 type.registry] 
+New type java.util.HashMap<java.lang.Object,java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-10-19 10:50:17 #1 store] 
+Database 'C:\Users\karpe\git\repository2\3iterazioa\src\main\resources\bets.temp' is opened by 4048@LAPTOP-O54S2HDJ
+
+[2021-10-19 10:50:18 #2 type.registry] 
+New type domain.Event
+
+[2021-10-19 10:50:18 #3 type] 
+Type domain.Event is not enhanced.
+
+[2021-10-19 10:50:18 #4 type.registry] 
+New type domain.Question
+
+[2021-10-19 10:50:18 #5 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-10-19 10:50:18 #6 type] 
+Type domain.Question is not enhanced.
+
+[2021-10-19 10:50:18 #7 type.registry] 
+New type domain.Prediction
+
+[2021-10-19 10:50:18 #8 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-10-19 10:50:18 #9 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-10-19 10:50:18 #10 type.registry] 
+New type domain.Bet
+
+[2021-10-19 10:50:18 #11 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-10-19 10:50:18 #12 type] 
+Type domain.Bet is not enhanced.
+
+[2021-10-19 10:50:18 #13 type.registry] 
+New type domain.Person
+
+[2021-10-19 10:50:18 #14 type.registry] 
+New type domain.RegisteredClient
+
+[2021-10-19 10:50:18 #15 type] 
+Type domain.Person is not enhanced.
+
+[2021-10-19 10:50:18 #16 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-10-19 10:50:18 #17 type.registry] 
+New type domain.ReplicatedProperties
+
+[2021-10-19 10:50:18 #18 type.registry] 
+New type java.util.HashMap<domain.RegisteredClient,domain.ReplicatedProperties>
+
+[2021-10-19 10:50:18 #19 type.registry] 
+New type domain.Movements
+
+[2021-10-19 10:50:18 #20 type.registry] 
+New type java.util.Vector<domain.Movements>
+
+[2021-10-19 10:50:18 #21 type] 
+Type domain.ReplicatedProperties is not enhanced.
+
+[2021-10-19 10:50:18 #22 type] 
+Type domain.Movements is not enhanced.
+
+[2021-10-19 10:50:18 #23 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2021-10-19 10:50:18 #24 type.registry] 
+New type java.util.HashMap<java.lang.Object,java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-10-19 10:57:59 #1 store] 
+Database 'C:\Users\karpe\git\repository2\3iterazioa\src\main\resources\bets.temp' is opened by 23812@LAPTOP-O54S2HDJ
+
+[2021-10-19 10:58:00 #2 type.registry] 
+New type domain.Event
+
+[2021-10-19 10:58:00 #3 type] 
+Type domain.Event is not enhanced.
+
+[2021-10-19 10:58:00 #4 type.registry] 
+New type domain.Question
+
+[2021-10-19 10:58:00 #5 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2021-10-19 10:58:00 #6 type] 
+Type domain.Question is not enhanced.
+
+[2021-10-19 10:58:00 #7 type.registry] 
+New type domain.Prediction
+
+[2021-10-19 10:58:00 #8 type.registry] 
+New type java.util.Vector<domain.Prediction>
+
+[2021-10-19 10:58:00 #9 type] 
+Type domain.Prediction is not enhanced.
+
+[2021-10-19 10:58:00 #10 type.registry] 
+New type domain.Bet
+
+[2021-10-19 10:58:00 #11 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2021-10-19 10:58:00 #12 type] 
+Type domain.Bet is not enhanced.
+
+[2021-10-19 10:58:00 #13 type.registry] 
+New type domain.Person
+
+[2021-10-19 10:58:00 #14 type.registry] 
+New type domain.RegisteredClient
+
+[2021-10-19 10:58:00 #15 type] 
+Type domain.Person is not enhanced.
+
+[2021-10-19 10:58:00 #16 type] 
+Type domain.RegisteredClient is not enhanced.
+
+[2021-10-19 10:58:00 #17 type.registry] 
+New type domain.ReplicatedProperties
+
+[2021-10-19 10:58:00 #18 type.registry] 
+New type java.util.HashMap<domain.RegisteredClient,domain.ReplicatedProperties>
+
+[2021-10-19 10:58:00 #19 type.registry] 
+New type domain.Movements
+
+[2021-10-19 10:58:00 #20 type.registry] 
+New type java.util.Vector<domain.Movements>
+
+[2021-10-19 10:58:00 #21 type] 
+Type domain.ReplicatedProperties is not enhanced.
+
+[2021-10-19 10:58:00 #22 type] 
+Type domain.Movements is not enhanced.
+
+[2021-10-19 10:58:00 #23 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2021-10-19 10:58:00 #24 type.registry] 
+New type java.util.HashMap<java.lang.Object,java.lang.Object>
+
