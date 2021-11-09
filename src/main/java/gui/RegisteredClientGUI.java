@@ -186,7 +186,14 @@ public class RegisteredClientGUI extends JFrame{
 		button.setBorder(BorderFactory.createEmptyBorder());
 		button.setFocusPainted(false);
 		
-		JButton btnNewButton = new JButton(ResourceBundle.getBundle("Etiquetas").getString("RegisteredClientGUI.btnNewButton.text")); //$NON-NLS-1$ //$NON-NLS-2$
+		JButton btnNewButton = new JButton(rc.getName()); //$NON-NLS-1$ //$NON-NLS-2$
+		btnNewButton.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				JFrame a = new AdapterGUI(clientFrame, rc);
+				a.setVisible(true);
+				clientFrame.setVisible(false);
+			}
+		});
 		btnNewButton.setBounds(189, 11, 237, 49);
 		getContentPane().add(btnNewButton);
 		

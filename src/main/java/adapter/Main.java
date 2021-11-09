@@ -16,15 +16,13 @@ import domain.RegisteredClient;
 public class Main {
 
 	public static void main(String[]args) {
-		RegisteredClient p3 = new RegisteredClient("Itsaso", "p2", UtilDate.newDate(2022, 12, 17), "11111111X",
+		RegisteredClient rc = new RegisteredClient("Itsaso", "p2", UtilDate.newDate(2022, 12, 17), "11111111X",
 				"client@email.com", "12345678", "1234567812345678", true);
 		Event ev1 = new Event(1, "Atlético-Athletic", UtilDate.newDate(2021, 11, 17));
 		Event ev2 = new Event(2, "Eibar-Barcelona", UtilDate.newDate(2022, 12, 17));
 		Question q1 = new Question(3,"Quien ganara el partido?",3, ev1);
 		Question q2 = new Question(2,"Quien metera el primer gol?", 4, ev2);
-		ev1.addQuestion(" Quién ganará el partido?", 1);
 		q1.setEvent(ev1);
-		ev2.addQuestion(" Quién meterá el primer gol?", 2);
 		q2.setEvent(ev2);
 		q1.addPrediction("Atletico", (float) 1.5);
 		q1.addPrediction("Athletic", (float) 1.1);
@@ -42,19 +40,16 @@ public class Main {
 		
 		Bet b = new Bet(3, pred1);
 		Bet b1 = new Bet(2, pred2);
-		b.setClient(p3);
-		p3.addBet(b);
-		p3.addBet(b1);
-		System.out.println(b);
-		System.out.println(b1);
+		rc.addBet(b);
+		rc.addBet(b1);
 		
-		UserAdapter model= new UserAdapter(p3);
+		UserAdapter model= new UserAdapter(rc);
 
 		JFrame j=new JFrame();
 		JTable table = new JTable(model);
 		table.setAutoCreateRowSorter(true);
 		j.add(new JScrollPane(table)); 
-		j.setTitle(p3.getName()+"k egin dituen apustuak: ");
+		j.setTitle(rc.getName()+"k egin dituen apustuak: ");
 		j.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		j.pack();
 		j.setVisible(true);
