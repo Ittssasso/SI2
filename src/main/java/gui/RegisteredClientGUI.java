@@ -186,6 +186,10 @@ public class RegisteredClientGUI extends JFrame{
 		button.setBorder(BorderFactory.createEmptyBorder());
 		button.setFocusPainted(false);
 		
+		JButton btnNewButton = new JButton(ResourceBundle.getBundle("Etiquetas").getString("RegisteredClientGUI.btnNewButton.text")); //$NON-NLS-1$ //$NON-NLS-2$
+		btnNewButton.setBounds(189, 11, 237, 49);
+		getContentPane().add(btnNewButton);
+		
 		ImageIcon token_background = new ImageIcon("src/main/resources/images/token.png");
 		Icon icon3= new ImageIcon(token_background.getImage().getScaledInstance(25, 20, Image.SCALE_SMOOTH));
 		

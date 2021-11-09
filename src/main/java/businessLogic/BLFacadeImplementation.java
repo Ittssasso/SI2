@@ -3,6 +3,7 @@ package businessLogic;
 import java.util.Calendar;
 
 
+
 import java.util.Date;
 import java.util.ResourceBundle;
 import java.util.Vector;
@@ -117,6 +118,7 @@ public class BLFacadeImplementation  implements BLFacade {
 		dbManager.close();
 		return events;
 	}
+
 
 	/**
 	 * This method invokes the data access to retrieve the dates a month for which there are events
