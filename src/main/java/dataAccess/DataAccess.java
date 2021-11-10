@@ -281,7 +281,7 @@ public class DataAccess {
 					"1234567812345678");
 			Person p2 = new Worker("langile", "bat", newDate(2001, 9, 18), "11111111X", "worker@email.com", "12345678",
 					"1234567812345678");
-			RegisteredClient p3 = new RegisteredClient("p1", "p2", newDate(2000, 9, 15), "11111111X",
+			RegisteredClient p3 = new RegisteredClient("Ane", "Sanchez", newDate(2000, 9, 15), "11111111X",
 					"client@email.com", "12345678", "1234567812345678", true);
 			RegisteredClient p4 = new RegisteredClient("p1", "p2", newDate(2000, 9, 15), "11111111X", "a", "a",
 					"1234567812345678", true);

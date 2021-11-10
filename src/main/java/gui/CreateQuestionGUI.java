@@ -17,6 +17,7 @@ import configuration.UtilDate;
 import domain.Event;
 import exceptions.EventFinished;
 import exceptions.QuestionAlreadyExist;
+import iterator.ExtendedIterator;
 
 public class CreateQuestionGUI extends JFrame {
 	private static final long serialVersionUID = 1L;
@@ -143,8 +144,8 @@ public class CreateQuestionGUI extends JFrame {
 					int monthAct = calendarAct.get(Calendar.MONTH);
 					if (monthAct!=monthAnt) {
 						if (monthAct==monthAnt+2) { 
-							// Si en JCalendar estÃ¡ 30 de enero y se avanza al mes siguiente, devolverÃ­a 2 de marzo (se toma como equivalente a 30 de febrero)
-							// Con este cÃ³digo se dejarÃ¡ como 1 de febrero en el JCalendar
+							// Si en JCalendar está 30 de enero y se avanza al mes siguiente, devolvería 2 de marzo (se toma como equivalente a 30 de febrero)
+							// Con este código se dejará como 1 de febrero en el JCalendar
 							calendarAct.set(Calendar.MONTH, monthAnt+1);
 							calendarAct.set(Calendar.DAY_OF_MONTH, 1);
 						}
@@ -166,25 +167,41 @@ public class CreateQuestionGUI extends JFrame {
 					try {
 						BLFacade facade = MainGUI.getBusinessLogic();
 
-						Vector<domain.Event> events = facade.getEvents(firstDay);
-
-						if (events.isEmpty())
+//						Vector<domain.Event> events = facade.getEvents(firstDay);
+						ExtendedIterator<domain.Event> events=facade.getEvents(firstDay);
+						events.goLast();
+						domain.Event ev;
+						if(events.hasPrevious()) {
 							jLabelListOfEvents.setText(ResourceBundle.getBundle("Etiquetas").getString("NoEvents")
-									+ ": " + dateformat1.format(calendarAct.getTime()));
-						else
+								+ ": " + dateformat1.format(calendarAct.getTime()));
+
+							jButtonCreate.setEnabled(false);
+						}else {
 							jLabelListOfEvents.setText(ResourceBundle.getBundle("Etiquetas").getString("Events") + ": "
 									+ dateformat1.format(calendarAct.getTime()));
+							jButtonCreate.setEnabled(true);
+						}
+//						if (events.isEmpty())
+//							jLabelListOfEvents.setText(ResourceBundle.getBundle("Etiquetas").getString("NoEvents")
+//									+ ": " + dateformat1.format(calendarAct.getTime()));
+//						else
+//							jLabelListOfEvents.setText(ResourceBundle.getBundle("Etiquetas").getString("Events") + ": "
+//									+ dateformat1.format(calendarAct.getTime()));
 						jComboBoxEvents.removeAllItems();
 						System.out.println("Events " + events);
 
-						for (domain.Event ev : events)
+						while (events.hasPrevious()) {
+							ev = events.previous();
 							modelEvents.addElement(ev);
+						}
+//						for (domain.Event ev : events)
+//							modelEvents.addElement(ev);
 						jComboBoxEvents.repaint();
 
-						if (events.size() == 0)
-							jButtonCreate.setEnabled(false);
-						else
-							jButtonCreate.setEnabled(true);
+//						if (events.size() == 0)
+//							jButtonCreate.setEnabled(false);
+//						else
+//							jButtonCreate.setEnabled(true);
 
 					} catch (Exception e1) {
 

@@ -30,6 +30,7 @@ import com.toedter.calendar.JCalendar;
 import businessLogic.BLFacade;
 import configuration.UtilDate;
 import domain.Event;
+import iterator.ExtendedIterator;
 
 import javax.swing.JLabel;
 
@@ -136,16 +137,26 @@ public class DeleteEventGUI extends JFrame {
 				facade.deleteEvent(event);
 				
 				Date firstDay = UtilDate.trim(calendarAct.getTime());
-				Vector<domain.Event> events = facade.getEvents(firstDay);
+				ExtendedIterator<domain.Event> events = facade.getEvents(firstDay);
 				jComboBoxEvents.removeAllItems();
 				System.out.println("Events " + events);
-				for (domain.Event ev : events)
-					modelEvents.addElement(ev);
-				jComboBoxEvents.repaint();
-				if (events.size() == 0)
+				
+				events.goLast();
+				Event ev;
+				if (!events.hasPrevious())
 					deleteEventButton.setEnabled(false);
 				else
 					deleteEventButton.setEnabled(true);
+				while (events.hasPrevious())
+					modelEvents.addElement(events.previous());
+				jComboBoxEvents.repaint();
+//				for (domain.Event ev : events)
+//					modelEvents.addElement(ev);
+//				jComboBoxEvents.repaint();
+//				if (events.size() == 0)
+//					deleteEventButton.setEnabled(false);
+//				else
+//					deleteEventButton.setEnabled(true);
 				
 			}
 		});
@@ -183,22 +194,26 @@ public class DeleteEventGUI extends JFrame {
 					Date firstDay = UtilDate.trim(calendarAct.getTime());
 					try {
 						BLFacade facade = MainGUI.getBusinessLogic();
-						Vector<domain.Event> events = facade.getEvents(firstDay);
 //						if (events.isEmpty())
 //							jLabelListOfEvents.setText(ResourceBundle.getBundle("Etiquetas").getString("NoEvents")
 //									+ ": " + dateformat1.format(calendarAct.getTime()));
 //						else
 //							jLabelListOfEvents.setText(ResourceBundle.getBundle("Etiquetas").getString("Events") + ": "
 //									+ dateformat1.format(calendarAct.getTime()));
+						
+						ExtendedIterator<domain.Event> events = facade.getEvents(firstDay);
 						jComboBoxEvents.removeAllItems();
 						System.out.println("Events " + events);
-						for (domain.Event ev : events)
-							modelEvents.addElement(ev);
-						jComboBoxEvents.repaint();
-						if (events.size() == 0)
+						
+						events.goLast();
+						Event ev;
+						if (!events.hasPrevious())
 							deleteEventButton.setEnabled(false);
 						else
 							deleteEventButton.setEnabled(true);
+						while (events.hasPrevious())
+							modelEvents.addElement(events.previous());
+						jComboBoxEvents.repaint();
 					} catch (Exception e1) {
 						//jLabelError.setText(e1.getMessage());
 						System.out.println("error");

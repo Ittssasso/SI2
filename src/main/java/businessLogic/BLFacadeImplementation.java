@@ -3,7 +3,6 @@ package businessLogic;
 import java.util.Calendar;
 
 
-
 import java.util.Date;
 import java.util.ResourceBundle;
 import java.util.Vector;
@@ -35,6 +34,8 @@ import exceptions.PredictionAlreadyExists;
 import exceptions.QuestionAlreadyExist;
 import exceptions.ReplicableNoBets;
 import exceptions.SelfReplicate;
+import iterator.ExtendedIterator;
+import iterator.ExtendedIteratorEvents;
 
 /**
  * It implements the business logic as a web service.
@@ -112,13 +113,12 @@ public class BLFacadeImplementation  implements BLFacade {
 	 * @return collection of events
 	 */
 	@WebMethod	
-	public Vector<Event> getEvents(Date date)  {
+	public ExtendedIterator<Event> getEvents(Date date)  {
 		dbManager.open(false);
-		Vector<Event>  events=dbManager.getEvents(date);
+		ExtendedIterator<Event> events = new ExtendedIteratorEvents(dbManager.getEvents(date));
 		dbManager.close();
 		return events;
 	}
-
 
 	/**
 	 * This method invokes the data access to retrieve the dates a month for which there are events

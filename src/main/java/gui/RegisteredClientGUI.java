@@ -189,9 +189,7 @@ public class RegisteredClientGUI extends JFrame{
 		JButton btnNewButton = new JButton(rc.getName()); //$NON-NLS-1$ //$NON-NLS-2$
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				JFrame a = new AdapterGUI(clientFrame, rc);
-				a.setVisible(true);
-				clientFrame.setVisible(false);
+				JFrame a = new AdapterGUI( rc);
 			}
 		});
 		btnNewButton.setBounds(189, 11, 237, 49);

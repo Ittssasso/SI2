@@ -29,6 +29,7 @@ import businessLogic.BLFacade;
 import configuration.UtilDate;
 import domain.Prediction;
 import domain.Question;
+import iterator.ExtendedIterator;
 
 public class PutResultGUI extends JFrame{
 
@@ -158,8 +159,8 @@ public class PutResultGUI extends JFrame{
 					
 					if (monthAct!=monthAnt) {
 						if (monthAct==monthAnt+2) {
-							// Si en JCalendar est√° 30 de enero y se avanza al mes siguiente, devolver√≠a 2 de marzo (se toma como equivalente a 30 de febrero)
-							// Con este c√≥digo se dejar√° como 1 de febrero en el JCalendar
+							// Si en JCalendar est· 30 de enero y se avanza al mes siguiente, devolverÌa 2 de marzo (se toma como equivalente a 30 de febrero)
+							// Con este cÛdigo se dejar· como 1 de febrero en el JCalendar
 							calendarAct.set(Calendar.MONTH, monthAnt+1);
 							calendarAct.set(Calendar.DAY_OF_MONTH, 1);
 						}						
@@ -182,16 +183,17 @@ public class PutResultGUI extends JFrame{
 						tableModelEvents.setColumnCount(3); // another column added to allocate ev objects
 
 						BLFacade facade=MainGUI.getBusinessLogic();
+						
+						ExtendedIterator<domain.Event> events=facade.getEvents(firstDay);
 
-						Vector<domain.Event> events=facade.getEvents(firstDay);
-
-						if (events.isEmpty() ) jLabelEvents.setText(ResourceBundle.getBundle("Etiquetas").getString("NoEvents")+ ": "+dateformat1.format(calendarAct.getTime()));
+						events.goLast();
+						domain.Event ev;
+						if(events.hasPrevious()) jLabelEvents.setText(ResourceBundle.getBundle("Etiquetas").getString("NoEvents")+ ": "+dateformat1.format(calendarAct.getTime()));
 						else jLabelEvents.setText(ResourceBundle.getBundle("Etiquetas").getString("Events")+ ": "+dateformat1.format(calendarAct.getTime()));
-						for (domain.Event ev:events){
+						while (events.hasPrevious()) {
+							ev = events.previous();
 							Vector<Object> row = new Vector<Object>();
-
 							System.out.println("Events "+ev);
-
 							row.add(ev.getEventNumber());
 							row.add(ev.getDescription());
 							row.add(ev); // ev object added in order to obtain it with tableModelEvents.getValueAt(i,2)
@@ -339,11 +341,35 @@ public class PutResultGUI extends JFrame{
 					
 					//Taulak berritu
 					Date day = jCalendar1.getDate();
-					Vector<domain.Event> events = facade.getEvents(day);
+//					Vector<domain.Event> events = facade.getEvents(day);
+//					int ie=tableEvents.getSelectedRow();
+//					domain.Event event=(domain.Event)tableModelEvents.getValueAt(ie,2);
+//					
+//					for(domain.Event ev: events) {
+//						if(ev.getEventNumber().equals(event.getEventNumber())) {
+//							Vector<domain.Question> questions = ev.getQuestions();
+//							tableModelQueries.setRowCount(0);
+//							for (domain.Question question:questions){
+//								Vector<Object> row = new Vector<Object>();
+//								row.add(question.getQuestionNumber());
+//								row.add(question.getQuestion());
+//								row.add(question);
+//								tableModelQueries.addRow(row);
+//							}
+//							tableQueries.setModel(tableModelQueries);
+//							tableQueries.setRowSelectionInterval(i, i);
+//							
+//							break;
+//						}
+//					}
+					
+					ExtendedIterator<domain.Event> events=facade.getEvents(day);
 					int ie=tableEvents.getSelectedRow();
 					domain.Event event=(domain.Event)tableModelEvents.getValueAt(ie,2);
-					
-					for(domain.Event ev: events) {
+					events.goLast();
+					domain.Event ev;
+					while (events.hasPrevious()) {
+						ev = events.previous();
 						if(ev.getEventNumber().equals(event.getEventNumber())) {
 							Vector<domain.Question> questions = ev.getQuestions();
 							tableModelQueries.setRowCount(0);

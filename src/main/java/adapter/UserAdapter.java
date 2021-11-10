@@ -14,10 +14,6 @@ public class UserAdapter extends AbstractTableModel{
 	public UserAdapter(RegisteredClient rc) {
 		rC=rc;
 		bets=rC.getMovementsBet();	
-//		System.out.println(bets.size());
-//		System.out.println(bets.get(1).getMoney());
-//		System.out.println(bets.get(0).getPredictions().get(0).getQuestion().getEvent().getDescription());
-//		System.out.println(bets.get(1).getPredictions().get(0).getQuestion().getEvent().getDescription());
 	}
 	
 	@Override
@@ -26,7 +22,6 @@ public class UserAdapter extends AbstractTableModel{
 		if(bets == null)
 			return 0;
 		else
-//			System.out.println("size:"+bets.size());
 			size=bets.size();
 		return size;
 	}
@@ -39,8 +34,6 @@ public class UserAdapter extends AbstractTableModel{
 	@Override
 	public Object getValueAt(int rowIndex, int columnIndex) {
 		Object temp = null;
-//		System.out.println("row"+rowIndex);
-//		System.out.println(columnIndex);
 		if(columnIndex==0) {
 			temp = bets.get(rowIndex).getPredictions().get(0).getQuestion().getEvent().getDescription();
 		}

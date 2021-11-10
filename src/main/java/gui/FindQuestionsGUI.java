@@ -6,6 +6,8 @@ import configuration.UtilDate;
 
 import com.toedter.calendar.JCalendar;
 import domain.Question;
+import iterator.ExtendedIterator;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
@@ -126,8 +128,8 @@ public class FindQuestionsGUI extends JFrame {
 					
 					if (monthAct!=monthAnt) {
 						if (monthAct==monthAnt+2) {
-							// Si en JCalendar est√° 30 de enero y se avanza al mes siguiente, devolver√≠a 2 de marzo (se toma como equivalente a 30 de febrero)
-							// Con este c√≥digo se dejar√° como 1 de febrero en el JCalendar
+							// Si en JCalendar est· 30 de enero y se avanza al mes siguiente, devolverÌa 2 de marzo (se toma como equivalente a 30 de febrero)
+							// Con este cÛdigo se dejar· como 1 de febrero en el JCalendar
 							calendarAct.set(Calendar.MONTH, monthAnt+1);
 							calendarAct.set(Calendar.DAY_OF_MONTH, 1);
 						}						
@@ -151,20 +153,34 @@ public class FindQuestionsGUI extends JFrame {
 
 						BLFacade facade=MainGUI.getBusinessLogic();
 
-						Vector<domain.Event> events=facade.getEvents(firstDay);
+						ExtendedIterator<domain.Event> events=facade.getEvents(firstDay);
 
-						if (events.isEmpty() ) jLabelEvents.setText(ResourceBundle.getBundle("Etiquetas").getString("NoEvents")+ ": "+dateformat1.format(calendarAct.getTime()));
+						events.goLast();
+						domain.Event ev;
+						if(events.hasPrevious()) jLabelEvents.setText(ResourceBundle.getBundle("Etiquetas").getString("NoEvents")+ ": "+dateformat1.format(calendarAct.getTime()));
 						else jLabelEvents.setText(ResourceBundle.getBundle("Etiquetas").getString("Events")+ ": "+dateformat1.format(calendarAct.getTime()));
-						for (domain.Event ev:events){
+						while (events.hasPrevious()) {
+							ev = events.previous();
 							Vector<Object> row = new Vector<Object>();
-
 							System.out.println("Events "+ev);
-
 							row.add(ev.getEventNumber());
 							row.add(ev.getDescription());
 							row.add(ev); // ev object added in order to obtain it with tableModelEvents.getValueAt(i,2)
-							tableModelEvents.addRow(row);		
+							tableModelEvents.addRow(row);
 						}
+
+//						if (events.isEmpty() ) jLabelEvents.setText(ResourceBundle.getBundle("Etiquetas").getString("NoEvents")+ ": "+dateformat1.format(calendarAct.getTime()));
+//						else jLabelEvents.setText(ResourceBundle.getBundle("Etiquetas").getString("Events")+ ": "+dateformat1.format(calendarAct.getTime()));
+//						for (domain.Event ev:events){
+//							Vector<Object> row = new Vector<Object>();
+//
+//							System.out.println("Events "+ev);
+//
+//							row.add(ev.getEventNumber());
+//							row.add(ev.getDescription());
+//							row.add(ev); // ev object added in order to obtain it with tableModelEvents.getValueAt(i,2)
+//							tableModelEvents.addRow(row);		
+//						}
 						tableEvents.getColumnModel().getColumn(0).setPreferredWidth(25);
 						tableEvents.getColumnModel().getColumn(1).setPreferredWidth(268);
 						tableEvents.getColumnModel().removeColumn(tableEvents.getColumnModel().getColumn(2)); // not shown in JTable
