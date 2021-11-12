@@ -157,7 +157,7 @@ public class FindQuestionsGUI extends JFrame {
 
 						events.goLast();
 						domain.Event ev;
-						if(events.hasPrevious()) jLabelEvents.setText(ResourceBundle.getBundle("Etiquetas").getString("NoEvents")+ ": "+dateformat1.format(calendarAct.getTime()));
+						if(!events.hasPrevious()) jLabelEvents.setText(ResourceBundle.getBundle("Etiquetas").getString("NoEvents")+ ": "+dateformat1.format(calendarAct.getTime()));
 						else jLabelEvents.setText(ResourceBundle.getBundle("Etiquetas").getString("Events")+ ": "+dateformat1.format(calendarAct.getTime()));
 						while (events.hasPrevious()) {
 							ev = events.previous();

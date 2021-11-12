@@ -171,7 +171,7 @@ public class CreateQuestionGUI extends JFrame {
 						ExtendedIterator<domain.Event> events=facade.getEvents(firstDay);
 						events.goLast();
 						domain.Event ev;
-						if(events.hasPrevious()) {
+						if(!events.hasPrevious()) {
 							jLabelListOfEvents.setText(ResourceBundle.getBundle("Etiquetas").getString("NoEvents")
 								+ ": " + dateformat1.format(calendarAct.getTime()));
 

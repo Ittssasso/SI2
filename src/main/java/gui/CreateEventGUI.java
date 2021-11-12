@@ -157,7 +157,6 @@ public class CreateEventGUI extends JFrame {
 		for (Date d:datesWithEventsCurrentMonth){
 			calendar.setTime(d);
 			System.out.println(d);
-			//Yo esto lo borraría
 			// Obtain the component of the day in the panel of the DayChooser of the
 			// JCalendar.
 			// The component is located after the decorator buttons of "Sun", "Mon",... or
