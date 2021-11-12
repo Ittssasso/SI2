@@ -282,7 +282,7 @@ public class DataAccess {
 			Person p2 = new Worker("langile", "bat", newDate(2001, 9, 18), "11111111X", "worker@email.com", "12345678",
 					"1234567812345678");
 			RegisteredClient p3 = new RegisteredClient("Ane", "Sanchez", newDate(2000, 9, 15), "11111111X",
-					"client@email.com", "12345678", "1234567812345678", true);
+					"ane@email.com", "12345678", "1234567812345678", true);
 			RegisteredClient p4 = new RegisteredClient("p1", "p2", newDate(2000, 9, 15), "11111111X", "a", "a",
 					"1234567812345678", true);
 			p3.setBalance(40);
@@ -296,10 +296,10 @@ public class DataAccess {
 			pred3.addElement(pr3);
 			pred3.addElement(pr1);
 			// para probar replicateUser con apuesta mltiple:
-			Event ev70 = new Event(70, "khazix vs yuumi", UtilDate.newDate(year, month, 17));
+			Event ev70 = new Event(70, "Real Sociedad- Sevilla", UtilDate.newDate(year, month, 17));
 			Question q700 = new Question(700, "Who would win?", 1, ev70);
-			Prediction pr6 = new Prediction("Khazix", (float) 1.1, q700);
-			Prediction pr7 = new Prediction("Yuumi", 3, q700);
+			Prediction pr6 = new Prediction("Real Sociedad", (float) 1.1, q700);
+			Prediction pr7 = new Prediction("Sevilla", 3, q700);
 			Vector<Prediction> predictionsKY = new Vector<Prediction>();
 			predictionsKY.add(pr6);
 			predictionsKY.add(pr7);
